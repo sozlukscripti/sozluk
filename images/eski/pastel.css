@@ -1,0 +1,192 @@
+body {
+background:#FAF0E6
+}
+
+.banner {
+background:url(http://img528.imageshack.us/img528/9466/logovd6.png) no-repeat;
+height:50px;
+width:240px;
+background-position: top left
+}
+
+.posts {
+color:#2E353C;
+font:13px Georgia
+}
+
+a {
+color:#085C8D;
+font:13px Georgia
+}
+
+a:hover {
+color:#6AA48C
+}
+
+.but,.msjmenu .but,#butdown {
+background:#1D80A8;
+border:1px dashed #07202A;
+color:#EDF8FC;
+font:11px bold arial, sans-serif
+}
+
+#butover {
+background:#2191BF
+}
+
+#olay,#olay a {
+background:#CECFF5;
+color:#47450E
+}
+
+#cop,#cop a {
+background:#F0FFF0;
+color:#2A002A
+}
+
+#msj,#msj a {
+background:#FFD4D4;
+color:#002A2A
+}
+
+#olay a:hover,#olay:hover {
+background:#6B6715;
+color:#CECFF5
+}
+
+#cop a:hover,#cop:hover {
+background:#2A002A;
+color:#F0FFF0
+}
+
+#msj a:hover,#msj:hover {
+background:#00696A;
+color:#FFD4D4
+}
+
+.timer,.timer .posts {
+font:bold 10px georgia;
+text-align:right
+}
+
+#ortam {
+background:#FFFACD;
+border:4px solid #FFDFDF
+}
+
+#selector a {
+color:#0a69a0
+}
+
+#lstu {
+font-size:11px
+}
+
+.highlight,#highlight {
+background:#FFEBCD
+}
+
+textarea {
+background:no-repeat center #EAEAFF;
+color:#030712;
+filter:alpha(opacity=60);
+opacity:0.6px
+}
+
+#entryform #entry {
+border:thick groove #BC8F8F
+}
+
+.dateauthor {
+color:#2E6167
+}
+
+.dateauthor a {
+color:#924268
+}
+
+.posts center a {
+color:#D53B00
+}
+
+.posts label {
+font:10px georgia
+}
+
+.description {
+color:#155553}
+
+.stat {
+background:#D6E3FB
+}
+
+.stat .posts {
+color:#000;
+font:8pt georgia
+}
+
+.posts p i {
+color:#236541
+}
+
+.posts p a i {
+color:#753554
+}
+
+.menucur div a {
+color:#A0522D
+}
+
+#msjh,#msjh a:hover,#msjh a,#coph,#coph a:hover,#coph a,#olayh,#olayh a:hover,#olayh a {
+background:Red;
+color:#000
+}
+
+hr {
+border:1px dashed;
+color:#3C3377
+}
+
+.aramain .but {
+font-size:7pt
+}
+
+.aramid {
+background:#CCD2EE;
+border-width:0;
+padding:3px;
+width:100%;
+writing-mode:tb-rl
+}
+
+#am {
+color:#432288;
+font:12px georgia;
+margin-top:10px
+}
+
+select,input,.bgtop #bas {
+background:#FFE9D4;
+color:#4A5560
+}
+
+.aramain {
+background:#17122E;
+border-bottom:2px solid #3C307A;
+border-left:2px solid #3C307A;
+border-right:2px solid #3C307A;
+border-top:2px solid #3C307A;
+color:#75A0CA;
+filter:alpha(opacity=90);
+opacity:0.9px;
+padding:4px;
+width:100%
+}
+
+#marked {
+background:#CBE29C
+}
+
+.aramain .posts {
+color:#CDB2CD
+}

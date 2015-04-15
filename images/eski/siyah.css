@@ -1,0 +1,396 @@
+/*
+ *   nisan 2004 -fsol
+ */
+
+/* left frame background class */
+.bgleft {
+	background-color: black;
+	background-image: none;
+}
+/* top frame background class */
+.bgtop {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	background-image: none;
+	color: White;
+}
+/* inline search textbox */
+.aratext
+{
+  width:76px;
+}
+/* inline search marker */
+.marker
+{
+	background-color: Gray;
+	color: Black;
+}
+/* pager buttons */
+.pbut {
+  font-size: 8pt;
+  width:16px;
+  height:14px;
+}
+/* top buttons */
+.nav TD {
+  padding:2px;
+  height:16px;
+  margin:0;
+  vertical-align:middle;
+}
+/* badilist */
+#badi
+{
+	font-size: 8pt;
+	border: 1px solid #570000;
+	color: White;
+	padding: 3px;
+	background-position: bottom;
+	background-color: black;
+}
+/* panel leds */
+.pmsg {
+	background: black;
+	border: 1px solid #940000;
+	background-image: url(css/siyah/siyah_butoff.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+}
+
+.pmsghi {
+	background: black;
+	border: 1px solid #FE0000;
+	background-image: url(css/siyah/siyah_buton.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.pbin {
+	background: black;
+	border: 1px solid #940000;
+	background-image: url(css/siyah/siyah_butoff.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+}
+
+.pbinhi {
+	background: black;
+	border: 1px solid #FE0000;
+	background-image: url(css/siyah/siyah_buton.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.pevt {
+	background: black;
+	border: 1px solid #940000;
+	background-image: url(css/siyah/siyah_butoff.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+}
+
+.pevthi {
+	background: black;
+	border: 1px solid #FE0000;
+	background-image: url(css/siyah/siyah_buton.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* page browser text */
+.pagi {
+	font-size: 8pt;
+	text-align: center;
+	color: #940000;
+}
+/* page selector (select) */
+.pagis {
+  font-size: 6pt;
+}
+/* ek$isozluk logo! */
+.logo {
+	background-image: url(css/siyah/siyah_logo.jpg);
+	background-repeat: no-repeat;
+	width: 132px;
+	height: 45px;
+	background-attachment: fixed;
+}
+/* highlight color */
+.highlight
+{
+	background-color: #580000;
+	filter: alpha(Opacity=85);
+	color: White;
+}
+
+/* topic title */
+.title {
+	font: bold 14pt Verdana;
+	background-color: transparent;
+	width: 100%;
+	color: White;
+	border: none;
+	border-bottom: solid Black 1;
+}
+
+/* copyright line */
+.copyright
+{
+	font-size: 8pt;
+	color: #686868;
+}
+/* buttons */
+.but {
+	font: 8pt "verdana", sans-serif;
+	cursor: default;
+	background-color: #4B4B4B;
+	color: white;
+	border: 2px solid #4B4B4B;
+	text-align: center;
+}
+/* buttons highlighted */
+#butOver {
+	font: 8pt "verdana", sans-serif;
+	cursor: default;
+	background-color: #580000;
+	color: white;
+	border: 2px solid #580000;
+	text-align: center;
+}
+/* button link adjustments */
+.but A {
+	color: white;
+}
+.but A:Hover {
+	background-color: transparent;
+	color: Black;
+}
+#butOver A {
+	color: white;
+}
+#butOver A:Hover {
+	background-color: transparent;
+	color: white;
+}
+/* entry buttons (derived from but) */
+.icon {
+  font-size: 7pt;
+}
+.timer {
+	font-size: 8pt;
+	vertical-align: middle;
+	color: #D4D4D4;
+}
+/* entry author line */
+.aul {
+  font-size: 8pt;
+  line-height: 9pt;
+  text-align: right;
+}
+/* panel classes */
+.pi {
+	border: 1px solid;
+	font-size: 8pt;
+	padding: 0px;
+	text-align: center;
+	width: 50px;
+	color: #A9A9A9;
+}
+.pi A:Hover {
+  background-color: transparent;
+}
+/* top inputtexts */
+.input {
+	height: 16px;
+	font: 9pt "verdana";
+	color: White;
+}
+/* message textarea */
+.msgtext {
+	font-size: 9pt;
+	color: White;
+}
+/* messages table */
+.msg {
+	padding: 2px;
+	font-size: 8pt;
+	color: white;
+}
+.msg TD {
+  font-size: 9pt;
+}
+/* ad box */
+.spot {
+  width: 100px;
+  float: right;
+}
+.spot TR {
+  vertical-align: top;
+}
+.spot TD {
+  font-size: xx-small;
+}
+/* entry text */
+.eol {
+	line-height: 14pt;
+}
+/* entry id */
+.ei {
+	color: Silver;
+	margin: 0;
+	padding: 0;
+	font-size: 7pt;
+}
+/* regular tab */
+.tab {
+  padding-top:2px;
+  border-bottom: 1px inset;
+  font-size: 8pt;
+}
+.tab DIV {
+	line-height: 12pt;
+	white-space: nowrap;
+	margin-left: 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 0;
+	border: 1px outset;
+	border-right: 1px solid;
+	border-bottom: 0;
+	border-color: #A9A9A9;
+}
+.tab A:Hover {
+  background-color: transparent;
+}
+/* selected tab */
+.tabsel {
+	border: 1px solid;
+	line-height: 11pt;
+	white-space: nowrap;
+	font-size: 8pt;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	cursor: default;
+	border-bottom: 0;
+	font-weight: bold;
+	border-color: White;
+}
+/* tab contents */
+.tabin {
+  border: 1px outset;
+  border-top: 0;
+  padding: 4px;
+  height: 245px;
+  font-size: 8pt;
+}
+/* hayvan ara */
+.adiv {
+	display: block;
+	position: absolute;
+	top: 44px;
+	left: 215px;
+	width: 18px;
+	overflow: hidden;
+}
+.amain {
+	background-color: Black;
+	border: 1px outset;
+	border-left: 0;
+	width: 100%;
+	padding: 4px;
+}
+TD.amain {
+	font-size: 8pt;
+	color: white;
+}
+.aup {
+	border-right: 1px inset;
+	height: 18px;
+}
+.amid {
+	border: 1px solid #580000;
+	border-right: 0 #580000;
+	padding: 4px;
+	line-height: 8pt;
+	font-weight: bold;
+	font-size: 9pt;
+	writing-mode: tb-rl;
+	cursor: pointer;
+	color: white;
+	background: Black;
+	font-size: 11px;
+	font-weight: lighter;
+	height: 110px;
+}
+.abot {
+  border-right:1px inset;
+  height:140px;
+}
+/* default styles */
+BODY {
+	font: 9pt Verdana;
+	background-color: black;
+	color: white;
+	background-image: url(css/siyah/siyah_back.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	scrollbar-3dlight-color: #666666;  
+     scrollbar-base-color: #000000;  
+     scrollbar-darkshadow-color: #000000;  
+     scrollbar-track-color: black;  
+     scrollbar-shadow-color: black;  
+     scrollbar-highlight-color: black;  
+     scrollbar-face-color: #333333; 
+     scrollbar-arrow-color: white;
+}
+UL {
+  list-style-type: lower-roman;
+  line-height: 12pt;
+}
+A {
+	color: #999999;
+	text-decoration: none;
+}
+A:Hover {
+	color: #9B0000;
+}
+SELECT, INPUT, OPTGROUP {
+	font: 8pt "verdana", sans-serif, white;
+	background-color: #5B5B5B;
+	border: 1px solid #580000;
+	color: white;
+}
+TEXTAREA {
+	font: 8pt "verdana", sans-serif;
+	width: 100%;
+	border: 1px input #580000;
+	color: white;
+	background-color: Black;
+}
+HR {
+	color: #A9A9A9;
+	height: 1px;
+}
+TD {
+	font-size: 9pt;
+	line-height: 12pt;
+	vertical-align: top;
+}
+P {
+	font-size: 9pt;
+	line-height: 14pt;
+	vertical-align: top;
+}
+IMG, FORM, TABLE {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}

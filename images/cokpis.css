@@ -1,0 +1,346 @@
+/* karmilla'nin elcagizlariyla hazirlanmi$tir */
+
+.infosec {
+	border:1px solid #823F2F;
+	background-image: url(pis_a.jpg);
+	color:white;
+	text-transform:uppercase;
+	cursor:pointer;
+}
+#badi
+{
+  width: 120px;
+  padding: 2px;
+  font-size: 8pt;
+  overflow: hidden;
+  border: 2px solid #474536;
+}
+.bgleft a{
+font-size:10pt;
+}
+.bgtop {
+	margin:0;
+	padding:0;
+	background-image: url(pis_top.jpg);
+	background-repeat: repeat-x;
+}
+.marker
+{
+	color: white;
+	background-color:#ED643C;
+}
+/* panel leds */
+#pmsg {
+   background-color:transparent;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(pis_msg.gif);
+  border:none;
+}
+#pmsg a,#pbin a, #pevt a{
+font-family:lucida sans unicode;
+}
+#pmsghi{
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(pis_msghi.gif);
+}
+#pbinhi{
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(pis_binhi.gif);
+}
+#pevthi {
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+   background-image: url(pis_evthi.gif);
+}
+#pbin {
+   background-color:transparent;
+	background-repeat: no-repeat;
+	background-position: center;
+  background-image: url(pis_bin.gif);
+  border:none;
+}
+#pmsghi a,#pbinhi a, #pevthi a{
+font-family:lucida sans unicode;
+}
+#pevt {
+   background-color:transparent;
+	background-repeat: no-repeat;
+	background-position: center;
+  background-image: url(pis_evt.gif);
+  border:none;
+}
+.logo {
+  background-image: url(pis_logo.jpg);
+  width:132px;
+  height:45px;
+}
+.highlight
+{
+  background-color: #9F9A86;
+  background-image: url(pis_highlight.jpg);
+  border: double #474536;
+}
+
+.copyright,.ei
+{
+  font-size: 8pt;
+  color: #7C756B;
+}
+.title {
+  font-family: Lucida Sans Unicode;
+  font-size:10pt;
+  font-weight:black;
+  background-image: url(pis_title.jpg);
+  filter:alpha(finishopacity=15,style=1);
+  width: 100%;
+}
+.title a{
+color: white;}
+.title a:hover{
+background-image:none;
+background-color: transparent;
+}
+.but {
+  font: 7pt lucida sans unicode,sans-serif;
+  cursor: default;
+  background-color: #837F6D;
+  background-image: url(pis_but.jpg);
+  color: white;
+  border: 2px solid #363529;
+}
+#butOver {
+  font: 7pt lucida sans unicode,sans-serif;
+  cursor: default;
+  background-color: #C4715C;
+  background-image: url(pis_buthi.jpg);
+  color: white;
+  border: 2px solid #592C20;
+}
+#butdown {
+	 border: 2px solid #6C3527;
+	  background-image: url(pis_buthi.jpg);
+	 }
+.but A {
+  color:white;
+  font-size:8pt;
+}
+.but A:Hover {
+  background-color: transparent;
+  color:white;
+}
+#butOver A {
+  color:white;
+  font-size:8pt;
+}
+#butOver A:Hover {
+  background-color: transparent;
+  color:white;
+}
+.pi {
+  border: none;
+  font-size: 7pt;
+  padding: 0px;
+  text-align: center;
+}
+.pi A:Hover {
+  background-color: transparent;
+  background-image: none;
+}
+.input {
+  height:16px;
+  font: 7pt trebuchet ms;
+}
+.msg {
+  padding: 2px;
+  font-size: 9pt;
+  color: black;
+}
+.msgtext {
+  font-size: 9pt;
+}
+.tab {
+  padding-top:2px;
+  border-bottom: 2px solid #5D5C47;
+  font-size: 7pt;
+  white-space: nowrap;
+}
+.tab DIV {
+  line-height: 12pt;
+  white-space: nowrap;
+  margin-left: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 0;
+  border: none;
+  border-right: 1px solid #842010;
+  border-bottom: 0;
+  background-image: url(pis_tab.gif);
+  background-color: transparent;
+  background-position: left top;
+}
+.tab A:Hover {
+  background-color: transparent;
+  background-image:none;
+}
+.tabsel {
+  border: 2px solid #5D5C47;
+  line-height: 11pt;
+  white-space: nowrap;
+  font-size: 9pt;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  cursor: default;
+  border-bottom:0;
+  white-space: nowrap;
+}
+.tabin {
+  border: 2px solid #5D5C47;
+  border-top: 0;
+  padding: 4px;
+  height: 245px;
+  font-size: 8pt;
+}
+.adiv {
+  display:block;
+  position:absolute;
+  top:44px;
+  left:215px;
+  width:18px;
+  overflow:hidden
+}
+.amain {
+  background-color: #cc9762;
+  border:2px solid #6C3527;
+  border-left:0;
+  width:100%;
+  padding:4px
+
+}
+.aup {
+  border-right:2px solid #6C3527;
+  height:18px
+}
+.amid {
+  background-color:#BD7259;
+  background-image: url(pis_amid.jpg);
+   border:2px solid #6C3527;
+  color:white;
+  border-right:0;
+  padding:4px;
+  line-height:8pt;
+  font-weight:normal;
+  font-family:lucida sans unicode;
+  font-size:7pt;
+  text-transform: uppercase;
+  text-align: center;
+}
+.abot {
+  border-right:2px solid #6C3527;
+  height:140px
+}
+body {
+  font: 10pt trebuchet ms , sans-serif;
+  background-color: #B1AC99;
+  background-image: url(pis_bg.jpg);
+  background-attachment: fixed;
+  color : #36312E;
+   scrollbar-3dlight-color:#363529;
+	scrollbar-arrow-color: white;
+	scrollbar-darkshadow-color:#363529;
+	scrollbar-face-color: #837F6D;
+	scrollbar-highlight-color: #363529;
+	scrollbar-shadow-color: #363529;
+	scrollbar-track-color: #B1AC99;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #BA7663;
+  background-image: url(pis_a.jpg);
+}
+select, input, optgroup {
+  font: 8pt trebuchet ms, sans-serif;
+   background-color: #EAE9E5;
+  border: 1px solid #24231C;
+}
+textarea {
+  font: 10pt trebuchet ms;
+  width: 100%;
+  background-color: #EAE9E5;
+  border: 2px solid #24231C;
+}
+hr {
+  color: #BD715A;
+}
+td {
+	font-size:9pt;
+	line-height: 12pt;
+	vertical-align: top;}
+
+legend{
+	color: #F0F0EA;	
+	font-size: 8pt;
+	}
+.pagis {
+  font-size: 7pt;
+}
+.aul{
+	font-size:9pt;}
+.vtab {
+  padding-top:2px;
+  border-left: 2px solid #5D5C47;
+  font-size: 8pt;
+  white-space: nowrap;
+}
+.vtab DIV {
+  line-height: 12pt;
+  white-space: nowrap;
+  margin-left: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 0;
+  border: none;
+  background-image: url(pis_tab.gif);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: right;
+}
+.vtab DIV a{
+color: White;}
+.vtab A:Hover {
+  background-color: transparent;
+}
+.vtabsel {
+  border: 2px solid #5D5C47;
+  line-height: 11pt;
+  white-space: nowrap;
+  font-size: 7pt;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  cursor: default;
+  border-left:0;
+  white-space: nowrap;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.vtabin {
+  border: 2px solid #5D5C47;
+  border-right: 0;
+  padding: 4px;
+  height: 245px;
+  font-size: 8pt;
+}

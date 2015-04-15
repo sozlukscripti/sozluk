@@ -1,0 +1,480 @@
+/* sozluk.css - komplike stylesheet
+ * el degmeden hazirlanmi$tir
+ */
+
+/* login box */
+.loginbox {
+  width: 220px;
+}
+
+/* login inputs */
+.lin {
+	width: 100%;
+}
+
+/* ampul abi */
+.ampul {
+	background-image: url(css/ghurj/ampul.gif);
+	background-repeat: no-repeat;
+	cursor: hand;
+}
+/* info section headers */
+.infosec {
+	border:0;
+	border-bottom:1px dashed #9E9F84;
+	cursor:pointer;
+	
+}
+/* right panel */
+.panel {
+	width:120px;
+	 
+	}
+
+/* arastir dropdown select */
+.asl
+{
+	width:109px;
+	border: 1px solid #88886A;
+}
+/* ad box */
+.spot {
+  width: 120px;
+  float:right;
+}
+.spot TD {
+  font-size: 7pt;
+}
+
+/* badilist */
+#badi
+{
+ background-color: #DEDFCA;
+  border: 1px solid #B0B29B;
+  font-size: 8pt;
+  overflow: hidden;
+  
+}
+
+/* inline search textbox */
+.aratext
+{
+  width:96px;
+}
+/* left frame background class */
+.bgleft{
+
+	}
+.bgleft a{
+font-size:10pt;
+}
+.bgleft td{
+	border-bottom: 1px dashed #C6C9A9;
+	padding-top: 2px;
+	padding-bottom: 2px;	
+}
+.amain .a{
+	font-size: 8pt;
+}
+/* top frame background class */
+.bgtop {
+	margin:0;
+	padding:0;
+	 background-image: url(css/ghurj/dash_top.gif);
+	 background-position: right top;
+	 background-repeat: no-repeat;
+	background-color: #9E9F84;
+	border-bottom: 3px groove #E8E8DF;
+;
+}
+/* inline search marker */
+.marker
+{
+	background-color: #E36433;
+	color: White;
+}
+/* pager buttons */
+.pbut {
+  font-size: 7pt;
+  width:16px;
+  height:16px;
+}
+/* top buttons */
+.nav TD {
+border:0;
+}
+/* panel leds */
+.pmsg{
+  background-color:  #9E9F84;
+  
+  border:1px solid #6D6E5D;
+  border-right: 0;
+  border-bottom: 2px groove #E8E8DF;
+     
+}
+.pbin{
+  background-color:  #9E9F84;
+  border: 1px solid #E8E8DF;
+  border-bottom:2px groove #E8E8DF;
+     border-top: 1px solid #6D6E5D; 
+	 }
+.pevt{
+  background-color:  transparent;
+  background-image: url(css/ghurj/dash_olay.gif);
+ background-position: top right;
+  border:0;
+  border-bottom:2px groove #E8E8DF;
+     
+}
+.pmsg a, .pbin a, .pevt a{
+color: #D0D2C4;
+font-size: 8pt;
+
+
+  }
+  .pmsghi{
+  background-color:  #ED8B66;
+  
+  border:1px solid #D45524;
+  border-right:0;
+  border-bottom: 2px groove #E8E8DF;
+      background-position:top left;
+}
+.pbinhi{
+  background-color:  #ED8B66;
+  border: 1px solid #E8E8DF;
+  border-bottom:2px groove #E8E8DF;
+    border-top-color: #D45524;
+}
+.pevthi{
+  background-color:  transparent;
+  background-image: url(css/ghurj/dash_olay_copy.gif);
+ background-position: top right;
+  border:0;
+  border-bottom:2px groove #E8E8DF;
+     
+}
+.pmsghi a, .pbinhi a, .pevthi a{
+  color: #E8E8DF;
+ 
+  text-transform: uppercase;
+}
+
+/* page browser text */
+.pagi {
+  font-size: 7pt;
+  text-align: center;
+}
+/* page selector (select) */
+.pagis {
+  font-size: 6pt;
+}
+/* ek$isozluk logo! */
+.logo {
+  background-image: url(css/ghurj/dash_logo.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+  width:248px;
+  height:45px;
+  cursor:hand;
+  border-right: 1px dashed #B6B6A2;
+
+}
+/* highlight color */
+.highlight
+{
+  background-color: #E8E8DF;
+ 
+}
+/* copyright line */
+.copyright
+{
+  font-size: 7pt;
+    color: #80866A;
+}
+/* topic title */
+.title {
+  font: bold 12.5pt "trebuchet ms", sans-serif;
+  padding-left:40px;
+  text-transform: uppercase; 
+	
+  
+}
+
+/* buttons */
+.but {
+  font: 8pt "lucida sans unicode",sans-serif;
+  text-align:center;
+  white-space:nowrap;
+  cursor: default;
+  background-color: #9E9F84;
+    color:White;
+   border: 1px solid #8D8E6F;
+}
+/* button mouse over */
+#butOver {
+  background-color:  #9E9F84;
+}
+/* button pressed */
+#butDown {
+	border: 0;
+	color:White;
+}
+/* button link adjustments */
+.but A {
+ color:White;
+}
+.but A:Hover {
+  background-color: transparent;
+color:#E9E9DE;
+}
+#butOver A {
+color:#E9E9DE;
+}
+#butOver A:Hover {
+  background-color: transparent;
+   color:#E9E9DE;
+}
+.bgtop .but{
+	border:0;
+}
+/* entry buttons (derived from but) */
+.icon {
+  font-size: 7pt;
+  
+}
+.timer {
+  font-size: 7pt;
+  vertical-align: middle;
+  padding-right: 2px;
+  background-color: #DEDFCA;
+  border: 1px solid #969779;
+  border-top:0;
+  border-bottom: 0;}
+/* entry author line */
+.aul {
+  font-size: 8pt;
+  line-height: 9pt;
+  text-align: right;
+  border-bottom: 1px dashed #C7CBA9;
+  padding-bottom: 10px;
+}
+/* panel classes */
+.pi {
+  
+  font-size: 7pt;
+  text-align: center;
+}
+.pi A:Hover {
+  background-color: transparent;
+}
+/* top inputtexts */
+.input {
+  height:16px;
+  font: 8pt "lucida sans unicode", sans-serif;
+  background-color: #E8E8DF;
+   border: 1px solid #7E7F62;
+}
+/* message textarea */
+.msgtext {
+  font-size: 8pt;
+}
+/* messages table */
+.msg {
+  padding: 2px;
+  font-size: 9pt;
+  color: #565643;
+}
+.msg TD {
+   font: 9pt "lucida sans unicode", sans-serif;
+}
+/* entry text */
+.eol {
+	line-height: 14pt;
+	background-color: #E8E8DF;
+	 padding-right:8px;
+	padding-top: 14px;
+		padding-left: 42px;
+		 background-image: url(css/ghurj/dash_sol.GIF);
+		 background-position: left top;
+		 background-repeat: no-repeat;
+	
+}
+
+/* entry id */
+.ei {
+  color: #7A7A65;
+  margin: 0;
+  padding: 0;
+  font-size: 7pt;
+}
+/* regular tab */
+.vtab {
+  padding-top:2px;
+  border-left: 1px solid #A5A789;
+  font-size: 8pt;
+  white-space: nowrap;
+}
+.vtab DIV {
+  line-height: 12pt;
+  white-space: nowrap;
+  margin-left: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: 1px solid #BEC19B;
+  border-left: 0;
+  background-color: #EEEEE8;
+}
+.vtab A:Hover {
+  background-color: transparent;
+}
+/* selected tab */
+.vtabsel {
+  border: 1px solid #A5A789;
+  line-height: 11pt;
+  white-space: nowrap;
+  font-size: 8pt;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  cursor: default;
+  border-left:0;
+  white-space: nowrap;
+  background-color: #E8E8DF;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* tab contents */
+.vtabin {
+  border: 1px solid #A5A789;
+  border-right: 0;
+  padding: 4px;
+  height: 245px;
+  font-size: 9pt;
+  background-color: #E8E8DF;
+}
+
+
+
+
+/* hayvan ara */
+.adiv {
+  display:block;
+  position:absolute;
+  top:44px;
+  left:215px;
+  width:18px;
+  overflow:hidden
+}
+.amain {
+  background-color:#EAEADD;
+  border:1px solid #9EA185;
+ 
+  width:100%;
+  padding:4px;
+   
+}
+TD.amain {
+  font-size: 8pt;
+}
+.aup {
+  border:0;
+  height:18px
+}
+.amid {
+  
+  font-family: trebuchet ms, sans-serif;
+ background-color: #EAEADD;
+  border:1px solid #9E9F84;
+border-right:0;
+  padding:4px;
+  line-height:8pt;
+  font-weight:normal;
+  font-size:7.5pt;
+  
+  cursor:pointer;
+  color:#93997E;
+
+  text-transform: uppercase;
+  }
+.abot {
+  border:0;
+  height:140px
+}
+/* default styles */
+body {
+  font: 10pt "lucida sans unicode", sans-serif;
+ 
+  background-color: #DEDFCA;
+  color: #565643;
+  scrollbar-face-color: #9E9F84;
+  scrollbar-track-color: #DDDFCA;
+  scrollbar-arrow-color: #DDDFCA;
+  scrollbar-3dlight-color: #DEDFCA;
+   scrollbar-darkshadow-color: #DEDFCA;
+	  scrollbar-highlight-color: #78785D;
+   scrollbar-shadow-color:#7D7D60;
+}
+ul {
+	list-style-type: lower-roman;
+  line-height: 12pt;
+}
+a {
+  color : #D1643B;
+  text-decoration: none;
+ 
+}
+a:hover {
+  background-color: transparent;
+  color: #FB753B;
+}
+select, input, optgroup {
+ 
+   font: 8pt "lucida sans unicode", sans-serif;
+  background-color: #F5F5F1;
+  border: 1px solid #858668;
+  
+}
+textarea {
+  font: 9pt "lucida sans unicode", sans-serif;
+  width:100%;
+background-color: #F5F5F1;
+ border: 1px solid #A1A684;
+  
+}
+hr {
+  color: #D5643B;
+}
+th {
+	font-size: 9pt;
+}
+td {
+	font-size: 8pt;
+	line-height: 12pt;
+	vertical-align: top;
+}
+p {
+  font-size: 9pt;
+  line-height: 14pt;
+  vertical-align: top;
+}
+img, form, table {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+dd {
+  margin: 0;
+  padding: 0;
+}
+fieldset {
+	margin: 0;
+	padding: 2;
+}
+.checkbox, .radio {
+	border: none;
+	background-color: transparent;
+} 

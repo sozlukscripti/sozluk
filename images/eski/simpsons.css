@@ -1,0 +1,131 @@
+.marker{background-color:#ff0000}
+BODY {FONT: 9pt verdana, sans-serif; COLOR: #999999;background-attachment:fixed; BACKGROUND-COLOR: #010205;scrollbar-base-color: #04173C;scrollbar-track-color: #000000;scrollbar-arrow-color: #ECD61F;BACKGROUND-IMAGE: url(snpp_03.jpg);background-repeat:no-repeat;background-position:left top;}
+.bgleft{color:#666666;background-image:url(snpp_02.jpg);background-attachment:fixed;background-repeat:no-repeat;background-position:left top;background-color:#010205;}
+.bgleft TD{font:9px Verdana;}.bgleft TD A{font:12px Verdana;}
+.bgtop {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px;background-image:url(snpp_01.jpg);background-position:left top;background-color:#010205}
+.bgtop Input{background-color:transparent}
+.bgleft TABLE{border:0px solid #04173C;background-image:url();}
+.bgtop table{border:0px;}
+
+.aratext {WIDTH: 76px}
+
+#pbut {FONT-SIZE: 7pt; WIDTH: 30px; HEIGHT: 14px;background-color:#04173C}
+.nav TD {PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 2px; HEIGHT: 23px;color:#ffffff}
+#badi {background-image:url(moe.jpg);background-attachment: fixed;background-repeat:no-repeat;background-position:right top;background-color:#0B1013;font:9pt arial;BORDER-RIGHT: 1px inset #333333; PADDING-RIGHT: 2px; BORDER-TOP: 1px inset #333333; PADDING-LEFT: 2px; FONT-SIZE: 7pt; PADDING-BOTTOM: 2px; OVERFLOW: hidden; BORDER-LEFT: 1px inset #333333; WIDTH: 108px; PADDING-TOP: 2px; BORDER-BOTTOM: 1px inset #333333}
+#badi a{background-color:#0B1013}
+#pmsg  {BACKGROUND-COLOR: transparent;}#pmsg a,#pevt a,#pbin a{COLOR: #333333;font-size:10px}
+#pevt  {BACKGROUND-COLOR: transparent;display:none}
+#pbin {BACKGROUND-COLOR:transparent;display:none;}
+#pbinhi {BACKGROUND-COLOR: #827100}
+#pevthi{BACKGROUND-COLOR: #E3BA18}#pmsghi a,#pevthi a,#pbinhi a{COLOR: #FFFFFF;font-size:10px}
+#pmsghi {BACKGROUND-COLOR: #E3BA18}
+.pagi {FONT-SIZE: 7pt; TEXT-ALIGN: center;color:#cccccc}
+.pagis {FONT-SIZE: 6pt;color:#cccccc}
+.logo {BACKGROUND-IMAGE: url(); WIDTH: 132px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 45px}
+
+.msgtext {FONT-SIZE: 8pt;color:#ffffff}
+.msg {PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 8pt; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px}
+.msg TD {FONT-SIZE: 8pt;color:#ffffff;}
+.highlight {BACKGROUND-COLOR: #04173C;Alpha(Opacity=20);color:#999999;border:1px outset #003366;}.highlight a{font-size:10px}
+.copyright {font:9px lucida console,arial #333333}
+.title {BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT: bold 12pt Tahoma, sans-serif; BORDER-LEFT: medium none; WIDTH: 100%; COLOR: #000080; BORDER-BOTTOM: medium none;}
+.nav{background-color:transparent;}
+
+.but {background-image:url();BORDER-RIGHT: #04173C 1px outset; BORDER-TOP: #88B9E9 1px outset; FONT: 7pt verdana,sans-serif; BORDER-LEFT: #88B9E9 1px outset; CURSOR: hand; COLOR: white; BORDER-BOTTOM: #04173C 1px outset; BACKGROUND-COLOR:#04173C;TEXT-DECORATION: none}
+#butOver {background-image:url();BORDER:1px #ECD61F solid;FONT: 7pt Verdana,sans-serif #ffffff;CURSOR: hand; COLOR: #ECD61F; BACKGROUND-COLOR: #264360;TEXT-DECORATION: none}
+.but A,.but A:Visited {COLOR: #ECD61F;TEXT-DECORATION: none;font:10px Verdana,Arial;}
+.but A:hover {COLOR: #ffffff; BACKGROUND-COLOR: transparent;TEXT-DECORATION: none}
+#butOver A {COLOR: #ffffff;TEXT-DECORATION: none}
+#butOver A:hover {COLOR: #ffffff; BACKGROUND-COLOR: transparent;TEXT-DECORATION: none}
+#butDown {BORDER-RIGHT: 1px inset; BORDER-TOP: 1px inset; BORDER-LEFT: 1px inset; BORDER-BOTTOM: 1px inset;background-color:#003366}
+#butDown a{color:#cccccc}
+
+.icon {FONT-SIZE: 7pt}
+.timer {FONT-SIZE: 7pt; VERTICAL-ALIGN: middle;color:#555555}
+.aul {FONT-SIZE: 8pt; LINE-HEIGHT: 9pt; TEXT-ALIGN: right}
+.pi {BORDER-RIGHT: 1px inset #000036; PADDING-RIGHT: 0px; BORDER-TOP: 1px inset #336699; PADDING-LEFT: 0px; FONT-SIZE: 8pt; PADDING-BOTTOM: 0px; BORDER-LEFT: 1px inset #336699; height:20px; PADDING-TOP: 0px; BORDER-BOTTOM: 1px inset #000036; TEXT-ALIGN: center;background-position:left top;background-repeat:no-repeat}
+.pi A {color:#333333;font-weight:bold;font-size=10px}
+.pi A:hover {BACKGROUND-COLOR: transparent;}
+.input {FONT: 7pt Lucida Console, sans-serif; HEIGHT: 14px;background-color:#04173C;color:#ffffff;border:#88B9E9 1px inset;}
+
+.spot {FLOAT: right; WIDTH: 100px;}
+.spot TR {VERTICAL-ALIGN: top}
+.spot TD {FONT-SIZE: xx-small}
+.eol {LINE-HEIGHT: 14pt}
+.ei {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 7pt; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #ffffff; PADDING-TOP: 0px}
+
+.vtab {
+  padding-right:2px;
+  border-left: 2px inset;
+  font-size: 7pt;
+  white-space: nowrap;
+  cursor:pointer;
+}
+
+.vtab DIV {
+  line-height: 12pt;
+  white-space: nowrap;
+  margin-top: 1px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 2px;
+  padding-left: 0;
+  border: 2px outset #717FA2;
+  border-top: 1px outset #717FA2;
+  border-left: 0;
+}
+
+.vtab A:Hover {
+  background-color: transparent;
+}
+
+.vtabsel {
+  border: 2px outset;
+  line-height: 11pt;
+  white-space: nowrap;
+  font-size: 7pt;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: default;
+  border-left:0;
+  white-space: nowrap;
+}
+
+
+.vtabin {
+  border: 2px outset #717FA2;
+  border-right: 0;
+  padding: 4px;
+  height: 245px;
+  font-size: 8pt;
+}
+
+
+.adiv {DISPLAY: block; LEFT: 215px; OVERFLOW: hidden; WIDTH: 18px; POSITION: absolute; TOP: 44px;font-style:italic}
+.amain{background-image:url(homer_butt.jpg);background-repeat:no-repeat;background-position:left top;BORDER-RIGHT: 1px outset #333333; PADDING-RIGHT: 4px; BORDER-TOP: 1px outset #999999; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: 0px; WIDTH: 100%; PADDING-TOP: 4px; BORDER-BOTTOM: 1px outset #336699; BACKGROUND-COLOR:#04173C;color:#ffffff}
+.aup  {BORDER-RIGHT: 1px inset #999999; HEIGHT: 18px;}
+.amid {font-size:1pt;background-image:url(searchdonut.jpg);BORDER-RIGHT: 0px; PADDING-RIGHT: 4px; BORDER-TOP:0px outset #ffffff; PADDING-LEFT: 4px;width:21px;height:125px;color:#000000; PADDING-BOTTOM: 4px; BORDER-LEFT: 0px; CURSOR: pointer; LINE-HEIGHT: 8pt; PADDING-TOP: 4px; BORDER-BOTTOM: 0px outset #333333; WRITING-MODE: tb-rl; BACKGROUND-COLOR:transparent;}
+.abot {BORDER-RIGHT: 1px inset #999999; HEIGHT: 90px;visibility:hidden}
+.amain input {color:#04173C;background-color:transparent;font-weight:bold;}
+.amain LEGEND{Align:CENTER;}
+fieldset {border:1px solid #717FA2;}
+
+
+UL {LINE-HEIGHT: 12pt; LIST-STYLE-TYPE: lower-roman}
+A {COLOR: #E3BA18;text-decoration:none;}
+A:Visited{Color:#827100}
+.bgleft A:hover,body a:hover {text-decoration:none;color:#7F9200;background-color:transparent;}
+
+#allah{height:60px;}
+SELECT {FONT: 8pt Verdana, sans-serif;color:ffffff;background-color:#000036;}
+INPUT {FONT: 9pt lucida console, sans-serif;color:#ffffff;border:1px solid  #000036;background-color:#04173C}
+OPTGROUP {FONT: 8pt Verdana, sans-serif}
+TEXTAREA {FONT: 9pt sans-serif,Arial; WIDTH: 100%;Height:230px;BACKGROUND-IMAGE: url(dohdonuts.jpg);background-position:center top;color:#ffffff;background-attachment: fixed;background-repeat:no-repeat;border:inset 2px #04173C;background-color:#020913;}
+HR {COLOR: #04173C;}
+TD {FONT:9pt Arial #cccccc; VERTICAL-ALIGN: top; LINE-HEIGHT: 12pt;color:#cccccc}
+FORM {BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px}
+TABLE {BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; color:#04173C;}
+legend {color:#E3BA18;font-weight:bold;filter: Shadow(Color=#0000022, Direction=120);}
+#ra,#rr,#ry,#rg,#cf,#cr,.cbrb{border:0px;background-color:transparent;color:#ffffff}#b{width:110px;height:31px;margin:3 0;background-image:url(doh.jpg);font:0px;color:#000036;border:1px outset;}

@@ -1,0 +1,123 @@
+.highlight {
+	BACKGROUND-COLOR: #666666
+}
+.title {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT: bold 15pt arial, "sans-serif"; BORDER-LEFT: medium none; WIDTH: 100%; COLOR: black; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: transparent
+}
+.au {
+	FONT-SIZE: 9pt; COLOR: black; TEXT-DECORATION: underline
+}
+.but {
+	BORDER-RIGHT: #cc9900 2px outset; BORDER-TOP: #cc9900 2px outset; FONT: 9pt arial,"sans-serif"; BORDER-LEFT: #cc9900 2px outset; CURSOR: pointer; COLOR: black; BORDER-BOTTOM: #cc9900 2px outset; BACKGROUND-COLOR: #cc9900
+}
+#butOver {
+	BORDER-RIGHT: #FFCC33 2px outset; BORDER-TOP: #FFCC33 2px outset; FONT: 9pt arial,"sans-serif"; BORDER-LEFT: #FFCC33 2px outset; CURSOR: pointer; COLOR: black; BORDER-BOTTOM: #FFCC33 2px outset; BACKGROUND-COLOR: #FFCC33
+}
+.but A {
+	COLOR: black
+}
+.but A:hover {
+	COLOR: black; BACKGROUND-COLOR: transparent
+}
+#butOver A {
+	COLOR: black
+}
+#butOver A:hover {
+	COLOR: black; BACKGROUND-COLOR: transparent
+}
+.icon {
+	FONT: 80% arial, "sans-serif"
+}
+.msgtext {
+	FONT-SIZE: 9pt
+}
+.timer {
+	FONT-SIZE: 8pt; VERTICAL-ALIGN: middle
+}
+.aul {
+	FONT-SIZE: 9pt
+}
+.pi {
+	FONT-SIZE: 9pt; COLOR: black; TEXT-ALIGN: center
+}
+.pi A:hover {
+	BACKGROUND-COLOR: transparent
+}
+.input {
+	HEIGHT: 16px; BACKGROUND-COLOR: transparent
+}
+.msg {
+	BORDER-RIGHT: 1px inset; PADDING-RIGHT: 2px; BORDER-TOP: 1px inset; DISPLAY: block; PADDING-LEFT: 2px; FONT-SIZE: 9pt; PADDING-BOTTOM: 2px; BORDER-LEFT: 1px inset; COLOR: white; PADDING-TOP: 2px; BORDER-BOTTOM: 1px inset; POSITION: relative; BORDER-COLLAPSE: collapse
+}
+.msg TD {
+	FONT-SIZE: 9pt
+}
+.entries {
+	TABLE-LAYOUT: fixed; WIDTH: 100%; BORDER-COLLAPSE: collapse
+}
+.alpha {
+	FONT: 9pt "arial","sans-serif"
+}
+BODY {
+	FONT: 10pt arial, "sans-serif"; COLOR: #CCFFFF; BACKGROUND-IMAGE: url('kata3.jpg'); BACKGROUND-ATTACHMENT: fixed
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #cc9900; SCROLLBAR-HIGHLIGHT-COLOR: #000000; SCROLLBAR-SHADOW-COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #cc9900; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #000000; SCROLLBAR-DARKSHADOW-COLOR: #000000
+}
+A {
+	COLOR: black; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: white; BACKGROUND-COLOR: transparent
+}
+.tedit {
+	FONT: 9pt arial, "sans-serif";
+}
+TEXTAREA {
+	WIDTH: 90%; FONT-FAMILY: arial, "sans-serif"; BACKGROUND-COLOR:  transparent
+}
+HR {
+	COLOR: black
+}
+TR {
+	VERTICAL-ALIGN: top
+}
+TD {
+	FONT-SIZE: 10pt
+}
+.tedit {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; COLOR: black; BORDER-BOTTOM: black 1px solid; BACKGROUND-COLOR: transparent
+}
+.amid {
+	COLOR: gray; BACKGROUND-COLOR: #cc9900
+}
+.msgtext {
+	COLOR: black
+}
+.amain {
+	BACKGROUND-IMAGE: url('kata2.jpg')
+}
+.logo {
+	BACKGROUND-IMAGE: url('kata1.jpg'); BACKGROUND-REPEAT: no-repeat
+}
+#pmsg {
+	BACKGROUND-COLOR: transparent
+}
+#pmsghi {
+	BACKGROUND-COLOR: #FFFF00
+}
+#pbin {
+	BACKGROUND-COLOR: transparent
+}
+#pbinhi {
+	BACKGROUND-COLOR: #FFFF00
+}
+#pevt {
+	BACKGROUND-COLOR: transparent
+}
+#pevthi {
+	BACKGROUND-COLOR: #FFFF00
+}
+.pagi {
+	FONT-SIZE: 8pt; TEXT-ALIGN: center; COLOR: black
+}

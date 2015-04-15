@@ -1,0 +1,629 @@
+/* sol buttonlar */
+.iBArac {
+	font-size: 1px;
+	text-indent: -1500px;
+	width: 34px;
+	cursor: pointer;
+}
+.iBArac:hover {
+	cursor: pointer;
+}
+.iBAracSelect {
+}
+/* Favoriler */
+#iFav {
+	background-image: url('http://www.birebir.net/theme/default/iFavori.gif');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 30px;
+}
+#iFavH {
+	background-image: url('http://www.birebir.net/theme/default/iFavoriO.gif');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 30px;
+}
+/* Bugun */
+#iBug {
+	background-image: url('http://www.birebir.net/theme/default/iBugun.gif');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 60px;
+}
+/* bugun hover */
+#iBugH {
+	background-image: url('http://www.birebir.net/theme/default/iBugunO.gif');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 60px;
+}
+/* bugun seciliyse */
+#iBugSelect {
+	background-image: url('http://www.birebir.net/theme/default/iBugunS.gif');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 60px;
+}
+
+/* Dün */
+#iDun {
+	background-image: url('http://www.birebir.net/theme/default/iDun.gif');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 40px;
+}
+/* dun hover */
+#iDunH {
+	background-image: url('http://www.birebir.net/theme/default/iDunO.gif');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 40px;
+}
+/* dun seciliyse */
+#iDunSelect {
+	background-image: url('http://www.birebir.net/theme/default/iDunS.gif');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 40px;
+}
+/* Bir Gün */
+#iBir {
+	background-image: url('http://www.birebir.net/theme/default/iBirgun.gif');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 65px;
+}
+/* bir gun hover */
+#iBirH {
+	background-image: url('http://www.birebir.net/theme/default/iBirgunO.gif');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 65px;
+}
+/* bir gun seciliyse */
+#iBirSelect {
+	background-image: url('http://www.birebir.net/theme/default/iBirgunS.gif');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 65px;
+}
+/* ?u Gün */
+#iSug {
+	background-image: url('http://www.birebir.net/theme/default/iSugun.gif');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 60px;
+}
+/* sugun hover */
+#iSugH {
+	background-image: url('http://www.birebir.net/theme/default/iSugunO.gif');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 60px;
+}
+/* sugun seciliyse */
+#iSugSelect {
+	background-image: url('http://www.birebir.net/theme/default/iSugunS.gif');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 60px;
+}
+/* Yeni */
+#iYen {
+	background-image: url('http://www.birebir.net/theme/default/iBYeni.gif');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 45px;
+}
+/* yeni hover */
+#iYenH {
+	background-image: url('http://www.birebir.net/theme/default/iBYeniO.gif');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 45px;
+}
+/* baslik ust-alt button td */
+td.baslikButtonTD {
+	font-size: 9pt;
+	padding-right: 2px;
+	line-height: 120%;
+}
+/* baslik listele */
+td.baslik {
+	font-size: 9pt;
+	padding-right: 2px;
+	padding-left: 2px;
+	line-height: 120%;
+}
+ul.baslik {
+	padding: 0px 0px 0px 14px;
+	list-style-image: url('http://www.birebir.net/theme/default/nk.gif');
+	line-height: 120%;
+	margin-left: 0px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+li.baslik {
+	padding: 1px 0px 1px 0px;
+	margin-left: 0px;
+}
+div#sugun {
+	padding: 2px 0px 0px 0px;
+	border-style: outset;
+	border-width: 2px;
+	position: absolute;
+	left: 31px;
+	width: 200px;
+	visibility: hidden;
+	font-size: 8pt;
+	background-color: #C0C0C0;
+}
+div#yeni {
+	padding: 2px 0px 0px 0px;
+	border-style: outset;
+	border-width: 2px;
+	position: absolute;
+	left: 31px;
+	width: 200px;
+	visibility: hidden;
+	font-size: 8pt;
+	background-color: #C0C0C0;
+}
+div#baslik {
+	padding: 2px 0px 0px 0px;
+	border-style: outset;
+	border-width: 2px;
+	position: absolute;
+	left: 31px;
+	width: 200px;
+	height: 210px;
+	visibility: hidden;
+	font-size: 8pt;
+	background-color: #C0C0C0;
+}
+div#favori {
+	padding: 2px 0px 0px 0px;
+	border-style: outset;
+	border-width: 2px;
+	position: absolute;
+	left: 31px;
+	width: 200px;
+	height: 210px;
+	visibility: hidden;
+	font-size: 8pt;
+	background-color: #C0C0C0;
+}
+
+
+
+.loginbox {
+  width: 220px;
+}
+
+/* login inputs */
+.lin {
+	width: 100%;
+}
+
+/* ampul abi */
+.ampul {
+	background-image: url(/img/ampul.gif);
+	background-repeat: no-repeat;
+	width:18px;
+	height:18px;
+}
+/* info section headers */
+.infosec {
+	border:1px outset;
+	cursor:pointer;
+}
+/* right panel */
+.panel {
+	width: 120px;
+    padding-left: 10px;
+	border:0;
+	font-size:x-small;    text-transform:lowercase;
+}
+
+/* arastir dropdown select */
+.asl
+{
+	width:109px;
+}
+/* ad box */.ad {    float: right;    clear: right;    width: 300px;    margin-left: 10px;    margin-top: 10px;    overflow: hidden;    text-align: right;        padding: 0;    padding-left: 4px;    border: 0;    font-size: x-small;    }
+
+/* badilist */
+#badi
+{
+  width: 3px;
+  padding: 2px;
+  font-size: 7pt;
+  overflow: hidden;
+  border: 1px inset;  text-transform: lowercase;
+}
+/* inline search textbox */
+.aratext
+{
+  width:96px;  text-transform:lowercase;
+}
+/* left frame background class */
+.bgleft {  text-transform:lowercase;
+}
+/* top frame background class */
+.bgtop {    text-transform:lowercase;
+	background: url('/css/hBanner.gif');
+}
+/* inline search marker */
+.marker
+{
+	background-color: yellow;
+	color: black;    
+	text-transform:lowercase;
+}
+/* pager buttons */
+.pbut {
+  font-size: 7pt;
+  width:16px;
+  height:16px;  
+  text-transform:lowercase; 
+}
+/* top buttons */
+.nav TD {
+  padding:2px;
+  height:15px;
+  margin:0;
+  vertical-align:middle;  
+  text-transform:lowercase;
+  text-transform:lowercase;
+}
+/* panel leds */
+#pmsg {
+  background-color: #006000;
+}
+#pmsghi {
+  background-color: #00f000;
+}
+#pbin {
+  background-color: #606000;
+}
+#pbinhi {
+  background-color: #f0f000;
+}
+#pevt {
+  background-color: #606000;
+}
+#pevthi {
+  background-color: #f0f000;
+}
+/* page browser text */
+.pagi {
+  font-size: 7pt;
+  text-align: center;
+}
+/* page selector (select) */
+.pagis {
+  font-size: 6pt;
+}
+/* ek$isozluk logo! */
+.logo {
+  background-image: url(img/logo.gif);
+  background-repeat: no-repeat;
+  width:132px;
+  height:45px;
+  cursor:default;
+}
+/* highlight color */
+.highlight
+{
+  background-color: #c0c0c0;
+}
+.highlight2
+{
+  width: 120px;
+
+  text-align: right;
+  background-color: #c0c0c0;
+}
+/* copyright line */
+.copyright
+{
+  font-size: 7pt;
+  color: #909090;
+}
+/* topic title */
+.title {
+  font: bold 12pt Verdana, sans-serif;
+  background-color: transparent;
+  width: 100%;
+  color: #000080;
+  border: none;
+}
+/* buttons */
+.but {
+  font: 8pt Arial,sans-serif;
+  text-align:center;
+  white-space:nowrap;
+  cursor: default;
+  background-color: #566484;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 2px outset #a6b4d4;
+}
+/* button mouse over */
+#butOver {
+  background-color: #667494;
+}
+/* button pressed */
+#butDown {
+	border: 1px inset;
+}
+/* button link adjustments */
+.but A {
+  color:white;
+}
+.but A:Hover {
+  background-color: transparent;
+  color:white;
+}
+#butOver A {
+  color:white;
+}
+#butOver A:Hover {
+  background-color: transparent;
+  color:white;
+}
+/* entry buttons (derived from but) */
+.icon {
+  font-size: 7pt;  text-transform: lowercase;
+}
+.timer {
+  font-size: 7pt;
+  vertical-align: middle;  text-transform: lowercase;
+}
+/* entry author line */
+.aul {
+  font-size: 8pt;
+  line-height: 9pt;  
+  text-transform:lowercase;
+}
+/* panel classes */
+.pi {
+  border: 1px inset;
+  font-size: 7pt;
+  padding: 0px;
+  text-align: center;
+  text-transform:lowercase;
+}
+.pi A:Hover {
+  background-color: transparent;
+  text-transform:lowercase;
+}
+/* top inputtexts */
+.input {
+  height:16px;
+  font: 7pt Verdana, sans-serif;  
+  text-transform:lowercase;
+}
+/* message textarea */
+.msgtext {
+  font-size: 8pt; 
+  text-transform:lowercase;
+}
+/* messages table */
+.msg {
+  padding: 2px;
+  font-size: 8pt;
+  color: black; 
+  text-transform:lowercase;
+}
+.msg TD {
+  font-size: 8pt;
+}
+/* entry text */
+.eol {
+	line-height: 14pt;    text-transform:lowercase;
+}
+/* entry id */
+.ei {
+  color: #808080;
+  margin: 0;
+  padding: 0;
+  font-size: 7pt;
+}
+/* regular tab */
+.tab {
+  padding-top:2px;
+  border-bottom: 2px inset;
+  font-size: 7pt;
+  white-space: nowrap;
+}
+.tab DIV {
+  line-height: 12pt;
+  white-space: nowrap;
+  margin-left: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 0;
+  border: 2px outset;
+  border-right: 1px outset;
+  border-bottom: 0;
+}
+.tab A:Hover {
+  background-color: transparent;
+}
+/* selected tab */
+.tabsel {
+  border: 2px outset;
+  line-height: 11pt;
+  white-space: nowrap;
+  font-size: 7pt;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  cursor: default;
+  border-bottom:0;
+  white-space: nowrap;
+}
+/* tab contents */
+.tabin {
+  border: 2px outset;
+  border-top: 0;
+  padding: 4px;
+  height: 245px;
+  font-size: 8pt;
+}
+
+/* vertical tab */
+.vtab {
+  padding-right:2px;
+  border-left: 2px inset;
+  font-size: 7pt;
+  white-space: nowrap;
+  cursor:pointer;
+}
+.vtab DIV {
+  line-height: 12pt;
+  white-space: nowrap;
+  margin-top: 1px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 2px;
+  padding-left: 0;
+  border: 2px outset;
+  border-top: 1px outset;
+  border-left: 0;
+}
+.vtab A:Hover {
+  background-color: transparent;
+}
+/* vertical selected tab */
+.vtabsel {
+  border: 2px outset;
+  line-height: 11pt;
+  white-space: nowrap;
+  font-size: 7pt;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: default;
+  border-left:0;
+  white-space: nowrap;
+}
+/* vertical tab contents */
+.vtabin {
+  border: 2px outset;
+  border-right: 0;
+  padding: 4px;
+  height: 245px;
+  font-size: 8pt;
+}
+
+
+/* hayvan ara */
+.adiv {
+  display:block;
+  position:absolute;
+  top:44px;
+  left:215px;
+  width:18px;
+  overflow:hidden
+}
+.amain {
+  background-color: #cccccc;
+  border:1px outset;
+  border-left:0;
+  width:100%;
+  padding:4px;  text-transform: lowercase;
+}
+TD.amain {
+  font-size: 8pt;  text-transform: lowercase;
+}
+.aup {
+  border-right:1px inset;
+  height:18px
+}
+.amid {
+  background-color:#cccccc;
+  border:1px outset;
+  border-right:0;
+  padding:4px;
+  line-height:8pt;
+  font-weight:bold;
+  font-size:8pt;
+  writing-mode: tb-rl;
+  cursor:pointer;
+}
+.abot {
+  border-right:1px inset;
+  height:140px
+}
+/* default styles */
+body {
+	background-color: #cccccc;
+  background-image: url(http://imgim.com/koalareissss.jpg);
+  background-repeat: no-repeat;
+background-attachment:fixed;
+background-position:center; 
+font: 9pt Verdana, sans-serif;
+
+background-attachment: fixed;
+color: black;text-transform:lowercase !important;
+}
+ul {
+	list-style-type: lower-roman;
+  line-height: 12pt;  text-transform: lowercase;
+}
+a {
+  color : #000080;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #c0c0c0;
+}
+select, input, optgroup {
+  font: 8pt Verdana, sans-serif;
+}
+textarea {
+  font: 9pt Verdana, sans-serif;
+  width:100%;
+}
+hr {
+  color: #c0c0c0;
+}
+th {
+	font-size: 9pt;
+}
+td {
+	font-size: 9pt;
+	line-height: 12pt;
+	vertical-align: top;
+}
+p {
+  font-size: 9pt;
+  line-height: 14pt;
+  vertical-align: top;
+}
+img, form, table {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+dd {
+  margin: 0;
+  padding: 0;
+}
+fieldset {
+	margin: 0;
+	padding: 2;
+}
+.checkbox, .radio {
+	border: none;
+	background-color: transparent;
+} 
+html {
+  overflow-x:hidden; 
+}#footpanel {	position: fixed;	bottom: 0; left: 0;	z-index: 9999; /*--Keeps the panel on top of all other elements--*/	background: #e3e2e2;	border: 1px solid #c3c3c3;	border-bottom: none;	width: 94%;	margin: 0 3%;} *html #footpanel { /*--IE6 Hack - Fixed Positioning to the Bottom--*/	margin-top: -1px; /*--prevents IE6 from having an infinity scroll bar - due to 1px border on #footpanel--*/	position: absolute;	top:expression(eval(document.compatMode &&document.compatMode=='CSS1Compat') ?documentElement.scrollTop+(documentElement.clientHeight-this.clientHeight) : document.body.scrollTop +(document.body.clientHeight-this.clientHeight));} #footpanel ul {	padding: 0; margin: 0;	float: left;	width: 100%;	list-style: none;	border-top: 1px solid #fff; /*--Gives the bevel feel on the panel--*/	font-size: 1.1em;}#footpanel ul li{	padding: 0; margin: 0;	float: left;	position: relative;}#footpanel ul li a{	padding: 5px;	float: left;	text-indent: -9999px;	height: 16px; width: 16px;	text-decoration: none;	color: #333;	position: relative;}html #footpanel ul li a:hover{	background-color: #fff; }html #footpanel ul li a.active { /*--Active state when subpanel is open--*/	background-color: #fff;	height: 17px;	margin-top: -2px; /*--Push it up 2px to attach the active button to subpanel--*/	border: 1px solid #555;	border-top: none;	z-index: 200; /*--Keeps the active area on top of the subpanel--*/	position: relative;}  #footpanel a.home{		background: url(home.png) no-repeat 15px center;	width: 50px;	padding-left: 40px;	border-right: 1px solid #bbb;	text-indent: 0; /*--Reset text indent--*/}a.profile{	background: url(user.png) no-repeat center center;  }a.contacts{	background: url(address_book.png) no-repeat center center; }a.playlist{	background: url(document_music_playlist.png) no-repeat center center; }a.videos{	background: url(film.png) no-repeat center center; }a.messages{	background: url(mail.png) no-repeat center center; }a.editprofile{	background: url(wrench_screwdriver.png) no-repeat center center; }#footpanel a.chat{		background: url(balloon.png) no-repeat 15px center;	width: 126px;	border-left: 1px solid #bbb;	border-right: 1px solid #bbb;	padding-left: 40px;	text-indent: 0; /*--Reset text indent--*/}a.alerts{	background: url(newspaper.png) no-repeat center center;	 } #footpanel li#chatpanel, #footpanel li#alertpanel {	float: right; }  /*--Right align the chat and alert panels--*/ #footpanel a small {  /*--panel tool tip styles--*/	text-align: center;	width: 70px;	background: url(pop_arrow.gif) no-repeat center bottom;	padding: 5px 5px 11px;	display: none; /*--Hide by default--*/	color: #fff;	font-size: 1em;	text-indent: 0;}#footpanel a:hover small{	display: block; /*--Show on hover--*/	position: absolute;	top: -35px; /*--Position tooltip 35px above the list item--*/	left: 50%; 	margin-left: -40px; /*--Center the tooltip--*/	z-index: 9999;}     #footpanel ul li div a { /*--Reset link style for subpanel links--*/	text-indent: 0;	width: auto;	height: auto;	padding: 0;	float: none;	color: #00629a;	position: static;}#footpanel ul li div a:hover {	text-decoration: underline; } /*--Reset link style for subpanel links--*/ #footpanel .subpanel {	position: absolute;	left: 0; bottom: 27px;	display: none;	/*--Hide by default--*/	width: 198px;	border: 1px solid #555;	background: #fff;	overflow: hidden;	padding-bottom: 2px;}#footpanel h3 {	background: #526ea6;	padding: 5px 10px;	color: #fff;	font-size: 1.1em;	cursor: pointer;}#footpanel h3 span { 	font-size: 1.5em;	float: right;	line-height: 0.6em;		font-weight: normal;}#footpanel .subpanel ul{	padding: 0; margin: 0;	background: #fff;	width: 100%;	overflow: auto;}#footpanel .subpanel li{ 	float: none; /*--Reset float--*/	display: block;	padding: 0; margin: 0;	overflow: hidden;	clear: both;	background: #fff;	position: static;  /*--Reset relative positioning--*/	font-size: 0.9em;} #chatpanel .subpanel li { background: url(dash.gif) repeat-x left center; } #chatpanel .subpanel li span {	padding: 5px;	background: #fff;	color: #777;	float: left;}#chatpanel .subpanel li a img {	float: left;	margin: 0 5px;}#chatpanel .subpanel li a{	padding: 3px 0;	margin: 0;	line-height: 22px;	height: 22px;	background: #fff;	display: block;}#chatpanel .subpanel li a:hover {	background: #3b5998;	color: #fff;	text-decoration: none;}  #alertpanel .subpanel { right: 0; left: auto; /*--Reset left positioning and make it right positioned--*/ }#alertpanel .subpanel li {	border-top: 1px solid #f0f0f0;	display: block;}#alertpanel .subpanel li p {padding: 5px 10px;}#alertpanel .subpanel li a.delete{	background: url(delete_x.gif) no-repeat;	float: right;	width: 13px; height: 14px;	margin: 5px;	text-indent: -9999px;	visibility: hidden; /*--Hides by default but still takes up space (not completely gone like display:none;)--*/}#alertpanel .subpanel li a.delete:hover { background-position: left bottom; }#footpanel #alertpanel li.view {	text-align: right;	padding: 5px 10px 5px 0;}.subpanel h3 { margin:0; padding:0; }.calendar {  position: relative;  display: none;  border-top: 2px solid #fff;  border-right: 2px solid #000;  border-bottom: 2px solid #000;  border-left: 2px solid #fff;  font-size: 11px;  color: #000;  cursor: default;  background: #c8d0d4;  font-family: tahoma,verdana,sans-serif;}.calendar table {  border-top: 1px solid #000;  border-right: 1px solid #fff;  border-bottom: 1px solid #fff;  border-left: 1px solid #000;  font-size: 11px;  color: #000;  cursor: default;  background: #c8d0d4;  font-family: tahoma,verdana,sans-serif;}/* Header part -- contains navigation buttons and day names. */.calendar .button { /* "<<", "<", ">", ">>" buttons have this class */  text-align: center;  padding: 1px;  border-top: 1px solid #fff;  border-right: 1px solid #000;  border-bottom: 1px solid #000;  border-left: 1px solid #fff;}.calendar .nav {  background: transparent url(menuarrow.gif) no-repeat 100% 100%;}.calendar thead .title { /* This holds the current "month, year" */  font-weight: bold;  padding: 1px;  border: 1px solid #000;  background: #788084;  color: #fff;  text-align: center;}.calendar thead .headrow { /* Row <TR> containing navigation buttons */}.calendar thead .daynames { /* Row <TR> containing the day names */}.calendar thead .name { /* Cells <TD> containing the day names */  border-bottom: 1px solid #000;  padding: 2px;  text-align: center;  background: #e8f0f4;}.calendar thead .weekend { /* How a weekend day name shows in header */  color: #f00;}.calendar thead .hilite { /* How do the buttons in header appear when hover */  border-top: 2px solid #fff;  border-right: 2px solid #000;  border-bottom: 2px solid #000;  border-left: 2px solid #fff;  padding: 0px;  background-color: #d8e0e4;}.calendar thead .active { /* Active (pressed) buttons in header */  padding: 2px 0px 0px 2px;  border-top: 1px solid #000;  border-right: 1px solid #fff;  border-bottom: 1px solid #fff;  border-left: 1px solid #000;  background-color: #b8c0c4;}/* The body part -- contains all the days in month. */.calendar tbody .day { /* Cells <TD> containing month days dates */  width: 2em;  text-align: right;  padding: 2px 4px 2px 2px;}.calendar tbody .day.othermonth {  font-size: 80%;  color: #aaa;}.calendar tbody .day.othermonth.oweekend {  color: #faa;}.calendar table .wn {  padding: 2px 3px 2px 2px;  border-right: 1px solid #000;  background: #e8f4f0;}.calendar tbody .rowhilite td {  background: #d8e4e0;}.calendar tbody .rowhilite td.wn {  background: #c8d4d0;}.calendar tbody td.hilite { /* Hovered cells <TD> */  padding: 1px 3px 1px 1px;  border: 1px solid;  border-color: #fff #000 #000 #fff;}.calendar tbody td.active { /* Active (pressed) cells <TD> */  padding: 2px 2px 0px 2px;  border: 1px solid;  border-color: #000 #fff #fff #000;}.calendar tbody td.selected { /* Cell showing selected date */  font-weight: bold;  padding: 2px 2px 0px 2px;  border: 1px solid;  border-color: #000 #fff #fff #000;  background: #d8e0e4;}.calendar tbody td.weekend { /* Cells showing weekend days */  color: #f00;}.calendar tbody td.today { /* Cell showing today date */  font-weight: bold;  color: #00f;}.calendar tbody .disabled { color: #999; }.calendar tbody .emptycell { /* Empty cells (the best is to hide them) */  visibility: hidden;}.calendar tbody .emptyrow { /* Empty row (some months need less than 6 rows) */  display: none;}/* The footer part -- status bar and "Close" button */.calendar tfoot .footrow { /* The <TR> in footer (only one right now) */}.calendar tfoot .ttip { /* Tooltip (status bar) cell <TD> */  background: #e8f0f4;  padding: 1px;  border: 1px solid #000;  background: #788084;  color: #fff;  text-align: center;}.calendar tfoot .hilite { /* Hover style for buttons in footer */  border-top: 1px solid #fff;  border-right: 1px solid #000;  border-bottom: 1px solid #000;  border-left: 1px solid #fff;  padding: 1px;  background: #d8e0e4;}.calendar tfoot .active { /* Active (pressed) style for buttons in footer */  padding: 2px 0px 0px 2px;  border-top: 1px solid #000;  border-right: 1px solid #fff;  border-bottom: 1px solid #fff;  border-left: 1px solid #000;}/* Combo boxes (menus that display months/years for direct selection) */.calendar .combo {  position: absolute;  display: none;  width: 4em;  top: 0px;  left: 0px;  cursor: default;  border-top: 1px solid #fff;  border-right: 1px solid #000;  border-bottom: 1px solid #000;  border-left: 1px solid #fff;  background: #d8e0e4;  font-size: 90%;  padding: 1px;  z-index: 100;}.calendar .combo .label,.calendar .combo .label-IEfix {  text-align: center;  padding: 1px;}.calendar .combo .label-IEfix {  width: 4em;}.calendar .combo .active {  background: #c8d0d4;  padding: 0px;  border-top: 1px solid #000;  border-right: 1px solid #fff;  border-bottom: 1px solid #fff;  border-left: 1px solid #000;}.calendar .combo .hilite {  background: #048;  color: #aef;}.calendar td.time {  border-top: 1px solid #000;  padding: 1px 0px;  text-align: center;  background-color: #e8f0f4;}.calendar td.time .hour,.calendar td.time .minute,.calendar td.time .ampm {  padding: 0px 3px 0px 4px;  border: 1px solid #889;  font-weight: bold;  background-color: #fff;}.calendar td.time .ampm {  text-align: center;}.calendar td.time .colon {  padding: 0px 2px 0px 3px;  font-weight: bold;}.calendar td.time span.hilite {  border-color: #000;  background-color: #667;  color: #fff;}.calendar td.time span.active {  border-color: #f00;  background-color: #000;  color: #0f0;}/* yenihayvan ara */.araclass  {display:block;left:212px;overflow:hidden;position:fixed;top:70px;width:21px;}.aradetay {	background-color: #cccccc;	border: outset 1px;	font-weight:bold;	font-size:11px;	padding:5px;	padding-top:6px;	text-align:left;	height:120px;	cursor:pointer;	color: #333;	}.yazilar{	background-color: #cccccc;}.araasilformcls {	background-color: #cccccc;	border: outset 1px;	font-size:9px;	color:#000066;}.arakututar{	border: 0px;	font-size:9px; }.arakutukonu{	font-size:12px; }

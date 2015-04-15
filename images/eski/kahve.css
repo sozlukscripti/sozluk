@@ -1,0 +1,334 @@
+/* panel leds */
+
+#pmsg {
+  background-color: black;
+
+}
+
+#pmsghi {
+  background-color: Gray;
+ }
+
+#pbin {
+  background-color: Black;
+
+}
+
+#pbinhi {
+  background-color: Gray;
+
+}
+
+#pevt {
+  background-color: black;
+}
+
+#pevthi {
+background-color: Gray;
+
+}
+
+/* page picker */
+
+#piki {
+  visibility: hidden;
+  position: absolute;
+  font-size: 7pt;
+  width: 25px;
+  border: 1px outset;
+}
+
+/* entry page browser line */
+
+.pagi {
+  font-size: 7pt;
+  text-align: center;
+}
+
+/* ek$isozluk logo! */
+
+.logo {
+  background-image: url('css/godfather/gfl.jpg');
+  background-repeat: no-repeat
+}
+
+/* highlight color */
+
+.highlight
+{
+  background-color: #696969;
+  filter:alpha(opacity=70);
+  color: #F5F5F5;
+
+}
+
+.copyright
+{
+  font-size: 7pt;
+  color: #F5F5F5;
+}
+
+/* topic title */
+.title {
+  font: bold 12pt Verdana, "sans-serif";
+  width: 90%;
+  background-color: transparent;
+  filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=1, OffY=1, Color='#000000', Positive='true');
+  color: #D3D3D3;
+  border: none;
+}
+
+/* badilist */
+.au {
+  font-size: 8pt;
+  color: #696969;
+  text-decoration: none;
+}
+
+/* buttons */
+.but {
+  font: 8pt Verdana,"sans-serif";
+  cursor: hand;
+  background-color: Black;
+  color: Silver;
+  border: 1px solid #666666;
+  height: 18px;
+  padding: 2px;
+
+
+  }
+/* buttons highlighted */
+#butOver {
+  font: 8pt Verdana,"sans-serif";
+  cursor: hand;
+  background-color: #696969;
+  color: black;
+  border: 1px solid #666666;
+  height: 18px;
+  padding: 2px;
+
+
+}
+
+/* button link adjustments */
+.but A {
+  color: #D3D3D3;
+}
+
+.but A:Hover {
+  background-color: transparent;
+  color: #D3D3D3;
+}
+
+#butOver A {
+  color: #D3D3D3;
+}
+
+#butOver A:Hover {
+  background-color: transparent;
+  color: #D3D3D3;
+}
+
+/* entry buttons (derived from but) */
+.icon {
+  font: 80% Tahoma, "sans-serif";
+}
+
+.msgtext {
+  font-size: 9pt;
+}
+
+.timer {
+  font-size: 7pt;
+  vertical-align: middle;
+}
+
+/* author link */
+.aul {
+  font-size: 8pt;
+  line-height: 9pt;
+  text-align: right;
+}
+
+/* panel classes */
+.pi {
+  border: 1px inset;
+  font-size: 8pt;
+  padding: 1px;
+  text-align: center;
+}
+
+.pi A:Hover {
+  background-color: transparent;
+}
+
+/* top inputtexts */
+.input {
+  height:15px;
+}
+
+/* messages table */
+.msg {
+  border: 1px inset;
+  border-collapse: collapse;
+  padding: 2px;
+  display: block;
+  position: relative;
+  font-size: 10pt;
+  color: silver;
+  background-color: black;
+}
+
+.msg TD {
+  font-size: 10pt;
+}
+
+/* entry table */
+.e {
+  table-layout:fixed;
+  border-collapse:collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.e TD {
+  line-height: 14pt;
+}
+
+/* alphabet chars */
+.alpha {
+  font: 8pt "Lucida Console","sans-serif";
+}
+
+/* entry menu hidden */
+.emHidden {
+  visibility:hidden;
+}
+
+/* entry menu visible */
+.emVisible {
+  visibility:visible;
+}
+
+/* checkbox & radiobuttons */
+.cbrb {
+  background-color: transparent;
+  border: 0px none;
+}
+
+/* entry id */
+.ei {
+  color: #DCDCDC;
+  margin: 0;
+  padding: 0;
+  font-size: 7pt;
+}
+
+/* text input boxes (except TEXTAREA) */
+
+.tedit {
+  font: 8pt Verdana, "sans-serif";
+  background-color : #000000;
+  color: white;
+  border: inset 1px;
+}
+/* hayvan ara */
+
+.adiv {
+  display:block;
+  position:absolute;
+  top:44px;
+  left:215px;
+  width:18px;
+  overflow:hidden
+}
+
+.amain {
+  border-right:1px outset; border-top:1px outset; border-bottom:1px outset; background-color: black;
+  border-left:0px none;
+  width:100%;
+  padding:4px
+}
+
+.aup {
+  border-right:1px inset;
+  height:18px
+}
+
+.amid {
+  border-left:1px outset; border-top:1px outset; border-bottom:1px outset; background-color:Black;
+  border-right:0px none;
+  padding:4px;
+  line-height:8pt;
+  writing-mode: tb-rl;
+  cursor:hand; font-style:normal; font-variant:normal; font-weight:bold; font-size:8pt
+}
+
+.abot {
+  border-right:1px inset;
+  height:140px
+}
+BODY {
+  background-color: #000000;
+  color: Silver;
+  background-image : url('css/godfather/gf1.jpg');
+  scrollbar-face-color : #000000;
+  scrollbar-3dlight-color : Black;
+  scrollbar-arrow-color : Silver;
+  scrollbar-base-color : Black;
+  scrollbar-darkshadow-color : Black;
+  scrollbar-highlight-color : Gray;
+  scrollbar-shadow-color : black;
+  scrollbar-track-color : #000000;
+  background-repeat : no-repeat;
+  background-attachment : fixed; font-style:normal; font-variant:normal; font-weight:normal; font-size:10pt; font-family:Verdana, sans-serif
+}
+
+UL {
+  list-style: lower-roman;
+  line-height: 12pt;
+}
+
+A {
+  color : White;
+  text-decoration: none;
+
+}
+
+A:Hover {
+  background-color: Black;
+  color: #D3D3D3;
+
+
+}
+
+TEXTAREA {
+  background:#000000 url('css/godfather/gfbt.jpg') no-repeat fixed right 50%; font-family: Verdana, sans-serif;
+  width: 90%;
+  border: 1px inset;
+  color: #F5F5F5;
+  height: 150px;
+
+
+
+}
+
+HR {
+  color: #F5F5F5;
+  height: 1px;
+}
+
+TR {
+  vertical-align:top;
+}
+
+TD {
+  font-size: 10pt;
+  line-height: 12pt;
+  vertical-align: top;
+}
+
+DIV {
+  width: 100%
+}

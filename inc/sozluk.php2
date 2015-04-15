@@ -1,0 +1,115 @@
+<?
+session_start();
+ob_start();
+
+
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1254">
+<SCRIPT src="images/top.js" type=text/javascript></SCRIPT>
+<SCRIPT language=javascript src="images/sozluk.js"></SCRIPT>
+<LINK href="favicon.ico" rel="shortcut Icon"><LINK href="favicon.ico" rel=icon>
+<LINK href="images/sozluk.css" type=text/css rel=stylesheet>
+<LINK href="images/<? echo $tema ?>.css" type=text/css rel=stylesheet>
+</head>
+
+<body>
+<?
+
+
+if ($process) {
+if ($process == "privmsg" and !$verified_user) {
+Header ("Location: logout.php");
+die;
+}
+
+if ($process == "cp" and !$verified_user) {
+Header ("Location: logout.php");
+die;
+}
+
+if ($process == "add" and !$verified_user) {
+Header ("Location: logout.php");
+die;
+}
+if ($process == "adm" and !$verified_user) {
+Header ("Location: logout.php");
+die;
+}
+
+if ($process == "msjoku" and !$verified_user) {
+Header ("Location: logout.php");
+die;
+}
+
+if ($process == "msjana" and !$verified_user) {
+Header ("Location: logout.php");
+die;
+}
+
+if ($process == "yenimsj" and !$verified_user) {
+Header ("Location: logout.php");
+die;
+}
+if ($process == "adm" and !$verified_user) {
+Header ("Location: logout.php");
+die;
+}
+
+if ($process == "onlines" and !$verified_user) {
+Header ("Location: logout.php");
+die;
+}
+if($process == "dsearch" and $verified_user)
+{
+Header("Location: inc/dsearch.php");
+die;}
+if ($_REQUEST[kullanici] or $_REQUEST[sozluk] or $_REQUEST[verified_kat] or $_REQUEST[verified_user]) { die(); }  
+// echo $process;
+if (file_exists("inc/$process.php"))
+include "inc/$process.php";
+else if (file_exists("adm/$process.php"))
+include "adm/$process.php";
+else
+echo "
+<LINK href=\"images/$tema.css\" type=text/css rel=stylesheet>
+Bu bölüm geçici olarak servis dışı.";
+
+if (eregi('http', $process)) {
+    echo "hata";
+exit;
+}
+
+if (eregi('www', $process)) {
+    echo "hata";
+exit;
+}
+
+if ($process == "word") {
+function mtime(){
+    list($usec, $sec) = explode(" ",microtime());
+    return ((float)$usec + (float)$sec);
+    }
+$basla = mtime();
+for ($i=0; $i < 10000; $i++){
+    }
+$bitir = mtime();
+echo "<br><br><br><center><a href=sozluk.php?process=word&q=$sitename target=main><font size=1>$sitename Eğlendirmesi</font></a>";
+ob_start();
+echo "
+<hr>
+<font size=1>$sitename tamamen bağımsız bir sözlüktür. 
+Copyright by $sitename  2009 (c)<br>
+<a href=\"sozluk.php?process=sikayetgiris\">Yönetimle İletiş</a>
+";
+}
+
+}
+ob_end_flush();
+?>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<?
+include "inc/baglan.php";
+include "config.php";
+$date = date("l jS F Y \(g:s a\)",$date); 
+$pub_date = date("r"); 
+
+$sql="SELECT * from mesajciklar order by id desc limit 30";
+
+
+$result =  mysql_query($sql);
+
+
+$sonuc="<?xml version=\"1.0\" encoding=\"windows-1254\"?>
+<rss version=\"2.0\">
+  <channel>
+   <title>$sitename RSS</title> 
+   <link>$site</link>";
+$sonuc.="
+<description>$description</description>";
+$sonuc.="   
+<lastBuildDate>$pub_date</lastBuildDate>";
+$sonuc.="   
+<language>tr</language>
+<image><title>$sitename logo</title><url>$site/images/logo_default.png</url><link>$sitename</link></image>";
+
+
+
+while ($row =  mysql_fetch_array($result))
+{
+$id = $row["id"];
+$sira = $row["sira"];
+$yazar = $row["yazar"];
+$mesaj = $row["mesaj"];
+ $mesaj=str_replace("<br>","\n",$mesaj);
+$enson=mysql_query("select * from konucuklar where id='$sira' order by id desc LIMIT 0,1 ");
+  $kes =  mysql_fetch_array($enson);
+  $baslik=$kes['baslik'];
+  $sonuc.="
+      <item>
+	  <guid isPermaLink=\"true\">$site/$id.htm</guid>
+	  <title>$baslik</title>
+	  <pubDate>$pub_date</pubDate>
+	  <author>$yazar</author>
+	  <link>$site/$baslik.html</link>
+      <description>$mesaj</description>
+      </item>";
+}
+
+$sonuc.= "
+</channel>
+</rss>
+";
+
+$rootpath='./'; 
+$cache = 'xml'; // klasör adý
+$file='today';
+ $dosya_adi = $rootpath.$cache . '/'.$file.'.xml';
+  $yaz=fopen($dosya_adi, "w"); 
+      fwrite($yaz,$sonuc); 
+      fclose($yaz); 
+if ($yaz) {echo "rss güncellendi bro ;)";} else {echo "bi terslik var yazamadýk..";}
+    
+?>

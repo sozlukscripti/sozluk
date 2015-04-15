@@ -1,0 +1,235 @@
+.loginbox {
+        WIDTH: 220px
+}
+.lin {
+        WIDTH: 100%
+}
+.ampul {
+        WIDTH: 18px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 18px
+}
+.infosec {
+        BORDER-RIGHT: 1px outset; BORDER-TOP: 1px outset; BORDER-LEFT: 1px outset; CURSOR: pointer; BORDER-BOTTOM: 1px outset
+}
+.panel {
+        WIDTH: 120px
+}
+.asl {
+        WIDTH: 109px
+}
+.spot {
+        FLOAT: right; WIDTH: 120px
+}
+.spot TD {
+        FONT-SIZE: 7pt
+}
+#badi {
+        BORDER-RIGHT: 1px inset; PADDING-RIGHT: 2px; BORDER-TOP: 1px inset; PADDING-LEFT: 2px; FONT-SIZE: 7pt; PADDING-BOTTOM: 2px; OVERFLOW: hidden; BORDER-LEFT: 1px inset; WIDTH: 120px; PADDING-TOP: 2px; BORDER-BOTTOM: 1px inset
+}
+.aratext {
+        WIDTH: 96px
+}
+.bgleft {
+
+}
+.bgtop {
+        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.marker {
+        COLOR: black; BACKGROUND-COLOR: yellow
+}
+.pbut {
+        FONT-SIZE: 7pt; WIDTH: 16px; HEIGHT: 16px
+}
+.nav TD {
+        PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 2px; HEIGHT: 23px
+}
+#pmsg {
+        BACKGROUND-COLOR: #006000
+}
+#pmsghi {
+        BACKGROUND-COLOR: #00f000
+}
+#pbin {
+        BACKGROUND-COLOR: #606000
+}
+#pbinhi {
+        BACKGROUND-COLOR: #f0f000
+}
+#pevt {
+        BACKGROUND-COLOR: #606000
+}
+#pevthi {
+        BACKGROUND-COLOR: #f0f000
+}
+.pagi {
+        FONT-SIZE: 7pt; TEXT-ALIGN: center
+}
+.pagis {
+        FONT-SIZE: 6pt
+}
+.logo {
+        BACKGROUND-IMAGE: url(img/logo.gif); WIDTH: 132px; CURSOR: default; BACKGROUND-REPEAT: no-repeat; HEIGHT: 45px
+}
+.copyright {
+        FONT-SIZE: 7pt; COLOR: #909090
+}
+.title {
+        BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT: bold 12pt Verdana, sans-serif; BORDER-LEFT: medium none; WIDTH: 100%; COLOR: #000080; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: transparent
+}
+.but {
+        BORDER-RIGHT: #a6b4d4 2px outset; BORDER-TOP: #a6b4d4 2px outset; FONT: 8pt Arial,sans-serif; BORDER-LEFT: #a6b4d4 2px outset; CURSOR: default; COLOR: white; BORDER-BOTTOM: #a6b4d4 2px outset; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #566484; TEXT-ALIGN: center
+}
+#butOver {
+        BACKGROUND-COLOR: #667494
+}
+#butDown {
+        BORDER-RIGHT: 2px inset; BORDER-TOP: 2px inset; BORDER-LEFT: 2px inset; BORDER-BOTTOM: 2px inset
+}
+.but A {
+        COLOR: white
+}
+.but A:hover {
+        COLOR: white; BACKGROUND-COLOR: transparent
+}
+#butOver A {
+        COLOR: white
+}
+#butOver A:hover {
+        COLOR: white; BACKGROUND-COLOR: transparent
+}
+.icon {
+        FONT-SIZE: 7pt
+}
+.timer {
+        FONT-SIZE: 7pt; VERTICAL-ALIGN: middle
+}
+.aul {
+        FONT-SIZE: 8pt; LINE-HEIGHT: 9pt; TEXT-ALIGN: right
+}
+.pi {
+        BORDER-RIGHT: 1px inset; PADDING-RIGHT: 0px; BORDER-TOP: 1px inset; PADDING-LEFT: 0px; FONT-SIZE: 7pt; PADDING-BOTTOM: 0px; BORDER-LEFT: 1px inset; PADDING-TOP: 0px; BORDER-BOTTOM: 1px inset; TEXT-ALIGN: center
+}
+.pi A:hover {
+        BACKGROUND-COLOR: transparent
+}
+.input {
+        FONT: 7pt Verdana, sans-serif; HEIGHT: 16px
+}
+.msgtext {
+        FONT-SIZE: 8pt
+}
+.msg {
+        PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 8pt; PADDING-BOTTOM: 2px; COLOR: black; PADDING-TOP: 2px
+}
+.msg TD {
+        FONT-SIZE: 8pt
+}
+.eol {
+        LINE-HEIGHT: 14pt
+}
+.ei {
+        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 7pt; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #808080; PADDING-TOP: 0px
+}
+.tab {
+        FONT-SIZE: 7pt; PADDING-TOP: 2px; BORDER-BOTTOM: 2px inset; WHITE-SPACE: nowrap
+}
+.tab DIV {
+        BORDER-RIGHT: 1px outset; PADDING-RIGHT: 4px; BORDER-TOP: 2px outset; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 1px; BORDER-LEFT: 2px outset; LINE-HEIGHT: 12pt; PADDING-TOP: 2px; BORDER-BOTTOM: 0px; WHITE-SPACE: nowrap
+}
+.tab A:hover {
+        BACKGROUND-COLOR: transparent
+}
+.tabsel {
+        BORDER-RIGHT: 2px outset; PADDING-RIGHT: 4px; BORDER-TOP: 2px outset; PADDING-LEFT: 4px; FONT-SIZE: 7pt; PADDING-BOTTOM: 2px; BORDER-LEFT: 2px outset; CURSOR: default; LINE-HEIGHT: 11pt; PADDING-TOP: 2px; BORDER-BOTTOM: 0px; WHITE-SPACE: nowrap
+}
+.tabin {
+        BORDER-RIGHT: 2px outset; PADDING-RIGHT: 4px; BORDER-TOP: 0px; PADDING-LEFT: 4px; FONT-SIZE: 8pt; PADDING-BOTTOM: 4px; BORDER-LEFT: 2px outset; PADDING-TOP: 4px; BORDER-BOTTOM: 2px outset; HEIGHT: 245px
+}
+.vtab {
+        PADDING-RIGHT: 2px; FONT-SIZE: 7pt; BORDER-LEFT: 2px inset; CURSOR: pointer; WHITE-SPACE: nowrap
+}
+.vtab DIV {
+        BORDER-RIGHT: 2px outset; PADDING-RIGHT: 2px; BORDER-TOP: 1px outset; MARGIN-TOP: 1px; PADDING-LEFT: 0px; PADDING-BOTTOM: 4px; BORDER-LEFT: 0px; LINE-HEIGHT: 12pt; PADDING-TOP: 4px; BORDER-BOTTOM: 2px outset; WHITE-SPACE: nowrap
+}
+.vtab A:hover {
+        BACKGROUND-COLOR: transparent
+}
+.vtabsel {
+        BORDER-RIGHT: 2px outset; PADDING-RIGHT: 2px; BORDER-TOP: 2px outset; PADDING-LEFT: 2px; FONT-SIZE: 7pt; PADDING-BOTTOM: 4px; BORDER-LEFT: 0px; CURSOR: default; LINE-HEIGHT: 11pt; PADDING-TOP: 4px; BORDER-BOTTOM: 2px outset; WHITE-SPACE: nowrap
+}
+.vtabin {
+        BORDER-RIGHT: 0px; PADDING-RIGHT: 4px; BORDER-TOP: 2px outset; PADDING-LEFT: 4px; FONT-SIZE: 8pt; PADDING-BOTTOM: 4px; BORDER-LEFT: 2px outset; PADDING-TOP: 4px; BORDER-BOTTOM: 2px outset; HEIGHT: 245px
+}
+.adiv {
+        DISPLAY: block; LEFT: 215px; OVERFLOW: hidden; WIDTH: 18px; POSITION: absolute; TOP: 44px
+}
+.amain {
+        BORDER-RIGHT: 1px outset; PADDING-RIGHT: 4px; BORDER-TOP: 1px outset; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: 0px; WIDTH: 100%; PADDING-TOP: 4px; BORDER-BOTTOM: 1px outset; BACKGROUND-COLOR: #cccccc
+}
+TD.amain {
+        FONT-SIZE: 8pt
+}
+.aup {
+        BORDER-RIGHT: 1px inset; HEIGHT: 18px
+}
+.amid {
+        BORDER-RIGHT: 0px; PADDING-RIGHT: 4px; BORDER-TOP: 1px outset; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 8pt; PADDING-BOTTOM: 4px; BORDER-LEFT: 1px outset; CURSOR: pointer; LINE-HEIGHT: 8pt; PADDING-TOP: 4px; BORDER-BOTTOM: 1px outset; WRITING-MODE: tb-rl; BACKGROUND-COLOR: #cccccc
+}
+.abot {
+        BORDER-RIGHT: 1px inset; HEIGHT: 140px
+}
+BODY {
+        FONT: 9pt Verdana, sans-serif; COLOR: black; 
+}
+UL {
+        LINE-HEIGHT: 12pt; LIST-STYLE-TYPE: lower-roman
+}
+A {
+        COLOR: #000000; TEXT-DECORATION: none
+}
+
+SELECT {
+        FONT: 8pt Verdana, sans-serif
+}
+INPUT {
+        FONT: 8pt Verdana, sans-serif
+}
+OPTGROUP {
+        FONT: 8pt Verdana, sans-serif
+}
+TEXTAREA {
+        FONT: 9pt Verdana, sans-serif; WIDTH: 100%
+}
+HR {
+        
+}
+TH {
+        FONT-SIZE: 9pt
+}
+TD {
+        FONT-SIZE: 9pt; VERTICAL-ALIGN: top; LINE-HEIGHT: 12pt
+}
+P {
+        FONT-SIZE: 9pt; VERTICAL-ALIGN: top; LINE-HEIGHT: 14pt
+}
+IMG {
+        BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px
+}
+FORM {
+        BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px
+}
+TABLE {
+        BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px
+}
+DD {
+        PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+        PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-TOP: 2px
+}
+.checkbox {
+        BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: transparent
+}
+.radio {
+        BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: transparent
+}

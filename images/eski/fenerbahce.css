@@ -1,0 +1,267 @@
+/*
+
+MADE IN KIWANCH
+
+*/
+
+body {
+background-color:#000085; 
+background-image: url(fbwall.jpg);
+background-attachment: fixed;
+color:white; 
+font-size: 14px;
+font-family:Verdana;
+}
+
+#badi{
+background-color:#F5F5F5;
+border: #FF2600 1px solid;
+}
+#badi a{
+color:#8E0000;
+font-family:Verdana;
+font-size: 9px;
+font-weight:bold;
+}
+#badi a:hover {
+background-color:#8E0000;
+color:White;
+text-decoration:none;
+}
+select, input, .input{
+border: solid #8A131C 1px;
+}
+.copyright{
+color:#d18b95;
+font-size:9px;
+}
+#d{ //entry yazma yeri
+}
+a{
+color:#FFFF00; 
+}
+a:hover{
+background-color:#0000FF; 
+color:#FFFF00; 
+}
+
+
+.adiv {
+  display:block;
+  position:absolute;
+  top:20px;
+  left:215px;
+  width:18px;
+  overflow:hidden;
+}
+
+.amain {
+	background-color: #000085;
+	border: 2px outset #FFFF00;
+	border: 2px outset;
+	border-left: 0;
+	padding: 4px;
+}
+
+.aup {
+  border-right:1px inset FFFF00;
+  height:30px
+}
+
+.amid {
+	background-image: url(fb_ara.jpg);
+	background-attachment: fixed;
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-color: #000085;
+	border: 2px outset #FFFF00;
+	border-right:0px;
+	width:20px;
+	height: 150px;
+	line-height:8pt;
+	font-size:0pt;
+	cursor:hand;
+	color: #000085;
+	text-align: center;
+}
+
+.abot {
+  border-right:1px inset FFFF00;
+  height:140px
+}
+
+.but A {
+   color:#000080; 
+}
+.but {
+	background-color:#E5E600; 
+	border:#000080 1px outset; 
+	color:#000080;
+	font-family:Verdana;
+	font-size: 9px;
+	font-weight:bold;
+	cursor: pointer;
+}
+#butOver A {
+cursor: pointer;
+  color: #FFFF00;  
+}
+#butOver A:Hover { 
+  color: #FFFF00; 
+}
+#butOver{
+	background-color:#000085; 
+	border:#FFFF00 1px outset; 
+	color:#FFFF00;
+cursor: pointer;
+}
+
+input{
+}
+.input{
+}
+label{
+}
+.timer {
+text-transform:capitalize;
+font-size:11px;
+}
+b{
+color: #FFFFFF; 
+}
+b a{
+color: #0000FF;
+}
+b a:hover{
+background-color:#0000FF; 
+color: #000085; 
+}
+.infosec{
+}
+legend{
+font-weight:bold;
+}
+
+.title{
+	color: #FFFF00; 
+	background-color: transparent; 
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+}
+.title a{
+	color: #FFFF00; 
+	font-family: "Trebuchet MS";
+	}
+	
+.title a:hover{
+	background-color:#FFFF00; 
+	color: #000085; 
+
+	font-family: "Trebuchet MS";
+	}
+
+.pmsg a, .pbin a, .pevt a, .pmsghi a, .pbinhi a, .pevthi a{
+	color: Black;
+	}
+.pmsg {
+  background-color: #E796A2;
+}
+.pmsghi {
+  background-color: #D13048;
+}
+.pbin {
+  background-color: #E796A2;
+}
+.pbinhi {
+  background-color: #D13048;
+}
+.pevt {
+  background-color: #E796A2;
+}
+.pevthi {
+  background-color: #D13048;
+}
+
+.marker{
+background-color:#00E4FF;
+color:#2e303d;
+font-weight:bold;
+border-bottom:black 1px solid;
+}
+hr{
+color:#FFFFFF;
+height: 1px;
+}
+
+.vtab {
+}
+.vtab DIV {
+ }
+.vtab DIV A {
+ }
+.vtab A:Hover {
+}
+.vtabin{
+}
+.vtabsel{
+}
+
+.highlight{
+background-color:#070098; 
+border:yellow 1px solid;
+}
+
+.logo {
+background-image: url(logo_fenerbahce.jpg);
+background-attachment: fixed;
+background-position: top center;
+background-repeat: no-repeat;
+width: 232px;
+}
+
+.tabsel{
+}
+.tab DIV{
+}
+.tab A:Hover{
+}
+.tabin{
+}
+
+textarea{
+background-color:#0000FF; 
+color:#000085; 
+font-weight:bold;
+}
+ol{
+margin-top:3px;
+}
+#daskapital{
+display:none;
+}
+.bgtop{
+background-image: none;
+}
+.aul a{
+font-weight:normal;
+}
+
+.bgleft{
+background-image: none;
+}
+.bgleft a{
+}
+.bgleft a:hover{
+text-decoration:none;
+}
+
+i{
+color:#0030CC;
+}
+small{
+}
+fieldset{
+border:gray 1px solid;
+color: white; 
+}

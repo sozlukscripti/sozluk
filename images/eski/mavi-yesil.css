@@ -1,0 +1,643 @@
+.loginbox
+{
+    WIDTH: 220px
+}
+.lin
+{
+    WIDTH: 100%
+}
+.url
+{
+    COLOR: #000066
+}
+.b
+{
+    COLOR: #000066
+}
+.ara
+{
+    COLOR: #000066
+}
+.gb
+{
+    COLOR: #000066
+}
+.ab
+{
+    COLOR: #000066
+}
+.ab A
+{
+    COLOR: #000066
+}
+.ampul
+{
+    BACKGROUND-IMAGE: url(/img/ampul.gif);
+    WIDTH: 20px;
+    BACKGROUND-REPEAT: no-repeat;
+    HEIGHT: 18px
+}
+.infosec
+{
+    BORDER-RIGHT: 1px outset;
+    BORDER-TOP: 1px outset;
+    BORDER-LEFT: 1px outset;
+    CURSOR: pointer;
+    BORDER-BOTTOM: 1px outset
+}
+.panel
+{
+    BORDER-RIGHT: 0px;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    PADDING-LEFT: 0px;
+    FONT-SIZE: x-small;
+    PADDING-BOTTOM: 0px;
+    BORDER-LEFT: 0px;
+    WIDTH: 120px;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: 0px
+}
+.asl
+{
+    MARGIN: 0px;
+    WIDTH: 100%
+}
+.spot
+{
+    FLOAT: right;
+    WIDTH: 120px
+}
+.spot TD
+{
+    FONT-SIZE: 7pt
+}
+#badi
+{
+    BORDER-RIGHT: 1px inset;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP: 1px inset;
+    PADDING-LEFT: 2px;
+    FONT-SIZE: 7pt;
+    PADDING-BOTTOM: 2px;
+    OVERFLOW: hidden;
+    BORDER-LEFT: 1px inset;
+    WIDTH: 120px;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: 1px inset
+}
+.aratext
+{
+    WIDTH: 100%
+}
+.bgleft
+{
+    BACKGROUND-POSITION: left top;
+    BACKGROUND-IMAGE: url(bg.jpg);
+    BACKGROUND-REPEAT: repeat;
+    BACKGROUND-COLOR: #1a6ec6
+}
+.bgtop
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    PADDING-TOP: 0px;
+    BACKGROUND-COLOR: #014388
+}
+.marker
+{
+    COLOR: black;
+    BACKGROUND-COLOR: yellow
+}
+.pbut
+{
+    FONT-SIZE: 7pt;
+    WIDTH: 16px;
+    HEIGHT: 16px
+}
+.nav TD
+{
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 2px;
+    PADDING-BOTTOM: 2px;
+    MARGIN: 0px;
+    VERTICAL-ALIGN: middle;
+    PADDING-TOP: 2px;
+    HEIGHT: 16px
+}
+.pmsg
+{
+}
+.pmsghi
+{
+}
+.pbin
+{
+}
+.pbinhi
+{
+}
+.pevt
+{
+}
+.pevthi
+{
+    BACKGROUND-COLOR: #ff3b00
+}
+.pagi
+{
+    FONT-SIZE: 7pt;
+    TEXT-ALIGN: center
+}
+.pagis
+{
+    FONT-SIZE: 6pt
+}
+.logo
+{
+    WIDTH: 233px;
+    CURSOR: default;
+    HEIGHT: 45px
+}
+.highlight
+{
+    BACKGROUND-COLOR: #006699
+}
+.copyright
+{
+    FONT-SIZE: 7pt;
+    COLOR: #ffffff
+}
+.title
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT: bold 12pt Verdana, sans-serif;
+    BORDER-LEFT: medium none;
+    WIDTH: 100%;
+    COLOR: #fff;
+    BORDER-BOTTOM: medium none;
+    BACKGROUND-COLOR: transparent
+}
+.title A
+{
+    COLOR: #fff
+}
+.but
+{
+    BORDER-RIGHT: #fff 1px solid;
+    BORDER-TOP: #fff 1px solid;
+    BACKGROUND-IMAGE: url(button.jpg);
+    FONT: 8pt Arial,sans-serif;
+    BORDER-LEFT: #fff 1px solid;
+    CURSOR: default;
+    COLOR: white;
+    BORDER-BOTTOM: #fff 1px solid;
+    WHITE-SPACE: nowrap;
+    BORDER-COLLAPSE: collapse;
+    BACKGROUND-COLOR: #6eab24;
+    TEXT-ALIGN: center
+}
+#butOver
+{
+    BORDER-RIGHT: #fff 1px solid;
+    BORDER-TOP: #fff 1px solid;
+    BACKGROUND-IMAGE: url(yenibir_button_back_over.jpg);
+    BORDER-LEFT: #fff 1px solid;
+    BORDER-BOTTOM: #fff 1px solid;
+    BORDER-COLLAPSE: collapse
+}
+#butDown
+{
+    BORDER-RIGHT: 2px inset;
+    BORDER-TOP: 2px inset;
+    BORDER-LEFT: 2px inset;
+    BORDER-BOTTOM: 2px inset
+}
+.but A
+{
+    COLOR: white
+}
+.but A:hover
+{
+    COLOR: white;
+    BACKGROUND-COLOR: transparent
+}
+#butOver A
+{
+    COLOR: white
+}
+#butOver A:hover
+{
+    COLOR: white;
+    BACKGROUND-COLOR: transparent
+}
+.icon
+{
+    FONT-SIZE: 7pt
+}
+.timer
+{
+    FONT-SIZE: 7pt;
+    VERTICAL-ALIGN: middle
+}
+.aul
+{
+    FONT-SIZE: 8pt;
+    LINE-HEIGHT: 9pt;
+    TEXT-ALIGN: right
+}
+.pi
+{
+    BORDER-RIGHT: 1px inset;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: 1px inset;
+    PADDING-LEFT: 0px;
+    FONT-SIZE: 7pt;
+    PADDING-BOTTOM: 0px;
+    BORDER-LEFT: 1px inset;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: 1px inset;
+    TEXT-ALIGN: center
+}
+.pi A:hover
+{
+    BACKGROUND-COLOR: transparent
+}
+.input
+{
+    FONT: 7pt Verdana, sans-serif;
+    HEIGHT: 12px
+}
+.msgtext
+{
+    FONT-SIZE: 8pt
+}
+.msg
+{
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 2px;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 2px;
+    COLOR: #fff;
+    PADDING-TOP: 2px
+}
+.msg TD
+{
+    FONT-SIZE: 8pt
+}
+.eol
+{
+    LINE-HEIGHT: 14pt
+}
+.ei
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    FONT-SIZE: 7pt;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    COLOR: #808080;
+    PADDING-TOP: 0px
+}
+.tab
+{
+    FONT-SIZE: 7pt;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: 2px inset;
+    WHITE-SPACE: nowrap
+}
+.tab DIV
+{
+    BORDER-RIGHT: 1px outset;
+    PADDING-RIGHT: 4px;
+    BORDER-TOP: 2px outset;
+    PADDING-LEFT: 4px;
+    PADDING-BOTTOM: 0px;
+    MARGIN-LEFT: 1px;
+    BORDER-LEFT: 2px outset;
+    LINE-HEIGHT: 12pt;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: 0px;
+    WHITE-SPACE: nowrap
+}
+.tab A:hover
+{
+    BACKGROUND-COLOR: transparent
+}
+.tabsel
+{
+    BORDER-RIGHT: 2px outset;
+    PADDING-RIGHT: 4px;
+    BORDER-TOP: 2px outset;
+    PADDING-LEFT: 4px;
+    FONT-SIZE: 7pt;
+    PADDING-BOTTOM: 2px;
+    BORDER-LEFT: 2px outset;
+    CURSOR: default;
+    LINE-HEIGHT: 11pt;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: 0px;
+    WHITE-SPACE: nowrap
+}
+.tabin
+{
+    BORDER-RIGHT: 2px outset;
+    PADDING-RIGHT: 4px;
+    BORDER-TOP: 0px;
+    PADDING-LEFT: 4px;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 4px;
+    BORDER-LEFT: 2px outset;
+    PADDING-TOP: 4px;
+    BORDER-BOTTOM: 2px outset;
+    HEIGHT: 245px
+}
+.vtab
+{
+    PADDING-RIGHT: 2px;
+    FONT-SIZE: 7pt;
+    BORDER-LEFT: 2px inset;
+    CURSOR: pointer;
+    WHITE-SPACE: nowrap
+}
+.vtab DIV
+{
+    BORDER-RIGHT: 2px outset;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP: 1px outset;
+    MARGIN-TOP: 1px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 4px;
+    BORDER-LEFT: 0px;
+    LINE-HEIGHT: 12pt;
+    PADDING-TOP: 4px;
+    BORDER-BOTTOM: 2px outset;
+    WHITE-SPACE: nowrap
+}
+.vtab A:hover
+{
+    BACKGROUND-COLOR: transparent
+}
+.vtabsel
+{
+    BORDER-RIGHT: 2px outset;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP: 2px outset;
+    PADDING-LEFT: 2px;
+    FONT-SIZE: 7pt;
+    PADDING-BOTTOM: 4px;
+    BORDER-LEFT: 0px;
+    CURSOR: default;
+    LINE-HEIGHT: 11pt;
+    PADDING-TOP: 4px;
+    BORDER-BOTTOM: 2px outset;
+    WHITE-SPACE: nowrap
+}
+.vtabin
+{
+    BORDER-RIGHT: 0px;
+    PADDING-RIGHT: 10px;
+    BORDER-TOP: 2px outset;
+    PADDING-LEFT: 4px;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 4px;
+    BORDER-LEFT: 2px outset;
+    PADDING-TOP: 4px;
+    BORDER-BOTTOM: 2px outset;
+    HEIGHT: 245px
+}
+.adiv
+{
+    DISPLAY: block;
+    LEFT: 215px;
+    OVERFLOW: hidden;
+    WIDTH: 18px;
+    POSITION: absolute;
+    TOP: 44px
+}
+.amain
+{
+    BORDER-RIGHT: 0px;
+    PADDING-RIGHT: 4px;
+    BORDER-TOP: #5c96ba 1px outset;
+    PADDING-LEFT: 4px;
+    BACKGROUND-IMAGE: none;
+    PADDING-BOTTOM: 4px;
+    BORDER-LEFT: 0px;
+    WIDTH: 100%;
+    COLOR: lemonchiffon;
+    PADDING-TOP: 4px;
+    BORDER-BOTTOM: 0px;
+    BACKGROUND-COLOR: #6eab24
+}
+.aup
+{
+    BORDER-RIGHT: #36587b 1px inset;
+    HEIGHT: 18px
+}
+.amid
+{
+    BORDER-RIGHT: 0px;
+    PADDING-RIGHT: 4px;
+    BORDER-TOP: #5c96ba 1px outset;
+    PADDING-LEFT: 4px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 4px;
+    BORDER-LEFT: #5c96ba 1px outset;
+    CURSOR: hand;
+    COLOR: lemonchiffon;
+    LINE-HEIGHT: normal;
+    PADDING-TOP: 4px;
+    BORDER-BOTTOM: #8fb3c9 1px outset;
+    FONT-STYLE: normal;
+    WRITING-MODE: tb-rl;
+    BACKGROUND-COLOR: #6eab24
+}
+.abot
+{
+    BORDER-RIGHT: #87b2cc 2px outset;
+    HEIGHT: 140px
+}
+TD.amain
+{
+    FONT-SIZE: 8pt
+}
+BODY
+{
+    BACKGROUND: url(bg.jpg) #1363b6 fixed left top;
+	
+    FONT: 9pt Verdana, sans-serif;
+    COLOR: #fff
+}
+UL
+{
+    LINE-HEIGHT: 12pt;
+    LIST-STYLE-TYPE: lower-roman
+}
+A
+{
+    COLOR: #AAAAAA;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    COLOR: #fff;
+    BACKGROUND-COLOR: green
+}
+SELECT
+{
+    BORDER-RIGHT: #fff 1px solid;
+    BORDER-TOP: #fff 1px solid;
+    FONT: 8pt Verdana, sans-serif;
+    BORDER-LEFT: #fff 1px solid;
+    COLOR: #000;
+    BORDER-BOTTOM: #fff 1px solid;
+    BACKGROUND-COLOR: #fff
+}
+INPUT
+{
+    BORDER-RIGHT: #fff 1px solid;
+    BORDER-TOP: #fff 1px solid;
+    FONT: 8pt Verdana, sans-serif;
+    BORDER-LEFT: #fff 1px solid;
+    COLOR: #000;
+    BORDER-BOTTOM: #fff 1px solid;
+    BACKGROUND-COLOR: #fff
+}
+OPTGROUP
+{
+    BORDER-RIGHT: #fff 1px solid;
+    BORDER-TOP: #fff 1px solid;
+    FONT: 8pt Verdana, sans-serif;
+    BORDER-LEFT: #fff 1px solid;
+    COLOR: #000;
+    BORDER-BOTTOM: #fff 1px solid;
+    BACKGROUND-COLOR: #fff
+}
+TEXTAREA
+{
+    BORDER-RIGHT: #fff 1px solid;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: #fff 1px solid;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    FONT: 9pt Verdana, sans-serif;
+    BORDER-LEFT: #fff 1px solid;
+    WIDTH: 98%;
+    COLOR: #000;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: #fff 1px solid;
+    BACKGROUND-COLOR: white
+}
+HR
+{
+    COLOR: #2e2e2e
+}
+TH
+{
+    FONT-SIZE: 9pt
+}
+TD
+{
+    FONT-SIZE: 9pt;
+    VERTICAL-ALIGN: top;
+    LINE-HEIGHT: 12pt
+}
+P
+{
+    FONT-SIZE: 9pt;
+    VERTICAL-ALIGN: top;
+    LINE-HEIGHT: 14pt
+}
+IMG
+{
+    BORDER-RIGHT: 0px;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    BORDER-LEFT: 0px;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: 0px
+}
+FORM
+{
+    BORDER-RIGHT: 0px;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    BORDER-LEFT: 0px;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: 0px
+}
+TABLE
+{
+    BORDER-RIGHT: 0px;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    BORDER-LEFT: 0px;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: 0px
+}
+DD
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    PADDING-TOP: 0px
+}
+FIELDSET
+{
+    BORDER-RIGHT: #fff 1px solid;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP: #fff 1px solid;
+    PADDING-LEFT: 2px;
+    PADDING-BOTTOM: 2px;
+    MARGIN: 0px;
+    BORDER-LEFT: #fff 1px solid;
+    PADDING-TOP: 2px;
+    BORDER-BOTTOM: #fff 1px solid
+}
+.checkbox
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    BACKGROUND-COLOR: transparent
+}
+.radio
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    BACKGROUND-COLOR: transparent
+}
+LI
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    MARGIN-LEFT: 14px;
+    MARGIN-RIGHT: 4px;
+    PADDING-TOP: 0px
+}
+HTML
+{
+    SCROLLBAR-ARROW-COLOR: lemonchiffon;
+    SCROLLBAR-TRACK-COLOR: #1363b6;
+    SCROLLBAR-BASE-COLOR: #6eab24
+}

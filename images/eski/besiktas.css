@@ -1,0 +1,268 @@
+/*
+
+MADE IN KIWANCH
+
+*/
+
+body {
+background-color:#000000; 
+background-image: url(bjkwall.jpg);
+background-attachment: fixed;
+color:white; 
+font-size: 14px;
+font-family:Verdana;
+}
+
+#badi{
+background-color:#F5F5F5;
+border: #FF2600 1px solid;
+}
+#badi a{
+color:#8E0000;
+font-family:Verdana;
+font-size: 9px;
+font-weight:bold;
+}
+#badi a:hover {
+background-color:#8E0000;
+color:White;
+text-decoration:none;
+}
+select, input, .input{
+border: solid #8A131C 1px;
+}
+.copyright{
+color:#d18b95;
+font-size:9px;
+}
+#d{ //entry yazma yeri
+}
+a{
+color:#CC0000; 
+}
+a:hover{
+background-color:#FFFFFF; 
+color:#CC0000; 
+}
+
+
+.adiv {
+  display:block;
+  position:absolute;
+  top:20px;
+  left:215px;
+  width:18px;
+  overflow:hidden;
+}
+
+.amain {
+	background-color: #000000; 
+	border: 2px outset #FFFFFF;
+	border: 2px outset;
+	border-left: 0;
+	padding: 4px;
+}
+
+.aup {
+  border-right:1px inset FFFFFF;
+  height:30px
+}
+
+.amid {
+	background-image: url(bjk_ara.jpg);
+	background-attachment: fixed;
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-color: #000000;
+	border: 2px outset #FFFFFF;
+	border-right:0px;
+	width:20px;
+	height: 150px;
+	line-height:8pt;
+	font-size:0pt;
+	cursor:hand;
+	color: #000000;
+	text-align: center;
+}
+
+.abot {
+  border-right:1px inset FFFFFF;
+  height:140px
+}
+
+.but A {
+   color:#FFFFFF; 
+}
+.but {
+	background-color:#000000; 
+	border:#FFFFFF 1px outset; 
+	color:#FFFFFF;
+	font-family:Verdana;
+	font-size: 9px;
+	font-weight:bold;
+	cursor: pointer;
+}
+#butOver A {
+cursor: pointer;
+  color: #000000;  
+}
+#butOver A:Hover { 
+  color: #000000; 
+}
+#butOver{
+	background-color:#FFFFFF; 
+	border:#CC0000 1px outset; 
+	color:#CC0000;
+cursor: pointer;
+}
+
+input{
+}
+.input{
+}
+label{
+}
+.timer {
+text-transform:capitalize;
+font-size:11px;
+}
+b{
+color: #CC0000; 
+}
+b a{
+color: #FFFFFF;
+}
+b a:hover{
+background-color:#FFFFFF; 
+color: #CC0000; 
+}
+.infosec{
+}
+legend{
+font-weight:bold;
+}
+
+.title{
+	color: #CC0000; 
+	background-color: transparent; 
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+}
+.title a{
+	color: #FFFFFF; 
+	font-family: "Trebuchet MS";
+	}
+	
+.title a:hover{
+	background-color:#FFFFFF; 
+	color: #CC0000; 
+
+	font-family: "Trebuchet MS";
+	}
+
+.pmsg a, .pbin a, .pevt a, .pmsghi a, .pbinhi a, .pevthi a{
+	color: Black;
+	}
+.pmsg {
+  background-color: #E796A2;
+}
+.pmsghi {
+  background-color: #D13048;
+}
+.pbin {
+  background-color: #E796A2;
+}
+.pbinhi {
+  background-color: #D13048;
+}
+.pevt {
+  background-color: #E796A2;
+}
+.pevthi {
+  background-color: #D13048;
+}
+
+.marker{
+background-color:#00E4FF;
+color:#2e303d;
+font-weight:bold;
+border-bottom:black 1px solid;
+}
+hr{
+color:#FFFFFF;
+height: 1px;
+}
+/* yan "tab"lar */
+.vtab {
+}
+.vtab DIV {
+ }
+.vtab DIV A {
+ }
+.vtab A:Hover {
+}
+.vtabin{
+}
+.vtabsel{
+}
+/*end of tabs*/
+.highlight{
+background-color:#FF0000; 
+border:yellow 1px solid;
+}
+
+.logo {
+background-image: url(logo_besiktas.jpg);
+background-attachment: fixed;
+background-position: top center;
+background-repeat: no-repeat;
+width: 136px;
+}
+
+
+.tabsel{
+}
+.tab DIV{
+}
+.tab A:Hover{
+}
+.tabin{
+}
+/*"tab"larýn sonu*/
+textarea{
+background-color:#FFFFFF; 
+color:#CC0000; 
+font-weight:bold;
+}
+ol{
+margin-top:3px;
+}
+#daskapital{
+display:none;
+}
+.bgtop{
+background-image: none;
+}
+.aul a{
+font-weight:normal;
+}
+/*bgleft*/
+.bgleft{
+background-image: none;
+}
+.bgleft a{
+}
+.bgleft a:hover{
+text-decoration:none;
+}
+/*bgleft*/
+i{
+color:#0030CC;
+}
+small{
+}
+fieldset{
+border:gray 1px solid;
+color: white; 
+}

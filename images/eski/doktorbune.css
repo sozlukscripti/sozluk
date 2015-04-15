@@ -1,0 +1,476 @@
+/* james dean # assert h
+ * `susayaci`na atfen..
+ * mart '08
+ */
+
+/* default styles */
+html {
+  	overflow-y:scroll;
+  	overflow-x:hidden !important;
+	scrollbar-3dlight-color : #FFFFFF;
+	scrollbar-arrow-color : #FFFFFF;
+	scrollbar-base-color : #363636;
+	scrollbar-darkshadow-color : #000000;
+	scrollbar-highlight-color : #363636;
+	scrollbar-shadow-color : #000000;
+	scrollbar-track-color : #363636;
+}
+body {
+  	font-size: 8pt;
+  	font-family: "verdana", tahoma, sans-serif;
+  	color: #c3c3c3;
+  	overflow-x:hidden;
+	background-color: #363636;
+}
+ul {
+	list-style-type: lower-roman;
+  	line-height: 12pt;
+}
+a {
+ 	color : #fff;
+  	text-decoration: none;
+  	cursor : pointer;
+  	background-color: transparent;
+font-weight: normal;
+font-size: 8pt;
+}
+b, strong { color: #fff; }
+a:hover {
+  	background-color: #222222;
+  	text-decoration: none;
+  	color:#fff;
+}
+select, input, optgroup {
+  	font-size: 8pt;
+  	font-family: "verdana", tahoma, sans-serif;
+	/* background:#ccc url(css/doktorbune/jamesdean-butbg.gif) repeat left; */
+  	background: #999;
+	border: 1px solid #ddd;
+}
+input:focus, input.tedit:focus { border: 1px solid #fff; }
+textarea {
+  	font-size: 8pt;
+  	font-family: "verdana", tahoma, sans-serif;
+  	padding:0;
+  	margin:0;
+  	border:2px #ddd solid;
+  	background-color: #939393;
+}
+textarea:focus {
+	border: 2px #fff solid;
+}
+hr { background-color: #800000; }
+th { font-size: 8pt !important; }
+td {
+	font-size: 8pt !important;
+	line-height: 12pt;
+	vertical-align: top;
+}
+p {
+  	font-size: 8pt;
+  	line-height: 14pt;
+  	vertical-align: top;
+}
+
+/* login box */
+.loginbox {
+	width: 220px;
+}
+
+/* login inputs */
+.lin {
+	width: 100%;
+}
+/* ampul abi */
+.ampul {
+}
+/* info section headers */
+.infosec {
+	border:1px #777 solid;
+	cursor:pointer;
+}
+/* right panel */
+.panel {
+	width:120px;
+	padding:0;
+	border:0;
+	font-size:x-small;
+}
+.panel table td .but { width: 25px; margin-left: 1px; height: 19px; padding: 0 0 2px 0; }
+/* arastir dropdown select */
+.asl
+{
+	width:100%;
+	margin:0;
+}
+/* ad box */
+.spot {
+  	width: 120px;
+  	float: right;
+}
+.spot TD {
+  	font-size: 7pt;
+}
+
+/* badilist */
+#badi
+{
+ 	width: 120px;
+ 	padding: 2px;
+ 	font-size: 7pt;
+  	overflow: hidden;
+	border: 1px inset;
+}
+/* inline search textbox */
+.aratext
+{
+  width:100%;
+}
+/* left frame background class */
+.bgleft {
+	background:#363636 url(css/doktorbune/jamesdean-left.jpg) bottom center no-repeat fixed;
+	overflow-x: hidden;
+}
+/* top frame background class */
+.bgtop {
+	margin:0;
+	padding:0;
+	padding-top: 5px;
+	background:#363636 url(css/doktorbune/jamesdean-logo.jpg) bottom left no-repeat fixed;
+	overflow: hidden !important;
+}
+/* inline search marker */
+.marker
+{
+	background-color: #ccff00;
+	color: #000;
+	font-weight:bold;
+}
+/* pager buttons */
+.pbut {
+	font-size: 7pt;
+	width:16px;
+	height:16px;
+}
+/* top buttons */
+.nav TD {
+	padding:2px;
+	height:16px;
+	margin:0;
+	vertical-align:middle;
+	cursor: pointer;
+}
+/* panel leds */
+.pmsg, .pbin, .pevt{
+	background:#363636;
+border: 0;
+}
+/* background:#cccccc url(css/doktorbune/jamesdean-butbg.gif) repeat top; */
+.pmsghi, .pbinhi, .pevthi { color: #fff; }
+.pmsghi { background: #cc527a; }
+.pbinhi { background: #e8175d; }
+.pevthi { background: #a8a7a7; }
+.pagi, .pagi span a { text-align: center; }
+.pagi, .pagi span a, .pagi select.pagis { font-size: 7pt !important; }
+
+.logo {
+	background-image: url(css/doktorbune/1.gif);
+	background-repeat: no-repeat;
+	width:233px;
+	height:45px;
+	cursor: default;
+}
+/* highlight color */
+.highlight
+{
+	background-color: #222222;
+}
+/* copyright line */
+.copyright
+{
+  	font-size: 7pt !important;
+	color: #dddddd;
+  	text-transform:lowercase;
+}
+/* topic title */
+.title {
+  	font-size: 13pt !important;
+  	font-family: "verdana", tahoma, sans-serif;
+font-weight: bold;
+  	background-color: transparent;
+  	width: 100%;
+  	color: #000;
+}
+.title a { font-size: 13pt !important; }
+/* buttons */
+.but {
+  	font: 8pt tahoma;
+  	text-align:center;
+  	white-space:nowrap;
+  	cursor: default;
+  	background-color: #999;
+  	color: #000;
+	border: 1px outset #bbbbbb;
+}
+/* button mouse over */
+#butOver {
+  	background:#ccc url(css/doktorbune/jamesdean-butbg.gif) repeat-x left;
+}
+/* button pressed */
+#butDown {
+  	border: 1px inset #ffffff;
+  	background-color: #ddd;
+}
+/* button link adjustments */
+.but A {
+  	color:#000;
+font-weight: normal;
+}
+
+.but A:Hover {
+	background-color: transparent;
+}
+#butOver A {
+  	color:#000;
+font-weight: normal;
+}
+#butOver A:Hover {
+  	background-color: transparent;
+  	color:#000;
+}
+input.but:hover {
+background:#ccc url(css/doktorbune/jamesdean-butbg.gif) repeat-x left;
+cursor: pointer;
+}
+/* entry buttons */
+.icon {
+
+  	font-size: 7pt;
+}
+.timer {
+ 	font-size: 7pt;
+  	vertical-align: middle;
+  	font-family:verdana;
+text-align:center;
+  	background-color:transparent;
+}
+/* entry author line */
+.aul {
+  	font-size: 8pt;
+  	line-height: 9pt;
+  	text-align: right;
+}
+/* panel classes */
+.pi {
+  	padding: 0px;
+  	text-align: center;
+}
+.pi a { color: #222222; font-size: 7pt; }
+.pi a:hover { color: #fff; }
+/* top inputtexts */
+.input {
+  	height:12px;
+  	font: 7pt Verdana, sans-serif;
+}
+/* message textarea */
+.msgtext {
+  	font-size: 8pt;
+}
+/* messages table */
+.msg {
+  	padding: 2px;
+  	font-size: 8pt !important;
+  	font-family: "verdana", tahoma, sans-serif;
+  	color: #c3c3c3;
+}
+.msg TD {
+  	font-size: 8pt !important;
+}
+/* entry text */
+.eol {
+	line-height: 14pt;
+}
+/* entry id */
+.ei {
+  	color: #fff;
+  	margin: 0;
+  	padding: 0;
+  	font-size: 7pt;
+  	font-family: tahoma, sans-serif;;
+}
+/* regular tab */
+.tab {
+  	padding-top:2px;
+  	border-bottom: 2px inset;
+  	font-size: 7pt;
+  	white-space: nowrap;
+}
+.tab DIV {
+  	line-height: 12pt;
+  	white-space: nowrap;
+  	margin-left: 1px;
+  	padding-left: 4px;
+  	padding-right: 4px;
+  	padding-top: 2px;
+  	padding-bottom: 0;
+  	border: 2px outset;
+  	border-right: 1px outset;
+  	border-bottom: 0;
+}
+.tab A:Hover {
+  	background-color: transparent;
+}
+/* selected tab */
+.tabsel {
+  	border: 2px outset;
+  	line-height: 11pt;
+  	white-space: nowrap;
+  	font-size: 7pt;
+  	padding-top: 2px;
+  	padding-bottom: 2px;
+  	padding-left: 4px;
+  	padding-right: 4px;
+  	cursor: default;
+  	border-bottom:0;
+  	white-space: nowrap;
+}
+/* tab contents */
+.tabin {
+  	border: 2px outset;
+  	border-top: 0;
+  	padding: 4px;
+  	height: 245px;
+  	font-size: 8pt;
+}
+
+/* vertical tab */
+.vtab {
+	padding-right:2px;
+  	border-left: 2px inset;
+  	font-size: 7pt;
+  	white-space: nowrap;
+  	cursor:pointer;  
+}
+.vtab DIV {
+  	line-height: 12pt;
+  	white-space: nowrap;
+  	margin-top: 1px;
+  	padding-top: 4px;
+  	padding-bottom: 4px;
+  	padding-right: 2px;
+  	padding-left: 0;
+  	border: 2px outset;
+  	border-top: 1px outset;
+  	border-left: 0px;
+  	font-size: 8pt;
+  	font-family: "verdana", tahoma, sans-serif;
+}
+.vtab a { font-size: 7pt; }
+.vtab a:hover { background-color: transparent; }
+
+/* vertical selected tab */
+.vtabsel {
+  	border: 2px outset;
+  	line-height: 11pt;
+  	white-space: nowrap;
+  	font-size: 8pt;
+  	padding-right: 2px;
+  	padding-left: 2px;
+  	padding-top: 4px;
+  	padding-bottom: 4px;
+  	cursor: default;
+  	border-left:0;
+  	white-space: nowrap;
+}
+/* vertical tab contents */
+.vtabin {
+  	border: 2px outset;
+  	border-right: 0;
+  	padding: 4px;
+  	padding-right: 10px;
+  	height: 245px;
+  	font-size: 8pt;
+}
+
+
+/* hayvan ara */
+.adiv {
+	display:block;
+  	position:absolute;
+  	top:44px;
+  	left:215px;
+  	width:18px;
+  	overflow:hidden;
+  	padding-top: 30px;
+}
+.amain {
+  	background: transparent url(css/doktorbune/jamesdean-ha-main.jpg) left center no-repeat;
+  	border:0px;
+  	width:180px;
+  	padding:4px;
+  	color: #000;
+}
+.amain fieldset { width: 170px !important; }
+.amain select { width: 50px !important; }
+.amain .but{
+	border: 1px outset;
+	background-color: #c2c2c2;
+	color: #000;
+	font-family:verdana;
+}
+.amain input{
+	background-color: #fff;
+ }
+TD.amain {
+  	font-size: 8pt;
+}
+.amain label{
+	color: #000;
+}
+.aup {
+  	border-right:0px;
+  	height:18px;
+}
+.amain .msg { color: #000; }
+.amid {
+ 	background-color: transparent;
+  	padding-right:20px;
+  	line-height:0px;
+  	font-size:0pt !important;
+  	cursor: pointer;
+  	background-image: url(css/doktorbune/jamesdean-ha.jpg);
+  	background-position: left center;
+  	background-repeat: no-repeat;
+  	height: 135px;
+
+  	border: 0px;
+}
+.abot {
+  	border-right:0px;
+  	height:140px
+}
+img, form, table {
+  	padding: 0;
+  	margin: 0;
+  	border: 0;
+
+}
+dd {
+  	margin: 0;
+  	padding: 0;
+}
+fieldset {
+	margin: 0;
+	padding: 2px;
+border: 1px solid #222;
+}
+.checkbox, .radio {
+	border: none;
+	background-color: transparent;
+} 
+li {
+
+  	margin-left: 14px;
+  	margin-right: 4px;
+  	padding:0;
+}

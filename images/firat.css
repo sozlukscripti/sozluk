@@ -1,0 +1,805 @@
+/*
+firat temasi hihi evet
+*/
+
+
+
+/* login inputs */
+.lin {
+    width: 100%;
+}
+
+/* http://url links */
+.url{
+	color: #3D6219;
+}
+
+/* (bkz: ) links */
+.b {
+	color: Red;
+}
+
+/* (ara: ) links */
+.ara {
+	color: #009760;
+}
+
+/* `gorunmez bkz` */
+.gb {
+	color: Navy;
+}
+
+/* akilli bkz* */
+.ab {
+}
+
+/* ampul abi */
+.ampul {
+    list-style-image: url(firat/bkb_ampul.gif);
+    margin-left: 35px;
+}
+/* info section headers */
+.infosec {
+	background-color: transparent;
+    border: #CACAA3 1px outset;
+	 padding-top: 2px;
+	 padding-bottom: 2px;
+    cursor:pointer;
+}
+#sb_1, #sb_2, #sb_3, #sb_4, #sb_5{
+	background-color: #E0E0C9;
+}
+/* right panel */
+.panel {
+    width:120px;
+    padding:0px;
+    padding-left:4px;
+    font-size:0px; 
+}
+/* arastir dropdown select */
+.asl
+{
+    width:100%;
+    margin:0;
+}
+/* ad box */
+.spot {
+  width: 120px;
+  float:right;
+}
+.spot TD {
+  font-size: 7pt;
+}
+
+/* badilist */
+#badi
+{
+  width: 120px;
+  padding: 2px;
+  font-size: 7pt;
+  overflow: hidden;
+  border: 1px inset;
+}
+/* inline search textbox */
+.aratext{
+  width:100%;
+  background-image: url(firat/bkb_aratext.gif);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+/* left frame background class */
+.bgleft {
+  overflow-x: hidden;
+  color: #696B3B;
+  background-image:url(firat/bkb_bgleft.gif);
+  background-position:bottom left;
+  background-repeat:no-repeat;
+  background-attachment: scroll;
+}
+.bgleft .pagi{
+	color:#999999;
+	font-size:9px;
+}
+.bgleft a:link{
+	font-style: normal;
+}
+/* top frame background class */
+.bgtop {
+    margin:0;
+    padding:0;
+    overflow: hidden !important;
+	background-image:url(firat/bkb_bgtop.gif);
+	background-position: top right;
+	background-repeat:no-repeat;
+}
+/* inline search marker */
+.marker{
+    background-color: #FF8000;
+    color: white;
+	 font-weight: bold;
+}
+/* pager buttons */
+.pbut {
+  font-size: 7pt;
+  width:16px;
+  height:16px;
+}
+/* top buttons */
+.nav TD {
+	padding:0px;
+	height:22px;
+	margin:0px;
+	vertical-align: middle;
+	cursor:default;
+	color: #A0522D;
+}
+.bgtop input{
+	background-color: #EFCF8D;
+	height: 23px;
+}
+/* panel leds */
+
+.pmsg{
+	background-image: url(firat/bkb_m1.gif);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: top center;
+	vertical-align: bottom;
+}
+.pbin{
+	background-image: url(firat/bkb_c1.gif);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: top center;
+	vertical-align: bottom;
+}
+.pevt{
+	background-image: url(firat/bkb_o1.gif);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: top center;
+	vertical-align: bottom;
+}
+.pmsghi{
+	background-image: url(firat/bkb_m2.gif);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: top center;
+	vertical-align: bottom;
+}
+.pbinhi{
+	background-image: url(firat/bkb_c2.gif);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: top center;
+	vertical-align: bottom;
+}
+.pevthi{
+	background-image: url(firat/bkb_o2.gif);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: top center;
+	vertical-align: bottom;
+}
+.pmsg, .pmsghi, .pbin, .pbinhi, .pevt, .pevthi{
+	width: 35px;
+	height: 39px;
+}
+.pmsg a,  .pbin a, .pevt a{
+	color: #95622E;
+}
+.pmsghi a, .pbinhi a, .pevthi a{
+color: Maroon;
+}
+/* page browser text */
+.pagi {
+  font-size: x-small;
+  text-align: center;
+}
+.pagi select {
+  font-size: smaller;
+}
+.pagi a {
+  font-size: small;
+}
+/* fermuar logo! */
+.logo {
+  background-image: url(firat/logo_firat.png);
+  background-repeat: no-repeat;
+  width:232px;
+  height:50px;
+  cursor:default;
+}
+/* highlight color */
+.highlight{
+  background-color: #E4E4D0;
+}
+
+/* copyright line */
+.copyright{
+font-size: 0px;
+color: #E0E0C9;
+line-height: 0px;
+position: absolute;
+top: 0px;
+right: 0px;
+width: 300px;
+height: 100px;
+background-image: url(firat/bkb_copyright.gif);
+background-position: top right;
+background-repeat: no-repeat;
+z-index: -1;
+}
+.vtabin .copyright{
+	display: none;
+}
+/* copyright line */
+
+
+
+/* topic title */
+.title {
+  font: bold 12pt Verdana, sans-serif;
+  background-color: transparent;
+  background-position: top left;
+  background-repeat: no-repeat;
+  color: #FF2F0B;
+  border: none;
+
+}
+.title a{
+  color: #FF2F0B;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.title a:hover{
+background-color: transparent;
+}
+/* buttons */
+.but {
+  font-size: 8pt;
+  font-family: Verdana;
+  text-align:center;
+  white-space:nowrap;
+  cursor: default;
+  background-color: #CC8500;
+/*
+  color: white;
+  border: 2px solid #BD5F00;
+  */
+  border: 1px solid #9F6800;
+}
+/* button mouse over */
+#butOver {
+  background-color: #FF4500;
+  border: 1px solid #7B50B1;
+  cursor: pointer;
+}
+/* button pressed */
+#butDown {
+	background-color: #FF0000;
+    border: 1px solid #7B50B1;
+}
+/* button link adjustments */
+.but A, .aul .but a{
+  color: white;
+}
+.but A:Hover, .aul .but a:hover {
+  background-color: transparent;
+  color:white;
+}
+#butOver A {
+  color:white;
+}
+#butOver A:Hover {
+  background-color: transparent;
+  color:white;
+}
+/* entry buttons (derived from but) */
+.icon {
+  font-size: 7pt;
+}
+.timer {
+  font-size: 7pt;
+  font-family: Tahoma;
+  vertical-align: middle;
+  height: 40px;
+  width: auto;
+  padding-left: 50px;
+  padding-right: 10px;
+  background-image: url(firat/bkb_timer.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-left: 5px;
+  color: #A88868;
+}
+/* entry author line */
+.aul {
+  font-size: 8pt;
+  line-height: 9pt;
+  text-align: right;
+  color: #484800;
+}
+.vtabin .aul{
+background-image: none;
+}
+.aul a{
+	color: #9D0000;
+}
+.aul a:hover{
+	background-color: transparent;
+	color: #FF0040;
+}
+/* panel classes */
+.pi {
+  border: 0px;
+  font-size: 7pt;
+  padding: 0px;
+  text-align: center;
+}
+.pi A:Hover {
+  background-color: transparent;
+}
+/* top inputtexts */
+.input {
+  height:12px;
+  font: 7pt Verdana, sans-serif;
+}
+/*kime kime? ona buna daha kime mesaj?*/
+#ssg .msgtext {
+	font-size: 8pt;
+	background-color: #ead9c4;
+	background-image: url(firat/bkb_mesajlasma.jpg);
+	background-attachment: scroll;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	height: 125px;
+	border: 1px solid #CCA371;
+}
+#ssg .msgtext, #ssg input{
+	color: Black;
+}
+#ssg .but{
+	color: White;
+}
+
+/* messages table */
+.msg {
+  padding: 2px;
+  font-size: 8pt;
+  color: black;
+}
+.msg TD {
+  font-size: 8pt;
+}
+/* entry text */
+.eol {
+    line-height: 14pt;
+}
+/* entry id */
+.ei {
+  color: #808080;
+  margin: 0px;
+  padding: 0px;
+  font-size: 7pt;
+}
+.ei a:hover{
+  padding-left: 65px;
+  background-image: url(firat/bkb_ei.gif);
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+/* regular tab */
+.tab {
+  padding-top:2px;
+  border-bottom: #2D429F 1px solid;
+  font-size: 7pt;
+  white-space: nowrap;
+}
+.tab DIV {
+  line-height: 12pt;
+  white-space: nowrap;
+  margin-left: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 0;
+  border: #2D429F 1px solid;
+  border-right: #2D429F 1px solid;
+  border-bottom: 0;
+}
+.tab A:Hover {
+  background-color: transparent;
+}
+/* selected tab */
+.tabsel {
+  border: #2D429F 1px solid;
+  line-height: 11pt;
+  white-space: nowrap;
+  font-size: 7pt;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  cursor: default;
+  border-bottom:0;
+  white-space: nowrap;
+}
+/* tab contents */
+.tabin {
+  border: #2D429F 1px solid;
+  border-top: 0;
+  padding: 4px;
+  height: 245px;
+  font-size: 8pt;
+}
+
+/* vertical tab */
+.vtab {
+  padding-right:2px;
+  border-left: #2D429F 1px solid;
+  font-size: 7pt;
+  white-space: nowrap;
+  cursor:pointer;  
+}
+.vtab DIV {
+  line-height: 12pt;
+  white-space: nowrap;
+  padding: 4px 2px 4px 3px;
+  border: #2D429F 1px solid;
+  border-top: #2D429F 1px solid;
+  border-left: 0;
+}
+.vtab A:Hover {
+  background-color: transparent;
+}
+/* vertical selected tab */
+.vtabsel {
+  border: #2D429F 1px solid;
+  background-color: transparent;
+  line-height: 11pt;
+  white-space: nowrap;
+  font-size: 7pt;
+  padding: 4px 2px 4px 5px;
+  cursor: default;
+  border-left:0;
+  white-space: nowrap;
+}
+/* vertical tab contents */
+.vtabin {
+  border: #2D429F 1px solid;
+  border-right: 0;  
+  padding: 4px 10px 4px 4px;
+  height:245px; /* min */
+  font-size: 8pt;
+}
+/* hayvan ara */
+
+.adiv {
+	display:block;
+	position:absolute;
+	top:44px;
+	left:213px;
+	width:15px;
+	overflow:hidden;
+}
+.amain {
+	background-color: #8ebcf0;
+	border:1px solid #792167;
+	color:#000000;
+	border-left:0;
+	padding:4px
+}
+.amain .but{
+	background-image: url(firat/bkb_h2.gif);
+	background-position: center center;
+	background-repeat:no-repeat;
+	color: #CC8500;
+	font-size: 0px;
+	vertical-align:bottom;
+	height: 20px;
+	width: 175px;
+}
+TD.amain {
+	font-size: 8pt;
+}
+.aup {
+	border-right:1px solid #792167;
+	height:18px;
+	background-image:none;
+}
+.amid {
+	background-color: #B1CC8E;
+	background-image:url(firat/bkb_h1.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+	border:1px solid #792167;
+	border-right:0px;
+	padding-right:20px;
+	line-height:10px;
+	font-size:0px;
+	cursor:pointer;
+	text-align:left;
+}
+.abot {
+	border-right:1px solid #792167;
+	height:140px;
+}
+
+.link:hover {
+  cursor:pointer;
+}
+
+/*hayvan ara bitti*/
+
+
+/* default styles */
+body {
+	font: 9pt Verdana, sans-serif;
+	background-color: #E0E0C9;
+	color: black;
+	padding-bottom: 50px;
+	background-image:url(firat/bkb_bg.gif);
+	background-position: bottom right;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+}
+::selection {
+	background: #D0D0B1; 
+	color: Black; }
+ 
+::-moz-selection {
+	background: #D0D0B1;
+	color: Black; }
+html{
+	scrollbar-3dlight-color :#E5D3BC;
+	scrollbar-arrow-color : white;
+	scrollbar-base-color :#D2B48C;
+	scrollbar-darkshadow-color : #AB8045;
+	scrollbar-highlight-color : #E3D1BB;
+	scrollbar-shadow-color : Silver;
+	scrollbar-track-color : Black;
+}
+
+html .bgleft html{
+	scrollbar-track-color : #E0E0C9;
+}
+
+iframe {
+	border:none;
+}
+ul {
+	line-height: 12pt;
+}
+a, .vtabin .b, .vtabin .ara, .vtabin .gb{
+	color : #640032;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #E8E8D6;
+}
+
+a::selection {
+	background: #F5ECE1; 
+	color: Black; }
+ 
+a::-moz-selection {
+	background: #F5ECE1;
+	color: Black; }
+
+b{
+	color: #8B0000;
+}
+b a{
+	color: Olive;
+}
+select, input, optgroup {
+	font: 8pt Verdana, sans-serif;
+  	border: 1px solid #CCA371;
+	background-color: #ead9c4;
+}
+textarea {
+	font: 9pt Verdana, sans-serif;
+  	border: 1px solid #CCA371;
+	background-color: #ead9c4;
+	background-image: url(firat/bkb_yazi.gif);
+	background-attachment: scroll;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	scrollbar-track-color : #ead9c4;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+hr {
+	color: black;
+	height: 1px;
+}
+th {
+	font-size: 9pt;
+}
+td {
+   	font-size: 9pt;
+   	line-height: 12pt;
+   	vertical-align: top;
+}
+p {
+  	font-size: 9pt;
+ 	line-height: 14pt;
+ 	vertical-align: top;
+}
+img, form, table {
+  	padding: 0;
+  	margin: 0;
+  	border: 0;
+}
+dd {
+ 	margin: 0;
+ 	padding: 0;
+}
+fieldset {
+   	margin: 0;
+   	padding: 2px;
+	border: 1px #A0522D solid;
+	color: #A0522D;
+}
+.checkbox, .radio {
+    	border: none;
+    	background-color: transparent;
+} 
+li {
+	margin-left: 14px;
+	margin-right: 4px;
+	padding:0;
+}
+ol li:hover{
+	background-image: url(firat/bkb_gulesmek.gif);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+}
+/*entry yazma yeri*/
+#d{
+  	border: 1px solid #CCA371;
+	background-color: #ead9c4;
+}
+/*yolla butonu*/
+
+#b{
+	background-color: #FFDA75;
+	color: #FFDA75;
+	border-color: #D49B00;
+	background-image: url(firat/bkb_yolla.gif);
+}
+
+/*kenarda dursun*/
+
+#b2{
+	background-color: #86DE98;
+	background-image: url(firat/bkb_sakla.gif);
+	color: #792167;
+	border-color: #2EA747;
+}
+
+/*yolla ve kenarda dursun beraber*/
+#b, #b2{
+	background-repeat:no-repeat;
+	background-position: center center;
+	height: 25px;
+	width: 110px;
+	font-size: 0px;
+	padding-top: 20px;
+}
+
+td #b{
+  	background-color: #CC8500;
+ 	border: 1px solid #9F6800;
+ 	background-image: url(firat/bkb_gonder2.gif);
+  	background-position: center center;
+ 	background-repeat: no-repeat;
+ 	height: 15px;
+  	width: 75px;
+  	padding-top: 13px;
+}
+
+/*ssg'nin butonlari*/
+#msg{
+  	border: 1px solid #CCA371;
+	background-color: #ead9c4;
+  	background-image: url(firat/bkb_isalla.gif);
+  	background-position: bottom center;
+  	background-repeat: no-repeat;
+  	height: 110px;
+	color: black;
+}
+#ssg{
+	color: Black;
+}
+
+.vtabin #ssg{
+	background-image: none;
+	color: Black;
+	padding-top: 0px;
+}
+
+
+#t{
+	width: 187px !important;
+	height: 18px !important;
+	font-size: 15px;
+	font-family: Tahoma;
+	color : #640032;/*	color: #A0522D; */
+}
+
+.panel table td .but {
+	width: 85%;
+}
+
+ol#el.eol{
+	background-color: transparent;
+	background-image:none;
+	background-position: top left;
+	background-repeat: repeat-y;
+}
+
+/* ispiyon */
+#rt{
+  	border: 1px solid #CCA371;
+	background-color: #ead9c4;
+	background-image: url(firat/bkb_tokat.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 140px;
+	color: black;
+	
+}
+/*ispiyon yolla tu?u*/
+#bo{
+	background-color: #b9ff75;
+	color: #b9ff75;
+	border-color: #46d400;
+	background-repeat:no-repeat;
+	background-position: center center;
+	height: 25px;
+	width: 110px;
+	font-size: 0px;
+	padding-top: 20px;
+	background-image: url(firat/bkb_ispik.gif);
+}
+#bc{
+	background-color: #ff7575;
+	color: #ff7575;
+	border-color: #d40500;
+	background-repeat:no-repeat;
+	background-position: center center;
+	height: 25px;
+	width: 110px;
+	font-size: 0px;
+	padding-top: 20px;
+	background-image: url(firat/bkb_kac.gif);
+}
+html body div table tbody tr td form fieldset{
+	background-image: url(firat/bkb_melis.gif);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-position-y: 10px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+#kw{
+	margin-top: 24px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+.bgleft #kw, .bgtop #kw{
+	margin-top: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+#as, #ad{
+	display: none;
+}
+#to, #b, .vtabin #ssg input, #b2, #bo, #bc{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}

@@ -1,0 +1,493 @@
+/* south park v3 -- assert h
+ * respect to 'fsol' & 'aah minel ask' !
+ * mart2007-gunlerdenbigun
+ */
+
+/* login box */
+.loginbox {
+  width: 220px;
+}
+
+/* login inputs */
+.lin {
+	width: 100%;
+}
+/* ampul abi */
+.ampul {
+	background-image: url(/img/ampul.gif);
+	background-repeat: no-repeat;
+	width:18px;
+	height:18px;	
+	cursor:pointer;
+}
+/* info section headers */
+.infosec {
+	border:1px #ff9900 outset;
+	cursor:pointer;
+}
+/* right panel */
+.panel {
+	width:120px;
+	padding:0;
+	border:0;
+	font-size:x-small;
+}
+/* arastir dropdown select */
+.asl
+{
+	width:100%;
+	margin:0;
+}
+/* ad box */
+.spot {
+  width: 120px;
+  float: right;
+}
+.spot TD {
+  font-size: 7pt;
+}
+
+/* badilist */
+#badi
+{
+  width: 120px;
+  padding: 2px;
+  font-size: 7pt;
+  overflow: hidden;
+  border: 1px inset;
+}
+/* inline search textbox */
+.aratext
+{
+  width:100%;
+}
+/* left frame background class */
+.bgleft {
+background-color:#152f57;
+background-image:url(css/southpark/spv3leftbgig8.jpg);
+background-position: top left;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+/* top frame background class */
+.bgtop {
+	margin:0;
+	padding:0;
+	background-image:url(spv3-topbg.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+/* inline search marker */
+.marker
+{
+	background-color: #006633;
+	color: #fff;
+	text-decoration:underline;
+}
+/* pager buttons */
+.pbut {
+  font-size: 7pt;
+  width:16px;
+  height:16px;
+}
+/* top buttons */
+.nav TD {
+  padding:2px;
+  height:16px;
+  margin:0;
+  vertical-align:middle;
+  cursor: pointer;
+}
+/* panel leds */
+.pmsg, .pbin, .pevt, .pmsghi, .pbinhi, .pevthi {
+	background-position: top center;
+	background-repeat: no-repeat;
+	border: none;
+	background-color: transparent;
+	height: 50px;
+	vertical-align: bottom;
+	text-align: center;
+}
+.pmsg, .pbin, .pevt{
+	background-image: url(ed-mco-off.gif);
+}
+.pmsghi{
+	background-image: url(spv3-msg.gif);
+	border-bottom: 3px solid #006633;
+}
+.pbinhi{
+	background-image: url(spv3-cop.gif);
+	border-bottom: 3px solid #006633;
+}
+.pevthi{
+	background-image: url(spv3-olay.gif);
+	border-bottom: 3px solid #006633;
+}
+/* page browser text */
+.pagi {
+  font-size: 7pt;
+  text-align: center;
+}
+/* page selector (select) */
+.pagis {
+  font-size: 6pt;
+}
+/* ek$i sozluk logo! */
+.logo {
+  background-image: url(1.gif);
+  background-repeat: no-repeat;
+  width:233px;
+  height:45px;
+  cursor: default;
+}
+/* highlight color */
+.highlight
+{
+  background-color: #006633;
+  border:1px #152f57 dashed;
+}
+/* copyright line */
+.copyright
+{
+  font-size: 7pt;
+  color: #dddddd;
+  text-transform:lowercase;
+}
+/* topic title */
+.title {
+  font: bold 12pt trebuchet ms, sans-serif;
+  background-color: transparent;
+  width: 100%;
+  color: #000;
+}
+/* buttons */
+.but {
+  font: 8pt comic sans ms;
+  text-align:center;
+  white-space:nowrap;
+  cursor: default;
+  background-color: #ff9900;
+  color: #fff;
+  border: 2px outset #bbbbbb;
+}
+/* button mouse over */
+#butOver {
+  background-color: #006633;
+}
+/* button pressed */
+#butDown {
+  border: 1px inset #ffffff;
+  background-color: #006633;
+}
+/* button link adjustments */
+.but A {
+  color:#ffffff;
+}
+.but A:Hover {
+  background-color: transparent;
+  color:#ffffff;
+}
+#butOver A {
+  color:#ffffff;
+}
+#butOver A:Hover {
+  background-color: transparent;
+  color:#ffffff;
+}
+/* entry buttons */
+.icon {
+  font-size: 7pt;
+}
+.timer {
+  font-size: 7pt;
+  vertical-align: middle;
+  font-family:tahoma;
+}
+/* entry author line */
+.aul {
+  font-size: 8pt;
+  line-height: 9pt;
+  text-align: right;
+}
+/* panel classes */
+.pi {
+  font-size: 7pt;
+  padding: 0px;
+  text-align: center;
+  text-transform:uppercase;
+}
+.pi A:Hover {
+  background-color: #006633;
+  color: #fff;
+}
+/* top inputtexts */
+.input {
+  height:12px;
+  font: 7pt Verdana, sans-serif;
+}
+/* message textarea */
+.msgtext {
+  font-size: 8pt;
+}
+/* messages table */
+.msg {
+  padding: 2px;
+  font-size: 8pt;
+  color: #fff;
+}
+.msg TD {
+  font-size: 8pt;
+}
+/* entry text */
+.eol {
+	line-height: 14pt;
+}
+/* entry id */
+.ei {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 7pt;
+  font-family: georgia, sans-serif;;
+}
+/* regular tab */
+.tab {
+  padding-top:2px;
+  border-bottom: 2px inset;
+  font-size: 7pt;
+  white-space: nowrap;
+}
+.tab DIV {
+  line-height: 12pt;
+  white-space: nowrap;
+  margin-left: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 0;
+  border: 2px outset;
+  border-right: 1px outset;
+  border-bottom: 0;
+}
+.tab A:Hover {
+  background-color: #006633;
+}
+/* selected tab */
+.tabsel {
+  border: 2px outset;
+  line-height: 11pt;
+  white-space: nowrap;
+  font-size: 7pt;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  cursor: default;
+  border-bottom:0;
+  white-space: nowrap;
+}
+/* tab contents */
+.tabin {
+  border: 2px outset;
+  border-top: 0;
+  padding: 4px;
+  height: 245px;
+  font-size: 8pt;
+}
+
+/* vertical tab */
+.vtab {
+  padding-right:2px;
+  border-left: 2px inset;
+  font-size: 7pt;
+  white-space: nowrap;
+  cursor:pointer;  
+}
+.vtab DIV {
+  line-height: 12pt;
+  white-space: nowrap;
+  margin-top: 1px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 2px;
+  padding-left: 0;
+  border: 2px outset;
+  border-top: 1px outset;
+  border-left: 0;
+}
+.vtab A:Hover {
+  background-color: #006633;
+  text-decoration:none;
+}
+/* vertical selected tab */
+.vtabsel {
+  border: 2px outset;
+  line-height: 11pt;
+  white-space: nowrap;
+  font-size: 7pt;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: default;
+  border-left:0;
+  white-space: nowrap;
+}
+/* vertical tab contents */
+.vtabin {
+  border: 2px outset;
+  border-right: 0;
+  padding: 4px;
+  padding-right: 10px;
+  height: 245px;
+  font-size: 8pt;
+}
+
+
+/* hayvan ara */
+.adiv {
+  display:block;
+  position:absolute;
+  top:44px;
+  left:215px;
+  width:18px;
+  overflow:hidden;
+  padding-top: 30px;
+}
+.amain {
+  background-color: #ff9900;
+  border:1px solid #080C10;
+  border-left:0px;
+  width:100%;
+  padding:4px;
+  color: #000;
+}
+.amain .but{
+	border: 1px outset;
+	background-color: #ffa500;
+        color: #000;
+        font-family:verdana;
+}
+.amain input{
+ }
+TD.amain {
+  font-size: 8pt;
+}
+.amain label{
+	color: #000;
+}
+.aup {
+  border-right:1px solid #080C10;
+  height:18px;
+}
+.amid {
+  padding-right:15px;
+  line-height:0px;
+  font-weight:normal;
+  font-size:8px;
+  cursor: pointer;
+  background-image: url(css/southpark/spv3-hayvanara.jpg);
+  background-color:#ff9900;
+  height: 135px;
+  color: #152f57;
+  text-align: right;
+  border:0px;
+  border-right: none;
+  
+  
+  
+  
+  
+  
+}
+.abot {
+  border-right:1px solid #ff9900;
+  height:140px
+}
+/* default styles */
+html {
+  overflow-y:scroll;
+  overflow-x:hidden;
+scrollbar-3dlight-color : #FF9900;
+scrollbar-arrow-color : #FFF;
+scrollbar-base-color : #152F57;
+scrollbar-darkshadow-color : #000000;
+scrollbar-highlight-color : #152F57;
+scrollbar-shadow-color : #000;
+scrollbar-track-color : #152F57;
+}
+body {
+  font: 10pt trebuchet ms, sans-serif;
+  color: #ffffff;
+  background-color:#152f57;
+}
+ul {
+	list-style-type: lower-roman;
+  line-height: 12pt;
+}
+a {
+  color : #ff9900;
+  text-decoration: none;
+  cursor : pointer;
+  background-color: transparent;
+}
+a:hover {
+  background-color: #006633;
+  text-decoration: none;
+  color:#fff;
+}
+select, input, optgroup {
+  font: 8pt trebuchet ms, sans-serif;
+  background-color: #ff9900;
+}
+textarea {
+  font: 10pt comic sans ms, sans-serif;
+  width:100%;
+  padding:0;
+  margin:0;
+  border:2px #ff9900 inset;
+  background-color: #fff;
+  background-image: url(css/southpark/textareabgmb5.jpg);
+  background-position: center center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+}
+hr {
+  color: #152f57;
+}
+th {
+	font-size: 9pt;
+}
+td {
+	font-size: 9pt;
+	line-height: 12pt;
+	vertical-align: top;
+}
+p {
+  font-size: 10pt;
+  line-height: 14pt;
+  vertical-align: top;
+}
+img, form, table {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+dd {
+  margin: 0;
+  padding: 0;
+}
+fieldset {
+	margin: 0;
+	padding: 2px;
+}
+.checkbox, .radio {
+	border: none;
+	background-color: transparent;
+} 
+li {
+  margin-left: 14px;
+  margin-right: 4px;
+  padding:0;
+}

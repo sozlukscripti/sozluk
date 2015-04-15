@@ -1,0 +1,280 @@
+.loginbox {
+        WIDTH: 220px
+}
+.lin {
+        WIDTH: 100%
+}
+.url {
+       
+}                    
+.b {
+       
+}
+.ara {
+       
+}
+.gb {
+       
+}
+.ab {
+       
+}
+.ampul {
+        BACKGROUND-IMAGE: url(ampul.gif); WIDTH: 18px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 18px
+}
+ 
+.infosec {
+        BORDER-BOTTOM: 1px outset; BORDER-LEFT: 1px outset; BORDER-TOP: 1px outset; CURSOR: pointer; BACKGROUND-COLOR: #F02E2E; COLOR: #000000; BORDER-RIGHT: 1px outset
+}
+.infosec2 {
+        border:1px outset;
+        cursor:pointer;
+        background-color: #444444;
+        color: black;
+}
+.panel {
+        BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 120px; PADDING-RIGHT: 0px; FONT-SIZE: x-small; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.asl {
+        MARGIN: 0px; WIDTH: 100%
+}
+.spot {
+        WIDTH: 120px; FLOAT: right
+}
+.spot TD {
+        FONT-SIZE: 7pt
+}
+#badi {
+        BORDER-BOTTOM: 1px inset; BORDER-LEFT: 1px inset; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; WIDTH: 120px; PADDING-RIGHT: 2px; FONT-SIZE: 7pt; OVERFLOW: hidden; BORDER-TOP: 1px inset; BORDER-RIGHT: 1px inset; PADDING-TOP: 2px
+}
+.aratext {
+        WIDTH: 100%
+}
+.bgleft {
+               
+}
+.bgtop {
+        PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.marker {
+        BACKGROUND-COLOR: yellow; COLOR: black
+}
+.pbut {
+        WIDTH: 16px; HEIGHT: 16px; FONT-SIZE: 7pt
+}
+.nav TD {
+        PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; HEIGHT: 16px; VERTICAL-ALIGN: middle; CURSOR: pointer; PADDING-TOP: 2px
+}
+.pmsg {
+        BACKGROUND-COLOR: #006000
+}
+.pmsghi {
+        BACKGROUND-COLOR: #00f000
+}
+.pbin {
+        BACKGROUND-COLOR: #606000
+}
+.pbinhi {
+        BACKGROUND-COLOR: #f0f000
+}
+.pevt {
+        BACKGROUND-COLOR: #606000
+}
+.pevthi {
+        BACKGROUND-COLOR: #f0f000
+}
+.pagi {
+        TEXT-ALIGN: center; FONT-SIZE: 7pt
+}
+.pagis {
+        FONT-SIZE: 6pt
+}
+.logo {
+        BACKGROUND-IMAGE: url(sozluklogo.png); WIDTH: 132px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 50px; CURSOR: default
+}
+.highlight {
+        BACKGROUND-COLOR: #000000
+}
+.copyright {
+        COLOR: #909090; FONT-SIZE: 7pt
+}
+.title {
+        BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BACKGROUND-COLOR: transparent; WIDTH: 100%; FONT: bold 12pt Verdana, sans-serif; COLOR: #b30000; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.but {
+        BORDER-BOTTOM: #242223 2px outset; TEXT-ALIGN: center; BORDER-LEFT: #242223 2px outset; BACKGROUND-COLOR: #F02E2E; FONT: 8pt Arial, sans-serif; WHITE-SPACE: nowrap; COLOR: white; BORDER-TOP: #242223 2px outset; CURSOR: default; background-image: url(http://i.imgur.com/3AEHBRw.png); BORDER-RIGHT: #242223 2px outset
+}
+#butOver {
+        BACKGROUND-COLOR: #FC3D3D
+}
+#butDown {
+        BORDER-BOTTOM: 2px inset; BORDER-LEFT: 2px inset; BORDER-TOP: 2px inset; BORDER-RIGHT: 2px inset
+}
+.but A {
+        COLOR: white
+}
+.but A:hover {
+        BACKGROUND-COLOR: transparent; COLOR: white
+}
+#butOver A {
+        COLOR: white
+}
+#butOver A:hover {
+        BACKGROUND-COLOR: transparent; COLOR: white
+}
+.icon {
+        FONT-SIZE: 7pt
+}
+.timer {
+        FONT-SIZE: 7pt; VERTICAL-ALIGN: middle
+}
+.aul {
+        TEXT-ALIGN: right; LINE-HEIGHT: 9pt; FONT-SIZE: 8pt
+}
+.pi {
+        BORDER-BOTTOM: #333333 1px inset; TEXT-ALIGN: center; BORDER-LEFT: 1px inset; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 7pt; BORDER-TOP: 1px inset; BORDER-RIGHT: 1px inset; PADDING-TOP: 0px; BACKGROUND-COLOR: #F2F8FA; COLOR:#000000;
+}
+.pi A:hover {
+        BACKGROUND-COLOR: transparent
+}
+.input {
+        FONT: 7pt Verdana, sans-serif; HEIGHT: 12px
+}
+.msgtext {
+        FONT-SIZE: 8pt
+}
+.msg {
+        PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; COLOR: black; FONT-SIZE: 8pt; PADDING-TOP: 2px
+}
+.msg TD {
+        FONT-SIZE: 8pt
+}
+.eol {
+        LINE-HEIGHT: 14pt
+}
+.ei {
+        PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #808080; FONT-SIZE: 7pt; PADDING-TOP: 0px
+}
+.tab {
+        BORDER-BOTTOM: 2px inset; WHITE-SPACE: nowrap; FONT-SIZE: 7pt; PADDING-TOP: 2px
+}
+.tab DIV {
+        BORDER-BOTTOM: 0px; BORDER-LEFT: 2px outset; PADDING-BOTTOM: 0px; LINE-HEIGHT: 12pt; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; WHITE-SPACE: nowrap; MARGIN-LEFT: 1px; BORDER-TOP: 2px outset; BORDER-RIGHT: 1px outset; PADDING-TOP: 2px
+}
+.tab A:hover {
+        BACKGROUND-COLOR: transparent
+}
+.tabsel {
+        BORDER-BOTTOM: 0px; BORDER-LEFT: 2px outset; PADDING-BOTTOM: 2px; LINE-HEIGHT: 11pt; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; WHITE-SPACE: nowrap; FONT-SIZE: 7pt; BORDER-TOP: 2px outset; CURSOR: default; BORDER-RIGHT: 2px outset; PADDING-TOP: 2px
+}
+.tabin {
+        BORDER-BOTTOM: 2px outset; BORDER-LEFT: 2px outset; PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; HEIGHT: 245px; FONT-SIZE: 8pt; BORDER-TOP: 0px; BORDER-RIGHT: 2px outset; PADDING-TOP: 4px
+}
+.vtab {
+        BORDER-LEFT: 2px inset; PADDING-RIGHT: 2px; WHITE-SPACE: nowrap; FONT-SIZE: 7pt; CURSOR: pointer
+}
+.vtab DIV {
+        BORDER-BOTTOM: 2px outset; BORDER-LEFT: 0px; PADDING-BOTTOM: 4px; LINE-HEIGHT: 12pt; MARGIN-TOP: 1px; PADDING-LEFT: 0px; PADDING-RIGHT: 2px; WHITE-SPACE: nowrap; BORDER-TOP: 1px outset; BORDER-RIGHT: 2px outset; PADDING-TOP: 4px
+}
+.vtab A:hover {
+        BACKGROUND-COLOR: transparent
+}
+.vtabsel {
+        BORDER-BOTTOM: 2px outset; BORDER-LEFT: 0px; PADDING-BOTTOM: 4px; LINE-HEIGHT: 11pt; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; WHITE-SPACE: nowrap; FONT-SIZE: 7pt; BORDER-TOP: 2px outset; CURSOR: default; BORDER-RIGHT: 2px outset; PADDING-TOP: 4px
+}
+.vtabin {
+        BORDER-BOTTOM: 2px outset; BORDER-LEFT: 2px outset; PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 10px; HEIGHT: 245px; FONT-SIZE: 8pt; BORDER-TOP: 2px outset; BORDER-RIGHT: 0px; PADDING-TOP: 4px
+}
+.adiv {
+        POSITION: absolute; WIDTH: 15px; DISPLAY: block; OVERFLOW: hidden; TOP: 44px; LEFT: 213px
+}
+.amain {
+        BORDER-BOTTOM: 1px outset; BORDER-LEFT: 0px; PADDING-BOTTOM: 4px; BACKGROUND-COLOR: #F4F4F4; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BORDER-TOP: 1px outset; BORDER-RIGHT: 1px outset; PADDING-TOP: 4px
+}
+TD.amain {
+        FONT-SIZE: 8pt
+}
+.aup {
+        HEIGHT: 18px; BORDER-RIGHT: 1px inset
+}
+.amid {
+        BORDER-BOTTOM: 1px outset; BORDER-LEFT: 1px outset; PADDING-BOTTOM: 4px; LINE-HEIGHT: 8pt; BACKGROUND-COLOR: #F4F4F4; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; FONT-SIZE: 8pt; BORDER-TOP: 1px outset; CURSOR: pointer; FONT-WEIGHT: bold; BORDER-RIGHT: 0px; PADDING-TOP: 4px; background-image: url(http://i.imgur.com/H4lP2Wt.png); COLOR: transparent
+}
+.abot {
+        HEIGHT: 140px; BORDER-RIGHT: 1px inset
+}
+HTML {
+        OVERFLOW-Y: scroll
+}
+BODY {
+        FONT: 9pt Verdana, sans-serif; BACKGROUND-IMAGE: url(logo.gif); background-repeat:no-repeat; background-position: center; background-attachment:fixed; BACKGROUND: #000000; background-image: url(http://i.imgur.com/DtL6MzW.jpg);  COLOR: black
+}
+UL {
+        LINE-HEIGHT: 12pt; LIST-STYLE-TYPE: lower-roman
+}
+A {
+        COLOR: #F02E2E; TEXT-DECORATION: none
+}
+A:hover {
+        BACKGROUND-COLOR: #F02E2E; COLOR: #000000;
+}
+SELECT {
+        FONT: 8pt Verdana, sans-serif
+}
+INPUT {
+        FONT: 8pt Verdana, sans-serif
+}
+OPTGROUP {
+        FONT: 8pt Verdana, sans-serif
+}
+TEXTAREA {
+        BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; FONT: 9pt Verdana, sans-serif; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px;COLOR: #000000; BACKGROUND: transparent;  BORDER-BOTTOM: #000000; BORDER-LEFT: #000000;
+}
+HR {
+        COLOR: #000000
+}
+TH {
+        FONT-SIZE: 9pt
+}
+TD {
+        LINE-HEIGHT: 12pt; FONT-SIZE: 9pt; VERTICAL-ALIGN: top
+}
+P {
+        LINE-HEIGHT: 14pt; FONT-SIZE: 9pt; VERTICAL-ALIGN: top
+}
+IMG {
+        BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+FORM {
+        BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+TABLE {
+        BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+DD {
+        PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+        PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px
+}
+.checkbox {
+        BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BACKGROUND-COLOR: transparent; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.radio {
+        BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BACKGROUND-COLOR: transparent; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+LI {
+        PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; MARGIN-LEFT: 14px; MARGIN-RIGHT: 4px; PADDING-TOP: 0px
+}
+ 
+/* top frame background class */
+.bgtop {
+        margin:0;
+        padding:0;
+        background-image: url(http://i.imgur.com/x7v3mQm.jpg);
+background-position: top left;
+background-repeat: repeat-x;
+background-attachment: fixed;
+BACKGROUND-COLOR: transparent;
+ 
+}

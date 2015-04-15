@@ -1,0 +1,76 @@
+//**  dirtyzen **//
+
+
+.aratext {WIDTH: 76px}
+.marker {COLOR: #000000; BACKGROUND-COLOR: #E09B77}
+.pbut {FONT-SIZE: 7pt; WIDTH: 30px; HEIGHT: 14px;background-color:#000000}
+.nav TD {PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 2px; HEIGHT: 16px;color:#ffffff}
+#badi {background-color:#000000;font:9pt arial;BORDER-RIGHT: 1px inset #333333; PADDING-RIGHT: 2px; BORDER-TOP: 1px inset #333333; PADDING-LEFT: 2px; FONT-SIZE: 7pt; PADDING-BOTTOM: 2px; OVERFLOW: hidden; BORDER-LEFT: 1px inset #333333; WIDTH: 108px; PADDING-TOP: 2px; BORDER-BOTTOM: 1px inset #333333}
+.pmsg,.pevt  {BACKGROUND-COLOR: transparent}.pmsg a,.pevt a,.pbin a{COLOR: #333333;font-size:10px}
+.pbin {BACKGROUND-COLOR:transparent}
+.pbinhi {BACKGROUND-COLOR: #6C2500}
+.pevthi,.pmsghi {BACKGROUND-COLOR: #E09B77}.pmsghi a,.pevthi a,.pbinhi a{COLOR: #FFFFFF;font-size:10px}
+.pagi {FONT-SIZE: 7pt; TEXT-ALIGN: center;color:#cccccc}
+.pagis {FONT-SIZE: 6pt;color:#cccccc}
+.logo {BACKGROUND-IMAGE: url(); WIDTH: 132px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 45px}
+
+.msgtext {FONT-SIZE: 8pt;color:#ffffff}
+.msg {PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 8pt; PADDING-BOTTOM: 2px; COLOR: #ffffff; PADDING-TOP: 2px}
+.msg TD {FONT-SIZE: 8pt;color:#ffffff;}
+.highlight {BACKGROUND-COLOR: #6C2500;color:#999999;border:1px outset #003366;}.highlight a{font-size:10px}
+.copyright {font:9px lucida console,arial #333333}
+.title {BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT: bold 12pt Tahoma, sans-serif; BORDER-LEFT: medium none; WIDTH: 100%; COLOR: #000080; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: transparent}
+
+.but {BORDER-RIGHT: #000000 1px outset; BORDER-TOP: #88B9E9 1px outset; FONT: 7pt verdana,sans-serif; BORDER-LEFT: #88B9E9 1px outset; CURSOR: hand; COLOR: white; BORDER-BOTTOM: #000000 1px outset; BACKGROUND-COLOR: transparent;TEXT-DECORATION: none}
+#butOver {BORDER-RIGHT: #ffffff 1px outset; BORDER-TOP: #ffffff 1px outset; FONT: 7pt Verdana,sans-serif #ffffff; BORDER-LEFT: #ffffff 1px outset; CURSOR: hand; COLOR: white; BORDER-BOTTOM: #000000 1px outset; BACKGROUND-COLOR: #264360;TEXT-DECORATION: none}
+.but A {COLOR: #99B5D0;TEXT-DECORATION: none;font:10px tahoma,arial;}
+.but A:hover {COLOR: #ffffff; BACKGROUND-COLOR: transparent;TEXT-DECORATION: none}
+#butOver A {COLOR: #ffffff;TEXT-DECORATION: none}
+#butOver A:hover {COLOR: #ffffff; BACKGROUND-COLOR: transparent;TEXT-DECORATION: none}
+#butDown {BORDER-RIGHT: 1px inset; BORDER-TOP: 1px inset; BORDER-LEFT: 1px inset; BORDER-BOTTOM: 1px inset;background-color:#003366}
+#butDown a{color:#cccccc}
+.icon {FONT-SIZE: 7pt}
+.timer {FONT-SIZE: 7pt; VERTICAL-ALIGN: middle;color:#555555}
+.aul {FONT-SIZE: 8pt; LINE-HEIGHT: 9pt; TEXT-ALIGN: right}
+.pi {BORDER-RIGHT: 1px inset #6C2500; PADDING-RIGHT: 0px; BORDER-TOP: 1px inset #336699; PADDING-LEFT: 0px; FONT-SIZE: 8pt; PADDING-BOTTOM: 0px; BORDER-LEFT: 1px inset #336699; height:20px; PADDING-TOP: 0px; BORDER-BOTTOM: 1px inset #6C2500; TEXT-ALIGN: center;background-position:left top;background-repeat:no-repeat}
+.pi A {color:#333333;font-weight:bold;font-size=10px}
+.pi A:hover {BACKGROUND-COLOR: transparent;}
+.input {FONT: 7pt Lucida Console, sans-serif; HEIGHT: 14px;background-color:#000000;color:#ffffff;border:#88B9E9 1px inset;}
+
+.spot {FLOAT: right; WIDTH: 100px;}
+.spot TR {VERTICAL-ALIGN: top}
+.spot TD {FONT-SIZE: xx-small}
+.eol {LINE-HEIGHT: 14pt}
+.ei {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 7pt; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #ffffff; PADDING-TOP: 0px}
+
+.tab {color:#ffffff;FONT-SIZE: 7pt; PADDING-TOP: 2px; BORDER-BOTTOM:1px inset #E09B77;}
+.tab DIV {color:#ffffff;font:9px lucida console,Arial;BORDER-RIGHT: 1px outset #000000; PADDING-RIGHT: 4px; BORDER-TOP: 2px outset #6C2500; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 1px; BORDER-LEFT: 2px outset #6C2500; LINE-HEIGHT: 12pt; PADDING-TOP: 2px; BORDER-BOTTOM: 0px; WHITE-SPACE: nowrap}
+.tab A:hover {BACKGROUND-COLOR: transparent}
+.tabsel{color:#ffffff;font:9px lucida console,Arial #ffffff; font-weight:bold;BORDER-RIGHT: 2px outset #000000; PADDING-RIGHT: 4px; BORDER-TOP: 2px outset #E09B77; PADDING-LEFT: 4px;  PADDING-BOTTOM: 1px; BORDER-LEFT: 2px outset #E09B77; CURSOR: default; LINE-HEIGHT: 11pt; PADDING-TOP: 2px; BORDER-BOTTOM: 0px; WHITE-SPACE: nowrap}
+.tabin {border-bottom:2px outset #C9E0F7;BORDER-RIGHT: 2px outset #C9E0F7; PADDING-RIGHT: 4px; BORDER-TOP: 0px; PADDING-LEFT: 4px; FONT-SIZE: 8pt; PADDING-BOTTOM: 4px; BORDER-LEFT: 2px outset #E09B77; PADDING-TOP: 4px; BORDER-BOTTOM: 2px outset #C9E0F7; HEIGHT: 245px;font:9px Tahoma,Arial #ffffff;color:#ffffff}
+
+.adiv {DISPLAY: block; LEFT: 215px; OVERFLOW: hidden; WIDTH: 18px; POSITION: absolute; TOP: 44px;font-style:italic}
+.amain {background-repeat:no-repeat;background-position:left bottom;BORDER-RIGHT: 1px outset #333333; PADDING-RIGHT: 4px; BORDER-TOP: 1px outset #999999; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: 0px; WIDTH: 100%; PADDING-TOP: 4px; BORDER-BOTTOM: 1px outset #336699; BACKGROUND-COLOR: #311100;background-image:url(eskiya_hbg.jpg);color:#ffffff}
+.aup {BORDER-RIGHT: 1px inset #999999; HEIGHT: 18px;}
+.amid {BORDER-RIGHT: 0px; PADDING-RIGHT: 4px; BORDER-TOP:1px outset #ffffff; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 7pt;color:#B96033; PADDING-BOTTOM: 4px; BORDER-LEFT: 1px outset #ffffff; CURSOR: pointer; LINE-HEIGHT: 8pt; PADDING-TOP: 4px; BORDER-BOTTOM: 1px outset #333333; WRITING-MODE: tb-rl; BACKGROUND-COLOR:transparent;background-image:url(lz_ha.png);}
+.abot {BORDER-RIGHT: 1px inset #999999; HEIGHT: 150px;}
+
+BODY {FONT: 9pt verdana, sans-serif; COLOR: #999999;background-attachment:fixed; BACKGROUND-COLOR: #000000;BACKGROUND-IMAGE: url(eskiya_mbg.jpg);background-repeat:no-repeat;background-position:left top;}
+.bgleft{color:#cccccc;background-image:url(eskiya_lbg.jpg);background-attachment:fixed;background-repeat:no-repeat;background-position:left top;background-color:#000000;}
+.bgtop {PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px;background-image:url(eskiya_topbg.jpg);background-position:left bottom}
+
+
+UL {LINE-HEIGHT: 12pt; LIST-STYLE-TYPE: lower-roman}
+A {COLOR: #E09B77;text-decoration:none }
+A:hover {text-decoration:none;color:#B96033;background-color:transparent;}
+SELECT {FONT: 8pt Verdana, sans-serif;color:ffffff;background-color:#6C2500;}
+INPUT {FONT: 9pt lucida console, sans-serif;color:#ffffff;border:1px solid  #6C2500;background-color:#000000}
+OPTGROUP {FONT: 8pt Verdana, sans-serif}
+TEXTAREA {FONT: 9pt lucida console, sans-serif; WIDTH: 100%;BACKGROUND-IMAGE: url();color:#ffffff;background-attachment: fixed;background-repeat:no-repeat;border:inset 2px #6C2500;background-color:transparent;}
+HR {COLOR: #AE3B00;}
+TD {FONT:9pt Arial #cccccc; VERTICAL-ALIGN: top; LINE-HEIGHT: 12pt;color:#cccccc}
+FORM {BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px}
+TABLE {BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; color:#000000;}
+legend {color:#311100;font-weight:bold;filter: Shadow(Color=#C9E0F7, Direction=120);}
+#ra,#rr,#ry,#rg,#cf,#cr,.cbrb{border:0px;background-color:transparent;color:#ffffff}#b{width:60px;height:24px;margin:3 border:1px outset;}
+HTML{scrollbar-base-color: #2E1000;scrollbar-track-color: #000000;scrollbar-arrow-color: #6C2500;}

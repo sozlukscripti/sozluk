@@ -1,0 +1,480 @@
+/* 
+ * rotten, 2005.
+ * based on her zamanki by michael jackson.
+ * modified by compumaster 28/12/2008
+ */
+
+/* login box */
+.loginbox {
+  width: 220px;
+}
+
+/* login inputs */
+.lin {
+	width: 100%;
+}
+
+/* ampul abi */
+.ampul {
+	/* background-image: url(/img/ampul.gif); */
+	background-repeat: no-repeat;
+	/* width:18px; */
+	height:18px;
+}
+/* info section headers */
+.infosec {
+	border:1px outset;
+	cursor:pointer;
+}
+/* right panel */
+.panel {
+	width:140px;
+}
+/* arastir dropdown select */
+.asl
+{
+	width:109px;
+}
+/* ad box */
+.spot {
+  width: 120px;
+  float:right;
+}
+.spot TD {
+  font-size: 7pt;
+}
+
+/* badilist */
+#badi
+{
+  width: 120px;
+  padding: 2px;
+  font-size: 7pt;
+  overflow: hidden;
+  border: 1px solid #C2C2C2;
+}
+/* inline search textbox */
+.aratext
+{
+  width:96px;
+}
+/* left frame background class */
+.bgleft {
+ 	background-color: #CCCCCC;
+background-image: url(he_blue_back.jpg);
+background-position: bottom left;
+background-repeat: repeat-x;
+background-attachment: fixed;
+}
+/* top frame background class */
+.bgtop {
+	margin:0;
+	padding:0;
+	background-image: url(he_blue_top.jpg);
+background-position: top left;
+background-repeat: repeat-x;
+background-attachment: fixed;
+}
+/* inline search marker */
+.marker
+{
+	background-color: #FFFACD;
+	color: black;
+}
+/* pager buttons */
+.pbut {
+  font-size: 7pt;
+  width:16px;
+  height:16px;
+}
+/* top buttons */
+.nav TD {
+  padding:2px;
+  height:16px;
+  margin:0;
+  vertical-align:middle;
+}
+/* panel leds */
+.pmsg {
+  background-color: #C2C2C2;
+  text-transform: uppercase;
+  border-left: 1px solid #A7A7A7;
+  border-bottom: 1px solid #A7A7A7;
+  border-top: 1px solid #A7A7A7;
+  border-right: none;
+}
+.pmsghi {
+  background-color: #FFE400;
+  text-transform: uppercase;
+  border-left: 1px solid #A7A7A7;
+  border-bottom: 1px solid #A7A7A7;
+  border-top: 1px solid #A7A7A7;
+  border-right: none;
+}
+.pbin {
+  background-color: #C2C2C2;
+  text-transform: uppercase;
+  border-left: 1px solid #A7A7A7;
+  border-bottom: 1px solid #A7A7A7;
+  border-top: 1px solid #A7A7A7;
+  border-right: 1px solid #A7A7A7;
+}
+.pbinhi {
+  background-color: #C0FF00;
+  text-transform: uppercase;
+  border-left: 1px solid #A7A7A7;
+  border-bottom: 1px solid #A7A7A7;
+  border-top: 1px solid #A7A7A7;
+  border-right: 1px solid #A7A7A7;
+}
+.pevt {
+  background-color: #C2C2C2;
+  text-transform: uppercase;
+  border-left: none;
+  border-bottom: 1px solid #A7A7A7;
+  border-top: 1px solid #A7A7A7;
+  border-right: 1px solid #A7A7A7;
+}
+.pevthi {
+  background-color: #C0FF00;
+  text-transform: uppercase;
+  border-left: none;
+  border-bottom: 1px solid #A7A7A7;
+  border-top: 1px solid #A7A7A7;
+  border-right: 1px solid #A7A7A7;
+  
+}
+/* page browser text */
+.pagi {
+  font-size: 7pt;
+  text-align: center;
+}
+/* page selector (select) */
+.pagis {
+  font-size: 6pt;
+}
+/* ek$isozluk logo! */
+.logo {
+  background-image: url(1.gif);
+  background-repeat: no-repeat;
+  width:233px;
+  height:45px;
+}
+/* highlight color */
+.highlight
+{
+  background-color: #E0E0E0;
+}
+/* copyright line */
+.copyright
+{
+  font-size: 7pt;
+  color: #909090;
+}
+/* topic title */
+.title {
+  font: bold 12pt Verdana, sans-serif;
+  background-color: transparent;
+  width: 100%;
+  color: #800600;
+  border: none;
+}
+/* buttons */
+.but {
+  font: 8pt arial,sans-serif;
+  text-align:center;
+  white-space:nowrap;
+  cursor: default;
+  background-color: #006EA5;
+  color: white;
+  border: 1px outset #065279;
+  background-image: url(he_blue_but1.jpg);
+}
+/* button mouse over */
+#butover {
+  background-color: #84BCDD;
+  border: 1px outset #417C9E;
+  background-image: url(he_blue_but2.jpg);
+}
+/* button pressed */
+#butDown {
+	border: 1px outset;
+}
+/* button link adjustments */
+.but A {
+  color:white;
+}
+.but A:Hover {
+  background-color: transparent;
+  color:white;
+}
+#butOver A {
+  color:white;
+}
+#butOver A:Hover {
+  background-color: transparent;
+  color:white;
+}
+/* entry buttons (derived from but) */
+.icon {
+  font-size: 7pt;
+}
+.timer {
+  font-size: 7pt;
+  vertical-align: middle;
+}
+/* entry author line */
+.aul {
+  font-size: 8pt;
+  line-height: 9pt;
+  text-align: right;
+}
+/* panel classes */
+.pi {
+  border: 1px solid #c2c2c2;
+  font-size: 7pt;
+  padding: 0px;
+  text-align: center;
+}
+.pi A:Hover {
+  background-color: transparent;
+}
+/* top inputtexts */
+.input {
+  height:16px;
+  font: 7pt Verdana, sans-serif;
+  background-color: #EBEBEB;
+  border: 1px solid #B9B9B9;
+}
+/* message textarea */
+.msgtext {
+  font-size: 8pt;
+}
+/* messages table */
+.msg {
+  padding: 2px;
+  font-size: 8pt;
+  color: black;
+}
+.msg TD {
+  font-size: 8pt;
+}
+/* entry text */
+.eol {
+	line-height: 14pt;
+}
+/* entry id */
+.ei {
+  color: #636363;
+  margin: 0;
+  padding: 0;
+  font-size: 7pt;
+}
+/* regular tab */
+.tab {
+  padding-top:2px;
+  border-bottom: 2px inset #C2C2C2;
+  font-size: 7pt;
+  white-space: nowrap;
+}
+.tab div {
+  line-height: 12pt;
+  white-space: nowrap;
+  margin-left: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 0;
+  border: 1px solid #C2C2C2;
+  border-right: 1px solid #C2C2C2;
+  border-bottom: 0;
+}
+.tab a:hover {
+  background-color: transparent;
+}
+/* selected tab */
+.tabsel {
+  border: 1px solid #626262;
+  line-height: 11pt;
+  white-space: nowrap;
+  font-size: 7pt;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  cursor: default;
+  border-bottom:0;
+  white-space: nowrap;
+}
+/* tab contents */
+.tabin {
+  border: 1px solid #626262;
+  border-top: 0;
+  padding: 4px;
+  height: 245px;
+  font-size: 8pt;
+}
+
+/* vertical tab */
+.vtab {
+  padding-right:2px;
+  border-left: 1px solid #626262;
+  font-size: 7pt;
+  white-space: nowrap;
+  cursor:pointer;
+}
+.vtab div {
+  line-height: 12pt;
+  white-space: nowrap;
+  margin-top: 1px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 2px;
+  padding-left: 0;
+  border: 1px solid #c2c2c2;
+  border-top: 1px solid #c2c2c2;
+  border-left: 0;
+}
+.vtab a:hover {
+  background-color: transparent;
+}
+/* vertical selected tab */
+.vtabsel {
+  border: 1px solid #626262;
+  line-height: 11pt;
+  white-space: nowrap;
+  font-size: 7pt;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: default;
+  border-left:0;
+  white-space: nowrap;
+}
+/* vertical tab contents */
+.vtabin {
+  border: 1px solid #626262;
+  border-right: 0;
+  padding: 4px;
+  height: 245px;
+  font-size: 8pt;
+}
+/* hayvan ara */
+.adiv {
+  display:block;
+  position:absolute;
+  top:44px;
+  left:215px;
+  width:18px;
+  overflow:hidden;
+}
+.amain {
+  background-color: #cccccc;
+  border:1px outset #C2C2C2;
+  border-left:0;
+  width:100%;
+  padding:4px;
+ background-image: url(he_blue_habg.jpg);
+ background-repeat: no-repeat;
+ background-position: top;
+ background-attachment: fixed;
+}
+td.amain {
+  font-size: 8pt;
+  }
+.aup {
+  border-right:0px solid #31303C;
+  height:18px
+}
+.amid {
+	border:1px solid #C2C2C2;
+	border-right:none;
+	padding-top:20px;
+	padding-right:12px;
+	font-size:1;
+	color:#CCCCCC;
+	background-color: black;
+	background: url(he_blue_ara.jpg);
+	background-repeat: no-repeat;
+	height:150px;
+}
+.abot {
+  border:0px solid #FFFFFF;
+  height:140px
+}
+/* default styles */
+body {
+  font: 9pt Verdana, sans-serif;
+  background-color: #cccccc;
+  color: #2C2C2C;
+  background-image: url(he_blue_back.jpg);
+background-position: bottom left;
+background-repeat: repeat-x;
+background-attachment: fixed;
+scrollbar-face-color:#CCCCCC;
+scrollbar-highlight-color:#DFDFDF;
+scrollbar-3dlight-color:#CCCCCC;
+scrollbar-darkshadow-color:#CCCCCC;
+scrollbar-shadow-color:#B7B7B7;
+scrollbar-arrow-color:#FFFFFF;
+scrollbar-track-color:#CCCCCC;
+}
+ul {
+	list-style-type: lower-roman;
+  line-height: 12pt;
+}
+a {
+  color: #005681;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #C5C5C5;
+}
+select, input, optgroup {
+  font: 8pt Verdana, sans-serif;
+  background-color: #EBEBEB;
+  border: 1px solid #B9B9B9;
+}
+textarea {
+  font: 9pt Verdana, sans-serif;
+  width:100%;
+  background-color: #EBEBEB;
+  border: 1px solid #B9B9B9;
+}
+hr {
+  color: #B9B9B9;
+  filter:alpha(finishopacity=0, style=2);
+}
+th {
+	font-size: 9pt;
+}
+td {
+	font-size: 9pt;
+	line-height: 12pt;
+	vertical-align: top;
+}
+p {
+  font-size: 9pt;
+  line-height: 14pt;
+  vertical-align: top;
+}
+img, form, table {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+dd {
+  margin: 0;
+  padding: 0;
+}
+fieldset {
+	margin: 0;
+	padding: 2;
+	border:1px solid #C2C2C2;
+	color: #000000;
+}
+.checkbox, .radio {
+	border: none;
+	background-color: transparent;
+}

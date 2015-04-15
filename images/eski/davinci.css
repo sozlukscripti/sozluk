@@ -1,0 +1,250 @@
+body {
+	background-color: black;
+	background-image: url('css/davinci/leonardodavincitheme_03.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #909090;
+}
+
+.bgleft {
+	background-color: black;
+	background-image: url('css/davinci/leonardodavincitheme_02.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.bgtop {
+	background-color: black;
+	background-image: url('css/davinci/leonardodavincitheme_01.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.logo {
+	background-image: url('/logo_davinci.gif');
+	background-repeat: no-repeat;
+	width:233px;
+	height:45px;
+}
+
+.but {
+	background-color: #412D2D;
+	border: 1px outset #7D5252;
+	font-family: Tahoma;
+	font-size: 8pt;
+	color: #D2CEAF;
+}
+
+#butOver {
+	background-color: #835A5A;
+	border: 1px solid #BC8B8B;
+}
+
+#butDown {
+	background-color: #412D2D;
+	border: 1px solid white;
+}
+
+.but A {
+	color: #D2CEAF;
+}
+.but A:Hover {
+	background-color: transparent;
+	color: #A4A189;
+}
+
+#butOver A {
+	color: #D2CEAF;
+}
+
+a {
+	color: #E1CECE;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #CCB2B2;
+	background-color: #9C7777;
+	text-decoration: none;
+}
+
+#badi {
+	background-color: #412D2D;
+	border: 1px outset #7D5252;
+}
+
+#kw {
+	background-color: #412D2D;
+	font-family: Tahoma;
+	font-size: 8pt;
+	border: 1px outset #7D5252;
+	height: 18px;
+	color: #B09090;
+}
+
+.tedit {
+	font-family: Tahoma;
+	font-size: 8pt;
+	background-color: #412D2D;
+	color: #B09090;
+}
+
+.timer {
+	text-align: center;
+	padding:5px;
+	color: #B09090;
+}
+
+input {
+	background-color: #16110B;
+	font-family: Tahoma;
+	font-size: 8pt;
+	color: #5D3D3D;
+	border: 1px outset #7D5252;
+}
+
+.msg {
+	color: #D2CEAF;
+}
+
+.highlight {
+	background-color: #3D2525;
+}
+
+select {
+	font-family: Tahoma;
+	font-size: 8pt;
+	background-color: #412D2D;
+	color: #B09090;
+}
+
+/*begin: hayvan ara */
+.amain {
+	background-color: transparent;
+	background-image: url('css/davinci/leonardodavincitheme_amainb.jpg');
+	background-repeat: no-repeat;
+	border:none;
+}
+
+.adiv {
+	display:block;
+	position:absolute;
+	top:44px;
+	left:215px;
+	width:18px;
+	overflow:hidden;
+	border:none;
+}
+
+.amid {
+	border:none;
+	background-color: transparent;
+	width: 100%;
+	height: 100%;
+	background-image: url('css/davinci/leonardodavincitheme_amid.gif');
+	background-repeat: no-repeat;
+	font-family: Arial;
+	font-size: 1pt;
+	color: #3B2E26;
+}
+
+.aup {
+	border:none;
+	background-color: transparent;
+}
+
+.abot {
+	border:none;
+}
+
+/*end: hayvan ara */
+
+.pmsg, .pbin, .pevt {
+	display:none;
+}
+
+.pmsghi, .pbinhi, .pevthi {
+	background-color: transparent;
+	font-family: Verdana;
+	font-size: 8pt;
+	text-transform: uppercase;
+	border:none;
+	font-weight: bold;
+}
+
+.marker {
+	background-color: transparent;
+	color:#FFEA00;
+	font-weight: bold;
+	border-bottom: 2px solid #FFEA00;
+}
+
+.vtab {
+	border: none;
+}
+
+.vtabin {
+	border: 1px solid #412D2D;
+}
+
+.vtab div {
+	border-right: 1px outset #412D2D;
+	border-bottom: 1px outset #412D2D;
+	border-top: 1px outset #412D2D;
+	padding: 0px;
+}
+
+.vtabsel {
+	padding: 3px;
+	background-color: #412D2D;
+	border:none;
+	color: #D2CEAF;
+	text-align: center;
+}
+
+.tab {
+	border: none;
+}
+
+.tabin {
+	border: 1px solid #412D2D;
+	border-top: 2px solid #412D2D;
+}
+
+.tab div {
+	border-right: 1px outset #412D2D;
+	border-left: 1px outset #412D2D;
+	border-top: 1px outset #412D2D;
+	padding: 0px;
+}
+
+.tabsel {
+	padding: 3px;
+	background-color: #412D2D;
+	border:none;
+	color: #D2CEAF;
+	text-align: center;
+}
+
+.infosec {
+	background-color: #412D2D;
+	color: #D2CEAF;
+	padding: 2px;
+	border: 1px outset #7D5252;
+}
+
+#d {
+	font-family: Verdana;
+	font-size: 9pt;
+}
+
+hr {
+	height: 1px;
+	color: #5D3D3D;
+}
+
+textarea {
+background-color: #412D2D;
+font-family: Verdana;
+color: #D2CEAF
+}

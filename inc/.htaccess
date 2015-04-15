@@ -1,0 +1,11 @@
+AddHandler application/x-httpd-php53 .php
+php_flag register_globals on
+AddDefaultCharset ISO-8859-9
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^google6d6dc253f811381f.html$ google6d6dc253f811381f.html [L,NC]
+RewriteRule ^sitemap.xml$	sitemap.php [L,NC]
+RewriteRule ^(.*)-(.*).html$ sozluk.php?process=word&conv=1&q=$1&sayfa=$2 [L,NC]
+RewriteRule ^(.*).html$ sozluk.php?process=word&conv=1&q=$1 [L,NC]
+RewriteRule ^(.*)-(.*).htm$ sozluk.php?process=eid&conv=1&eid=$1&sayfa=$2 [L,NC]
+RewriteRule ^(.*).htm$ sozluk.php?process=eid&conv=1&eid=$1 [L,NC]

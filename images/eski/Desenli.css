@@ -1,0 +1,52 @@
+/* her zamanki kumas - basit bullshit
+ * bloodorbloom@hotmail.com - son güncelleme:10:10:09
+ */
+
+.pmsg {
+	background-image: url(http://img443.imageshack.us/img443/1730/pmsg.jpg);
+}
+.pmsghi {
+	background-image: url(http://img14.imageshack.us/img14/671/pmsghi.jpg);
+}
+.pbin {
+	background-image: url(http://img329.imageshack.us/img329/2033/pbin.jpg);
+}
+.pbinhi {
+	background-image: url(http://img443.imageshack.us/img443/337/pbinhi.jpg);
+}
+.pevt {
+	background-image: url(http://img329.imageshack.us/img329/2033/pbin.jpg);
+}
+.pevthi {
+	background-image: url(http://img443.imageshack.us/img443/337/pbinhi.jpg);
+}
+.highlight {
+	background-image: url(http://img223.imageshack.us/img223/6863/highlight.jpg);
+}
+.title {
+	background-image: url(http://img291.imageshack.us/img291/5517/bghl.jpg);
+}
+.but {
+	background-image: url(http://img291.imageshack.us/img291/4647/buti.jpg);
+}
+#butOver {
+	background-image: url(http://img29.imageshack.us/img29/3827/butover.jpg);
+}
+.amain {
+	background-image: url(http://img223.imageshack.us/img223/6863/highlight.jpg);
+}
+.amid {
+	background-image: url(http://img223.imageshack.us/img223/6863/highlight.jpg);
+}
+body {
+	background-image: url(http://img14.imageshack.us/img14/4502/46340970.jpg);
+}
+.but A:Hover {
+	background: transparent;
+}
+A:Hover {
+	background: url(http://img223.imageshack.us/img223/6863/highlight.jpg);
+}
+select, input, optgroup, .aratext, .asl, .pagis, .csseditbox, img, textarea {
+	background: url(http://imgcash5.imageshack.us/img104/7939/beyaz.png); 
+}

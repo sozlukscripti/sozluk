@@ -1,0 +1,459 @@
+/* sozluk.css - komplike stylesheet
+ * el degmeden hazirlanmi$tir
+ */
+
+/* login box */
+.loginbox {
+  width: 220px;
+}
+
+/* login inputs */
+.lin {
+	width: 100%;
+}
+
+/* ampul abi */
+.ampul {
+	background-image: url(ampul.gif);
+	background-repeat: no-repeat;
+	width:18px;
+	height:18px;
+}
+/* info section headers */
+.infosec {
+	border:1px outset;
+	cursor:pointer;
+	background-color: #333;
+	border-color: #555544;
+}
+/* right panel */
+.panel {
+	width:120px;
+}
+/* arastir dropdown select */
+.asl
+{
+	width:109px;
+}
+/* ad box */
+.spot {
+  width: 120px;
+  float:right;
+}
+.spot TD {
+  font-size: 7pt;
+}
+
+/* badilist */
+#badi
+{
+  width: 120px;
+  padding: 2px;
+  font-size: 8pt;
+  overflow: hidden;
+  border: 1px inset;
+  border-color: #555544;
+}
+/* inline search textbox */
+.aratext
+{
+  width:96px;
+}
+/* left frame background class */
+.bgleft {
+}
+/* top frame background class */
+.bgtop {
+	margin:0;
+	padding:0;
+}
+/* inline search marker */
+.marker
+{
+	background-color: #F60;
+	color: black;
+}
+/* pager buttons */
+.pbut {
+  font-size: 7pt;
+  width:16px;
+  height:16px;
+}
+/* top buttons */
+.nav TD {
+  padding:4px;
+  height:22px;
+  margin:0;
+  vertical-align:middle;
+}
+/* panel leds */
+#pmsg {
+  background-color: #283028;
+ }
+#pmsghi {
+  background-color: #566484;
+ }
+#pbin {
+ background-color: #283028;
+}
+#pbinhi {
+  background-color: #900900;
+}
+#pevt {
+  background-color: #283028;
+}
+#pevthi {
+	color: #000;
+   background-color: #809000;
+
+}
+/* page browser text */
+.pagi {
+  font-size: 8pt;
+  text-align: center;
+}
+/* page selector (select) */
+.pagis {
+  font-size: 8pt;
+}
+/* ek$isozluk logo! */
+.logo {
+  background-image: url(gozyasartmayanbomba_logo.gif);
+  background-repeat: no-repeat;
+  width:192px;
+  height:45px;
+  cursor:default;
+}
+/* highlight color */
+.highlight
+{
+  background-color: #283028;
+  color:	#F60;
+  /*font-weight:	bold;*/
+}
+/* copyright line */
+.copyright
+{
+  font-size: 7pt;
+  color: #909090;
+}
+/* topic title */
+.title {
+  font: bold 12pt Verdana, sans-serif;
+  background-color: transparent;
+  width: 100%;
+  color: #FF0080;
+  border: none;
+}
+/* buttons */
+.but {
+  /*font: 8pt Arial,sans-serif;*/
+  text-align:center;
+  white-space:nowrap;
+  cursor: default;
+  background-color: #333;
+  color: #ffd;
+  border: 1px  #a6b4d4;
+}
+/* button mouse over */
+#butOver {
+color: #ffd;
+  background-color: #444;
+}
+/* button pressed */
+#butDown {
+	  color:	#444;
+	background-color: #ffd;
+
+
+}
+/* button link adjustments */
+.but A {
+  color:#eec;
+}
+.but A:Hover {
+  background-color: transparent;
+  color:white;
+}
+#butOver A {
+  color:#eec;
+}
+#butOver A:Hover {
+  background-color: transparent;
+  color:white;
+}
+/* entry buttons (derived from but) */
+.icon {
+  font-size: 7pt;
+  color: #ffd;
+}
+.timer {
+  font-size: 7pt;
+  vertical-align: middle;
+}
+/* entry author line */
+.aul {
+  font-size: 8pt;
+  line-height: 9pt;
+  text-align: right;
+}
+/* panel classes */
+.pi {
+  /*border: 1px inset;*/
+  font-size: 8pt;
+  padding: 0px;
+  text-align: center;
+  border-color: #555544;
+  background-color: #333;
+}
+.pi A:Hover {
+  /*background-color: transparent;*/
+  color: #FFCC00;
+}
+/* top inputtexts */
+.input {
+  height:16px;
+  font: 9pt Verdana, sans-serif;
+}
+/* message textarea */
+.msgtext {
+  font-size: 9pt;
+}
+/* messages table */
+.msg {
+  padding: 2px;
+  font-size: 9pt;
+  color: #97A3BF;
+}
+.msg TD {
+  font-size: 9pt;
+}
+/* entry text */
+.eol {
+	line-height: 14pt;
+}
+/* entry id */
+.ei {
+  color: #c2a080;
+  margin: 0;
+  padding: 0;
+  font-size: 7pt;
+}
+/* regular tab */
+.tab {
+  padding-top:2px;
+  border-bottom: 2px inset;
+  border-color: #555544;
+  font-size: 7pt;
+  white-space: nowrap;
+}
+.tab DIV {
+  line-height: 12pt;
+  white-space: nowrap;
+  margin-left: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 0;
+  border: 2px outset;
+  border-right: 1px outset;
+  border-bottom: 0;
+  border-color: #555544;
+}
+.tab A:Hover {
+  background-color: transparent;
+}
+/* selected tab */
+.tabsel {
+  border: 2px outset;
+  line-height: 11pt;
+  white-space: nowrap;
+  font-size: 7pt;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  cursor: default;
+  border-bottom:0;
+  white-space: nowrap;
+  border-color: #555544;
+}
+/* tab contents */
+.tabin {
+  border: 2px outset;
+  border-top: 0;
+  padding: 4px;
+  height: 245px;
+  font-size: 8pt;
+  border-color: #555544;
+}
+
+/* vertical tab */
+.vtab {
+  padding-right:2px;
+  border-left: 2px inset;
+  font-size: 7pt;
+  white-space: nowrap;
+  cursor:pointer;
+  border-color: #555544;
+}
+.vtab DIV {
+  line-height: 12pt;
+  white-space: nowrap;
+  margin-top: 1px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 2px;
+  padding-left: 0;
+  border: 2px outset;
+  border-top: 1px outset;
+  border-left: 0;
+  border-color: #555544;
+}
+.vtab A:Hover {
+  background-color: transparent;
+}
+/* vertical selected tab */
+.vtabsel {
+  border: 2px outset;
+  line-height: 11pt;
+  white-space: nowrap;
+  font-size: 7pt;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: default;
+  border-left:0;
+  white-space: nowrap;
+   border-color: #555544;
+}
+/* vertical tab contents */
+.vtabin {
+  border: 2px outset;
+  border-right: 0;
+  padding: 4px;
+  height: 245px;
+  font-size: 8pt;
+   border-color: #555544;
+}
+
+
+/* hayvan ara */
+.adiv {
+  display:block;
+  position:absolute;
+  top:44px;
+  left:215px;
+  width:18px;
+  overflow:hidden
+}
+.amain {
+  background-color: #383633;
+  border:1px outset;
+  border-left:0;
+  width:100%;
+  padding:4px
+   border-color: #444;
+}
+TD.amain {
+  font-size: 9pt;
+}
+.aup {
+  border-right:1px inset;
+ border-color: #444;
+  height:18px
+}
+.amid {
+  background-color:#383633;
+  border:1px outset;
+  border-right:0;
+  padding:4px;
+  line-height:8pt;
+  /*font-weight:bold;*/
+  font-size:8pt;
+  writing-mode: tb-rl;
+  cursor:pointer;
+   border-color: #555544;
+}
+.abot {
+  border-right:1px inset;
+  height:140px
+   border-color: #555544;
+}
+/* default styles */
+body {
+  font-family:	Verdana, Myriad Web, Syntax, sans-serif;
+  font-size:	14;
+  color:	#D0FFD0;
+  background:	#212121;
+scrollbar-face-color:#444;
+scrollbar-highlight-color:#748B74;
+scrollbar-3dlight-color:#000000;
+scrollbar-darkshadow-color:#000000;
+scrollbar-shadow-color:#748B74;
+scrollbar-arrow-color:#fc0;
+scrollbar-track-color:#333;
+}
+ul {
+	list-style-type: lower-roman;
+  line-height: 12pt;
+}
+a {
+  /*color : #48d;*/
+  color: #F60;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration:	none;
+  color:	#FC0;
+	/*background:	#212121;*/
+	background: #000;
+}
+select, input, optgroup {
+  font: 9pt Verdana, sans-serif;
+  color: #ffd;
+  background-color:  #555;
+  border-color: #555544;
+}
+textarea {
+  font: 11 pt Verdana, sans-serif;
+  color: #FFD;
+  width:100%;
+  background-color:  #555;
+  border-color: #555544;
+}
+hr {
+  color: #c0c0c0;
+}
+th {
+	font-size: 10pt;
+}
+td {
+	font-size: 10pt;
+	line-height: 12pt;
+	vertical-align: top;
+}
+p {
+  font-size: 10pt;
+  line-height: 14pt;
+  vertical-align: top;
+}
+img, form, table {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+dd {
+  margin: 0;
+  padding: 0;
+}
+fieldset {
+	margin: 0;
+	padding: 2;
+	border-color: #555544;
+}
+.checkbox, .radio {
+	border: none;
+	background-color: transparent;
+} 

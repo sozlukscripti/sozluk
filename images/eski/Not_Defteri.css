@@ -1,0 +1,226 @@
+/* sozluk.css - komplike stylesheet
+ * el degmeden hazirlanmi$tir
+ */
+
+/* badilist */
+#badi
+{
+  width: 110px;
+  padding: 2px;
+  font-size: 7pt;
+  overflow: hidden;
+  border-color:#BD3431;
+  background-image:url(tefterkarelibg.gif);
+}
+/* inline search textbox */
+.aratext
+{
+  width:75px;
+}
+/* left frame background class */
+.bgleft {
+}
+/* top frame background class */
+.bgtop {
+	margin:0;
+	padding:0;
+}
+/* inline search marker */
+.marker
+{
+	background-color: #C3FA6C;
+	color: black;
+}
+/* pager buttons */
+.pbut {
+  font-size: 7pt;
+  width:16px;
+  height:16px;
+}
+/* top buttons */
+.nav TD {
+  padding:2px;
+  height:16px;
+  margin:0;
+  vertical-align:middle;
+}
+/* panel leds */
+.pmsg {
+  background-color: #F7F7F7;
+}
+.pmsghi {
+  background-color: #D43431;
+  
+}
+.pmsghi A{
+  color:#D6E4F7;
+}
+.pmsghi A:Hover{
+  color:#96BDF1;
+}
+.pbin {
+  background-color: #F7F7F7;
+}
+.pbinhi {
+  background-color: #D9FF08;
+}
+.pbinhi A{
+  color:#F94D76;
+}
+.pbinhi A:Hover{
+  color:#980326;
+}
+.pevt {
+  background-color: #F7F7F7;
+}
+.pevthi {
+  background-color: #E58EFB;
+}
+.pevthi A{
+  color:#FAFB8E;
+}
+.pevthi A:Hover{
+  color:#9C9E09;
+}
+
+/* ek$isozluk logo! */
+.logo {
+  background-image: url(tefter_logo.gif);
+  background-repeat: no-repeat;
+  width:175px;
+  height:45px;
+}
+/* highlight color */
+.highlight
+{
+  background-image:url(tefterbuyukkarebg.gif);
+}
+/* copyright line */
+.copyright
+{
+  font-size: 7pt;
+  color: #909090;
+}
+/* buttons */
+.but {
+
+  font: 8pt Verdana,sans-serif;
+  background-color: #DEE3EF;
+  border:1px inset;
+  padding-top:3;
+  padding-bottom:3;
+  color: #7F7F7F;
+  text-align:center;
+}
+/* button mouse over */
+#butOver {
+  color: #A3A7B0;
+}
+
+/* button link adjustments */
+.but A {
+  color:#7F7F7F;
+}
+.but A:Hover {
+  color:#A3A7B0;
+}
+#butOver A {
+  color:#A3A7B0;
+}
+#butOver A:Hover {
+
+}
+/* entry buttons (derived from but) */
+.icon {
+  font-size: 7pt;
+}
+.timer {
+  font-size: 7pt;
+  vertical-align: middle;
+}
+
+/* panel classes */
+.pi {
+  width:25px
+  font-size: 7pt;
+  padding: 0px;
+  text-align: center;
+  
+
+}
+.pi A:Hover {
+
+ 
+}
+/* top inputtexts */
+.input {
+  height:16px;
+  font: 7pt Verdana, sans-serif;
+  background-color:#DEE3EF;
+}
+/* message textarea */
+.msgtext {
+  font-size: 8pt;
+  background-color:#DEE3EF;
+}
+/* entry text */
+.eol {
+	line-height: 14pt;
+
+}
+/* entry id */
+.ei {
+  color: #B96A71;
+  margin: 0;
+  padding: 0;
+  font-size: 7pt;
+}
+/* regular tab */
+
+.tab A:Hover {
+  background-color: transparent;
+  color: #C68482;
+}
+/* hayvan ara */
+TD.amain {
+  font-size: 8pt;
+  background-image:url(tefterkarelibg.gif);
+}
+.amid {
+  background-image:url(tefter_hayvan.gif);
+  background-color: transparent;
+  font-size:0 px;
+  height:118px;
+  width:20px;
+}
+/* default styles */
+body {
+  background-image: url(tefterbg.gif);
+  font: 9pt Verdana, sans-serif;
+  background-color: #cccccc;
+  color: #4D4D4D;
+
+}
+html{
+  scrollbar-base-color : #BD3431;
+  scrollbar-3d-light-color : #BD3431;
+  scrollbar-arrow-color : #BD3431;
+  scrollbar-dark-shadow-color : #BD3431;
+  scrollbar-face-color : #BD3431;
+  scrollbar-highlight-color : #BD3431;
+  scrollbar-shadow-color : #BD3431;
+  scrollbar-track-color : #BF6664;
+}
+a {
+  color : #BD3431;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #DEE3EF;
+}
+legend{
+  color:#BD3431;
+}
+textarea{
+  background-color:#DEE3EF;
+}

@@ -1,0 +1,81 @@
+.title {
+        BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-WEIGHT: bold; FONT-SIZE: 12pt; BORDER-LEFT: medium none; COLOR: #c4c400; BORDER-BOTTOM: medium none; FONT-FAMILY: verdana; BACKGROUND-COLOR: transparent
+}
+.au {
+        FONT-SIZE: 7pt; COLOR: #c4c400; TEXT-DECORATION: underline
+}
+.but {
+        BORDER-RIGHT: #FFFFFF 2px outset; BORDER-TOP: #FFFFFF 2px outset; FONT: 8pt Verdana; BORDER-LEFT: #FFFFFF 2px outset; CURSOR: hand; COLOR: #000000; BORDER-BOTTOM: #FFFFFF 2px outset; BACKGROUND-COLOR: red
+}
+#butOver {
+        BORDER-RIGHT: red 2px outset; BORDER-TOP: red 2px outset; FONT: 8pt verdana; BORDER-LEFT: red 2px outset; CURSOR: hand; COLOR: red; BORDER-BOTTOM: red 2px outset; BACKGROUND-COLOR: red
+}
+.but A {
+        COLOR: black
+}
+.but A:hover {
+        COLOR: black; 
+}
+#butOver A {
+        COLOR: black
+}
+#butOver A:hover {
+        COLOR: black; BACKGROUND-COLOR: transparent
+}
+.icon {
+        FONT: 80% Verdana, "sans-serif"
+}
+.msgtext {
+        FONT-SIZE: 8pt
+}
+.timer {
+        FONT-SIZE: 7pt; VERTICAL-ALIGN: middle
+}
+.aul {
+        FONT-SIZE: 8pt
+}
+.pi {
+        BORDER-RIGHT: 1px inset; PADDING-RIGHT: 1px; BORDER-TOP: 1px inset; PADDING-LEFT: 1px; FONT-SIZE: 8pt; PADDING-BOTTOM: 1px; BORDER-LEFT: 1px inset; PADDING-TOP: 1px; BORDER-BOTTOM: 1px inset; TEXT-ALIGN: center
+}
+.pi A:hover {
+        BACKGROUND-COLOR: transparent
+}
+.input {
+        HEIGHT: 16px
+}
+.msg {
+        BORDER-RIGHT: 1px inset; PADDING-RIGHT: 2px; BORDER-TOP: 1px inset; DISPLAY: block; PADDING-LEFT: 2px; FONT-SIZE: 8pt; PADDING-BOTTOM: 2px; BORDER-LEFT: 1px inset; COLOR: #999346; PADDING-TOP: 2px; BORDER-BOTTOM: 1px inset; POSITION: relative; BORDER-COLLAPSE: collapse
+}
+.msg TD {
+        FONT-SIZE: 8pt
+}
+.entries {
+        TABLE-LAYOUT: fixed; WIDTH: 100%; BORDER-COLLAPSE: collapse
+}
+.alpha {
+        FONT: 8pt "Lucida Console","sans-serif"
+}
+BODY {
+        FONT-SIZE: 8pt; COLOR: #FFFFFF; FONT-FAMILY: Verdana; SCROLLBAR-BASE-COLOR: #000000; BACKGROUND-COLOR: #000000
+}
+A {
+        COLOR: #b3b300; TEXT-DECORATION: none
+}
+A:hover {
+        COLOR: #b3b300; TEXT-decoration: none
+}
+.tedit {
+        BORDER-RIGHT: #56562c 1px solid; BORDER-TOP: #56562c 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #56562c 1px solid; COLOR: #42421e; BORDER-BOTTOM: #56562c 1px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #cbcb96
+}
+TEXTAREA {
+        BORDER-RIGHT: #56562c 1px solid; BORDER-TOP: #56562c 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #56562c 1px solid; WIDTH: 90%; COLOR: #42421e; BORDER-BOTTOM: #56562c 1px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #FFFFFF
+}
+HR {
+        COLOR: #56562c
+}
+TR {
+        VERTICAL-ALIGN: top
+}
+TD {
+        FONT-SIZE: 8pt; COLOR: #999346
+}

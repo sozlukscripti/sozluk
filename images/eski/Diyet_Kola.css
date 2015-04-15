@@ -1,0 +1,347 @@
+/* my thougths are sharper than my image*/
+/* by clairvoyant*/
+
+/* panel leds */
+
+.pmsg {
+  background-color: #F5F5F5;
+}
+
+.pmsghi {
+  background-color: Red;
+}
+
+.pbin {
+  background-color: #F5F5F5;
+}
+
+.pbinhi {
+  background-color: REd;
+}
+
+.pevt {
+  background-color: #F5F5F5;
+}
+
+.pevthi {
+  background-color: red;
+}
+
+/* page picker */
+
+.piki {
+  visibility: hidden;
+  position: absolute;
+  font-size: 8pt;
+  width: 25px;
+  border: 1px outset;
+}
+
+/* entry page browser line */
+
+.pagi {
+  font-size: 8pt;
+  text-align: center;
+}
+
+.logo {
+  background-image: url(dietcoke.gif);
+  background-repeat: no-repeat;
+}
+
+/* highlight color*/
+.highlight  {
+	background-color : #F5F5F5;
+	color : Black;
+}
+
+.copyright
+{
+  font-size: 7pt;
+  color: #909090;
+}
+
+/* topic title*/
+.title  {
+	font : bold 13pt "Trebuchet MS", sans-serif;
+	width : 100%;
+	background-color : transparent;
+	color : Black;
+	border : none;
+	letter-spacing : 2px;
+}
+
+/* badilist*/
+.au  {
+	font-size : 8pt;
+	color : maroon;
+	font-family : verdana;
+}
+
+/* buttons*/
+.but  {
+	font : 8pt Verdana,"sans-serif";
+	cursor : pointer;
+	background-color : #B22222;
+	color : white;
+	border : 2px outset #DA3F3F;
+}
+
+/* buttons highlighted*/
+#butOver  {
+	font : 8pt Verdana,"sans-serif";
+	cursor : pointer;
+	background-color : #E11E1E;
+	color : white;
+	border : 2px outset Red;
+}
+
+/* button link adjustments*/
+.but A  {
+	color : White;
+}
+
+.but A:Hover  {
+	background-color : transparent;
+	color : white;
+}
+
+#butOver A  {
+	color : white;
+}
+
+#butOver A:Hover  {
+	background-color : transparent;
+	color : white;
+}
+
+/* entry buttons (derived from but)*/
+.icon  {
+	font : 80% Verdana, "sans-serif";
+}
+
+.msgtext  {
+	font-size : 9pt;
+}
+
+.timer  {
+	font-size : 7pt;
+	vertical-align : middle;
+}
+
+/* author link*/
+.aul  {
+	font-size : 8pt;
+}
+
+/* panel classes*/
+.pi  {
+	border : 1px inset;
+	font-size : 8pt;
+	padding : 1px;
+	text-align : center;
+}
+
+.pi A:Hover  {
+	background-color : transparent;
+	font-size : 8 pt;
+}
+
+/* top inputtexts*/
+.input  {
+	height : 14px;
+	border: 1px inset;
+}
+
+/* messages table*/
+.msg  {
+	padding : 2px;
+	display : block;
+	position : relative;
+	font-size : 9pt;
+	color : black;
+}
+
+.msg TD  {
+	font-size : 9pt;
+}
+
+/* entry table */
+.e {
+  table-layout:fixed;
+  border-collapse:collapse;
+  margin: 0;
+  padding: 0;
+}
+
+.e TD {
+  line-height: 14pt;
+}
+
+/* alphabet chars*/
+.alpha  {
+	font : 7pt Verdana, sans-serif;
+}
+
+/* entry menu hidden */
+.emHidden {
+  visibility:hidden;
+}
+
+/* entry menu visible */
+.emVisible {
+  visibility:visible;
+}
+
+/* checkbox & radiobuttons */
+.cbrb {
+background-color: transparent;
+border: 0;
+}
+
+
+
+/* entry id */
+.ei {
+  color: #808080;
+  margin: 0;
+  padding: 0;
+  font-size: 8pt;
+}
+
+/* text input boxes (except TEXTAREA) */
+.tedit {
+  font: 9pt Verdana, sans-serif;
+  border: 1px inset;
+}
+
+/* regular tab */
+
+.tab {
+  padding-top:2px;
+  border-bottom: 2px inset;
+  font-size: 7pt;
+}
+
+.tab DIV {
+  width: 80%;
+  margin-left: 1px;
+  padding: 4px;
+  padding-top: 2px;
+  padding-bottom: 0;
+  border: 2px outset;
+  border-right: 1px outset;
+  border-bottom: 0;
+}
+
+.tab A:Hover {
+  background-color: transparent;
+}
+
+/* selected tab */
+
+.tabsel {
+  border: 2px outset;
+  font-size: 7pt;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  cursor: default;
+  border-bottom:0;
+}
+
+/* tab contents */
+
+.tabin {
+  border: 2px outset;
+  border-top: 0;
+  padding: 4px;
+  height: 300px;
+  font-size: 7pt;
+}
+
+/* hayvan ara tab */
+
+.adiv {
+  display:block;
+  position:absolute;
+  top:20px;
+  left:215px;
+  width:18px;
+  overflow:hidden
+}
+
+.amain {
+  background-color: #f5f5f5;
+  border:2px outset;
+  border-left:0;
+  padding:4px
+}
+
+.aup {
+  border-right:2px inset;
+  height:30px
+}
+
+.amid {
+  background-color:#b22222;
+  border : 2px outset #DA3F3F;
+  border-right:0;
+  padding:4px;
+  line-height:8pt;
+  font: bold 8pt Verdana;
+  
+  cursor:hand;
+  color : White;
+}
+
+.abot {
+  border-right:2px inset;
+  height:140px
+}
+
+
+BODY  {
+	font : 9pt Verdana, "sans-serif";
+	background-color : #EAEAEA;
+	color : black;
+	scrollbar-base-color : #eaeaea;
+}
+
+UL {
+  list-style: lower-roman;
+  line-height: 12pt;
+}
+
+A  {
+	color : #B22222;
+	text-decoration : none;
+}
+
+A:Hover  {
+	background-color : White;
+	color : Red;
+}
+
+TEXTAREA {
+  font-family: Verdana, sans-serif;
+  width: 90%;
+  border: 1px inset;
+}
+
+HR {
+  color: #AE0000;
+  height: 1px;
+}
+
+TR {
+  vertical-align:top;
+}
+
+TD {
+  font-size: 9pt;
+  line-height: 12pt;
+  vertical-align: top;
+}
+
+

@@ -1,0 +1,497 @@
+/* login box */
+.loginbox {
+  width: 220px;
+}
+
+/* login inputs */
+.lin {
+	width: 100%;
+}
+/* ampul abi */
+.ampul {
+	background-image: url(/ampul.gif);
+	background-repeat: no-repeat;
+	width:18px;
+	height:18px;
+}
+/* info section headers */
+.infosec {
+  background-color: #FFFFFF;
+  border: 1px solid #FFCE5A;
+	cursor:pointer;
+}
+/* right panel */
+.panel {
+	width:120px;
+}
+/* arastir dropdown select */
+.asl
+{
+	width:109px;
+}
+/* ad box */
+.spot {
+  width: 120px;
+  float:right;
+}
+.spot TD {
+  font-size: 7pt;
+}
+
+/* badilist */
+#badi
+{
+  width: 120px;
+  padding: 2px;
+  font-size: 7pt;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border: 1px solid #FFCE5A;
+  filter: alpha(opacity=50);
+  -moz-opacity:0.5; 
+  opacity: 0.5; 
+}
+/* inline search textbox */
+.aratext
+{
+  width:96px;
+}
+/* left frame background class */
+.bgleft {
+	background-image: url(yigitdemiyan.jpg);
+background-position: top left;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+/* top frame background class */
+.bgtop {
+	margin:0;
+	padding:0;
+	background-image: url(yigitdemi.jpg);
+background-position: top left;
+background-repeat: no-repeat;
+background-attachment: fixed;
+color: #60565B;
+}
+/* inline search marker */
+.marker
+{
+background-color: #FFF;
+border-bottom: 1px solid #D20039;
+	color: #000;
+}
+/* pager buttons */
+.pbut {
+  font-size: 7pt;
+  width:16px;
+  height:16px;
+}
+/* top buttons */
+.nav TD {
+  padding:2px;
+  height:16px;
+  margin:0;
+  vertical-align:middle;
+}
+
+/* bak burasy mesaj,-cop-olay*/ 
+
+/* panel leds */
+.pmsg {
+  background-color: #f9e3b1;
+}
+.pmsghi {
+  background-color: #f8d485;
+}
+.pbin {
+  background-color: #f9e3b1;
+}
+.pbinhi {
+  background-color: #f8d485;
+}
+.pevt {
+  background-color: #f9e3b1;
+}
+.pevthi {
+  background-color: #f8d485;
+}
+
+/* mesaj cop olay son */
+
+
+
+/* page browser text */
+.pagi {
+  font-size: 7pt;
+  text-align: center;
+}
+/* page selector (select) */
+.pagis {
+  font-size: 6pt;
+}
+/* ek$isozluk logo! */
+.logo {
+  background-image: url(1.gif);
+  background-repeat: no-repeat;
+  width:233px;
+  height:45px;
+}
+/* highlight color */
+.highlight
+{
+  background-color: #FFCE5A;
+}
+/* copyright line */
+.copyright
+{
+  font-size: 7pt;
+  color: #936601;
+}
+/* topic title */
+.title {
+  font: bold 12pt Verdana, sans-serif;
+  background-color: transparent;
+  width: 100%;
+  color: #B50030;
+  border: none;
+}
+/* buttons */
+.but {
+  font: 8pt arial,sans-serif;
+  text-align:center;
+  white-space:nowrap;
+  cursor: default;
+  color: white;
+    background-color: #d74303;
+  border: 1px outset #FDC8DA;
+  background-image: url();
+}
+/* button mouse over */
+#butOver{
+background-color:#ec5412;
+}
+/* button pressed */
+#butDown {
+	border: 1px outset;
+}
+/* button link adjustments */
+.but A {
+  color:white;
+}
+.but A:Hover {
+  background-color: transparent;
+  color:white;
+}
+#butOver A {
+  color:white;
+}
+#butOver A:Hover {
+  background-color: transparent;
+  color:white;
+}
+/* entry buttons (derived from but) */
+.icon {
+  font-size: 7pt;
+}
+.timer {
+  font-size: 7pt;
+  vertical-align: middle;
+}
+/* entry author line */
+.aul {
+  font-size: 8pt;
+  line-height: 9pt;
+  text-align: right;
+}
+/* panel classes */
+.pi {
+  border: none;
+  font-size: 7pt;
+  padding: 0px;
+  text-align: center;
+}
+.pi A:Hover {
+  background-color: transparent;
+}
+/* top inputtexts */
+.input {
+  height:16px;
+  font: 7pt Verdana, sans-serif;
+  background-color: #FFFFFF;
+  border: 1px solid #FFCE5A;
+}
+/* message textarea */
+.msgtext {
+  font-size: 8pt;
+}
+/* messages table */
+.msg {
+  padding: 2px;
+  font-size: 8pt;
+  color: black;
+}
+.msg TD {
+  font-size: 8pt;
+}
+/* entry text */
+.eol {
+	line-height: 14pt;
+}
+/* entry id */
+.ei {
+  color: #636363;
+  margin: 0;
+  padding: 0;
+  font-size: 7pt;
+}
+/* regular tab */
+.tab {
+  padding-top:2px;
+  border-bottom: 2px inset #C2C2C2;
+  font-size: 7pt;
+  white-space: nowrap;
+}
+.tab div {
+  line-height: 12pt;
+  white-space: nowrap;
+  margin-left: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 0;
+  border: 1px solid #C2C2C2;
+  border-right: 1px solid #C2C2C2;
+  border-bottom: 0;
+}
+.tab a:hover {
+  background-color: transparent;
+}
+/* selected tab */
+.tabsel {
+  border: 1px solid #626262;
+  line-height: 11pt;
+  white-space: nowrap;
+  font-size: 7pt;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  cursor: default;
+  border-bottom:0;
+  white-space: nowrap;
+}
+/* tab contents */
+.tabin {
+  border: 1px solid #626262;
+  border-top: 0;
+  padding: 4px;
+  height: 245px;
+  font-size: 8pt;
+}
+
+/* vertical tab */
+.vtab {
+  padding-right:2px;
+  border-left: 1px solid #FFCE5A;
+  font-size: 7pt;
+  white-space: nowrap;
+  cursor:pointer;
+}
+.vtab div {
+  line-height: 12pt;
+  white-space: nowrap;
+  margin-top: 1px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 2px;
+  padding-left: 0;
+  border: 1px solid #FFCE5A;
+  border-top: 1px solid #FFCE5A;
+  border-left: 0;
+}
+.vtab a:hover {
+  background-color: transparent;
+}
+/* vertical selected tab */
+.vtabsel {
+  border: 1px solid #efc769;
+  line-height: 11pt;
+  white-space: nowrap;
+  font-size: 7pt;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: default;
+  border-left:0;
+  white-space: nowrap;
+}
+/* vertical tab contents */
+.vtabin {
+  border: 1px solid #FFCE5A;
+  border-right: 0;
+  padding: 4px;
+  height: 245px;
+  font-size: 8pt;
+  background-color: #ffecbf;
+}
+/* hayvan ara */
+.adiv {
+  display:block;
+  position:absolute;
+  top:44px;
+  left:215px;
+  width:18px;
+  overflow:hidden;
+}
+.amain {
+  background-color: #f5d485;
+border: 1px solid #FFCE5A;
+  width:100%;
+  padding:4px;
+ background-image: url(yigitdemihayvan.jpg);
+ background-repeat: no-repeat;
+ background-position: top;
+ background-attachment: fixed;
+ color: #fff;
+}
+td.amain {
+  font-size: 8pt;
+  }
+.aup {
+  border-right:0px solid #31303C;
+  height:18px
+}
+.amid {
+	border:1px solid #FFCE5A;
+	border-right:none;
+	padding-top:20px;
+	padding-right:12px;
+	font-size:1px;
+	color:#fff;
+	background-color: #ffecbf;
+	background: url(yigitdemiarabuton.jpg);
+	background-repeat: no-repeat;
+	height:150px;
+}
+.abot {
+  border:0px solid #FFFFFF;
+  height:140px
+}
+/* default styles */
+body {
+  font: 9pt Verdana, sans-serif;
+  background-color: #F5D485;
+  color: #654612;
+  
+  	background-image: url(yigitdemiorta.jpg);
+background-position: top left;
+background-repeat: no-repeat;
+background-attachment: fixed;
+scrollbar-face-color:#edb32b;
+scrollbar-highlight-color:#edb32b;
+scrollbar-3dlight-color:#edb32b;
+scrollbar-darkshadow-color:#edb32b;
+scrollbar-shadow-color:#f6bb31;
+scrollbar-arrow-color:#ffffff;
+scrollbar-track-color:#ffce5a;
+}
+ul {
+	list-style-type: lower-roman;
+  line-height: 12pt;
+}
+
+/*bkzrenk*/
+a {
+  color: #d74303;
+  text-decoration: none;
+}
+a:hover {
+	color: #fff;
+  background-color: #f6743c;
+}
+select, input, optgroup {
+  font: 8pt Verdana, sans-serif;
+  background-color: #FFFFFF;
+  border: 1px solid #FFCE5A;
+}
+textarea {
+  font: 9pt Verdana, sans-serif;
+  width:98%;
+  background-color: #FFFFFF;
+  border: 1px solid #FFCE5A;
+}
+hr {
+  color: #F3F3F3;
+}
+th {
+	font-size: 9pt;
+}
+td {
+	font-size: 9pt;
+	line-height: 12pt;
+	vertical-align: top;
+}
+p {
+  font-size: 9pt;
+  line-height: 14pt;
+  vertical-align: top;
+}
+img, form, table {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+dd {
+  margin: 0;
+  padding: 0;
+}
+fieldset {
+	margin: 0;
+	padding: 2;
+	border:1px solid #efc769;
+	color: #000000;
+}
+.checkbox, .radio {
+	border: none;
+	background-color: transparent;
+}
+/* &#221;NFO SEKMELR&#221;N KATGR&#221; RENG&#221;*/
+.infosec{
+background-color:#EDB32B;
+}
+.pagis{
+background-color:#F5D485;
+}
+
+
+textarea{
+background-color:#f9e3b1;
+background-image:url('yigitdemientry.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:top right;
+}
+#allah{
+background-color:fcf1db;
+background-image:url('yigitdemimesajyaz.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center center;
+filter: alpha(opacity=50);
+-moz-opacity:0.5; 
+opacity: 0.5; 
+}
+.tedit{
+background-color:f9e2b0;
+}
+
+.input{
+background-color:f9e2b0;
+}
+select{
+background-color:f9e2b0;
+}
+input{
+background-color:f9e2b0;
+}

@@ -1,0 +1,322 @@
+
+
+
+#pmsg {
+  background-color: #ba0018;
+  font: bold 11px Verdana;
+  color: white;
+  padding: 1px;
+  border: 1px solid black;
+}
+
+#pmsghi {
+  background-color: #7FFF00;
+  font: bold 11px Verdana;
+  color: white;
+  padding: 1px;
+  border: 1px solid black;
+}
+
+#pbin {
+  background-color: #ba0018;
+  font: bold 11px Verdana;
+  color: white;
+  padding: 1px;
+  border: 1px solid black;
+}
+
+#pbinhi {
+  background-color: Yellow;
+  font: bold 11px Verdana;
+  color: white;
+  padding: 1px;
+  border: 1px solid black;
+}
+
+#pevt {
+  background-color: #ba0018;
+  font: bold 11px Verdana;
+  color: white;
+  padding: 1px;
+  border: 1px solid black;
+}
+
+#pevthi {
+  background-color: Yellow;
+  font: bold 11px Verdana;
+  color: white;
+  padding: 1px;
+  border: 1px solid black;
+}
+
+/* page picker */
+
+#piki {
+  visibility: hidden;
+  position: absolute;
+  font-size: 7pt;
+  width: 25px;
+  border: 1px solid black;
+  color: Black;
+}
+
+/* entry page browser line */
+
+.pagi {
+  font-size: 7pt;
+  text-align: center;
+}
+
+
+.highlight
+{
+	font: 10px Verdana;
+	background-color: #e7dfd4;
+	border : 1px solid;
+	border-color: black;
+	padding : 1px 1px;
+	color: black;
+}
+
+/* topic title */
+.title {
+	font: 14pt Verdana, "sans-serif";
+	width: 100%;
+	background-color: transparent;
+	color: Black;
+	border: none;
+}
+
+/* badilist */
+.au {
+  font: bold 9pt Verdana;
+  color: Black;
+  text-decoration: none;
+}
+
+/* buttons */
+.but {
+  font: bold 9pt verdana;
+  cursor: pointer;
+  background-color: #7a8249;
+  color: Black;
+  border: 1px outset #000000;
+}
+
+/* buttons highlighted */
+#butOver {
+  font: bold 9pt Verdana;
+  cursor: pointer;
+  background-color: #ba0018;
+  color: Black;
+  border: 1px outset #000000;
+}
+
+/* button link adjustments */
+.but A {
+  font:bold  9pt Verdana ;
+  color: #000000;
+}
+
+.but A:Hover {
+  font: bold 9pt Verdana ;
+  background-color: transparent;
+  color: #000000;
+  text-decoration: none;
+}
+
+#butOver A {
+  font:bold  9pt Verdana ;
+  cursor: pointer;
+  color: black;
+
+}
+
+#butOver A:Hover {
+  font: bold 9pt Verdana ;
+  background-color: transparent;
+  cursor: pointer;
+  color: #000000;
+}
+
+/* entry buttons (derived from but) */
+.icon {
+  font: bold 9pt Verdana ;
+ cursor:pointer:;
+ background-color:transparent;
+  color: black;
+}
+
+.msgtext {
+  font-size: 8pt;
+  color: Black;
+}
+
+.timer {
+  font: bold 8pt Verdana;
+  color: #7a8249;
+  vertical-align: top;
+}
+
+/* author link */
+.aul {
+  font: bold 8pt Verdana;
+  color: Black;
+  text-align:right;
+}
+
+/* panel classes */
+.pi {
+  border: 1px inset;
+  border-color: #000000;
+  font: bold 8pt Verdana;
+  padding: 1px;
+  text-align: center;
+}
+
+.pi A:Hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+/* messages table */
+.msg {
+	  border: 1px solid #6Dff98;
+	border-collapse: collapse;
+	padding: 2px;
+	display: block;
+	position: relative;
+	font: bold 8pt;
+	color: Black;
+
+}
+
+.msg TD {
+  font: bold 8pt;
+  	color: #7a8249;
+		padding: 1px;
+
+}
+
+/* entry table */
+.entries {
+  table-layout:fixed;
+  border-collapse:collapse;
+  width: 100%;
+  background-color: #e7dfd4;
+}
+
+
+/* alphabet chars */
+.alpha {
+  height:16px;
+  	font: bold 9pt Verdana;
+	color: #BA0018;
+  	background-color: #e7dfd4;
+	border: 1px solid;
+	border-color: #000000;
+}
+
+/* entry menu hidden */
+.emHidden {
+  visibility:hidden;
+}
+
+/* entry menu visible */
+.emVisible {
+  visibility:visible;
+}
+
+/* checkbox & radiobuttons */
+.cbrb {
+  background-color: nonet;
+  border: 1px solid black;
+}
+/* entry id */
+.ei {
+  color: Maroon;
+  margin: 0;
+  padding: 0;
+  font: 9px Verdana;
+}
+
+.tedit {
+	font: bold 9pt Verdana;
+	color: Black;
+	background-color: #e7dfd4;
+	border: 1px solid;
+	border-color: #000000;
+}
+
+BODY {
+	font: 12px verdana;
+	background-color: #e7dfd4;
+	color: #ba0018;
+	scrollbar-face-color:#e7dfd4;
+	scrollbar-highlight-color:#7a8249;
+	scrollbar-3dlight-color:#e7dfd4;
+	scrollbar-darkshadow-color:#ba0018;
+	scrollbar-shadow-color:#000000;
+	scrollbar-arrow-color:#000000;
+	scrollbar-track-color:#7a8249;
+	background : url(bgcopy.jpg) repeat scroll;
+}
+
+A {
+	color : #7a8249;
+	font : bold  9pt Verdana;
+	text-decoration:none;
+}
+
+A:Hover {
+font: bold  9pt verdana;
+  background-color: none;
+  color: Maroon;
+  cursor: pointer;
+}
+
+.input {
+  height:16px;
+  	font: bold 9pt Verdana;
+	color: #BA0018;
+  	background-color: #e7dfd4;
+	border: 1px solid;
+	border-color: #000000;
+}
+
+TEXTAREA {
+  font: bold 9pt verdana;
+  width: 90%;
+	background-color: #7a8249;
+  color: Black;
+	scrollbar-face-color:#7a8249;
+	scrollbar-highlight-color:#e7dfd4;
+	scrollbar-3dlight-color:#7a8249;
+	scrollbar-darkshadow-color:#7a8249;
+	scrollbar-shadow-color:#000000;
+	scrollbar-arrow-color:#000000;
+	scrollbar-track-color:#e7dfd4;
+  	border : 1px solid;
+	border-color: #000000;
+	background : none;
+}
+
+HR {
+  color: Maroon;
+}
+
+TR {
+  vertical-align:top;
+}
+
+TD {
+  font-size: 9pt;
+}
+.copyright {
+	font: 8pt Verdana;
+	color : Black;
+}
+.logo {
+  background-image: url(lucky_logo.jpg);
+}
