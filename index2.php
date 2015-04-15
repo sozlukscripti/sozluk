@@ -33,8 +33,8 @@ echo "
 rel=\"shortcut Icon\"><LINK href=\"favicon.ico\" rel=icon>";
 ?>
 
-<meta name="keywords" content="<? echo "$site_ad, $site_ad nedir, $site_ad hakkýnda bilgiler, $site_ad oku, $site_ad bilgi, $site_ad anlamý nedir, $site_ad anlami, $site_ad ne demek, $site_ad ne oluyor - $sitename"; ?>">
-<meta name="description" content="<? echo "$site_ad, $site_ad anlamý, $site_ad tanýmý ve $site_ad hakkýnda ayrýntýlý bilgiler. - $sitename"; ?>">
+<meta name="keywords" content="<? echo "$site_ad, $site_ad nedir, $site_ad hakkÃ½nda bilgiler, $site_ad oku, $site_ad bilgi, $site_ad anlamÃ½ nedir, $site_ad anlami, $site_ad ne demek, $site_ad ne oluyor - $sitename"; ?>">
+<meta name="description" content="<? echo "$site_ad, $site_ad anlamÃ½, $site_ad tanÃ½mÃ½ ve $site_ad hakkÃ½nda ayrÃ½ntÃ½lÃ½ bilgiler. - $sitename"; ?>">
 <title><? echo "$site_ad - $description"; ?></title></head>
 
 <?echo "
