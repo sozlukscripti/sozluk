@@ -1,2 +1,2 @@
 #sozluk hakkında
-http://eksisekiz.com/projesozluk
+http://sozlukscripti.github.io/sozluk/
